@@ -1,0 +1,195 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\Administrator\Documents\Tencent Files\974271908\FileRecv\xiaoyongfinally\xiaoyongfinally\MyApplication\applsat\src\main\AndroidManifest.xml:2:1-81:12
+	package
+		ADDED from C:\Users\Administrator\Documents\Tencent Files\974271908\FileRecv\xiaoyongfinally\xiaoyongfinally\MyApplication\applsat\src\main\AndroidManifest.xml:3:5-29
+		INJECTED from C:\Users\Administrator\Documents\Tencent Files\974271908\FileRecv\xiaoyongfinally\xiaoyongfinally\MyApplication\applsat\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Administrator\Documents\Tencent Files\974271908\FileRecv\xiaoyongfinally\xiaoyongfinally\MyApplication\applsat\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from C:\Users\Administrator\Documents\Tencent Files\974271908\FileRecv\xiaoyongfinally\xiaoyongfinally\MyApplication\applsat\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Administrator\Documents\Tencent Files\974271908\FileRecv\xiaoyongfinally\xiaoyongfinally\MyApplication\applsat\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\Administrator\Documents\Tencent Files\974271908\FileRecv\xiaoyongfinally\xiaoyongfinally\MyApplication\applsat\src\main\AndroidManifest.xml:2:11-69
+	android:versionCode
+		INJECTED from C:\Users\Administrator\Documents\Tencent Files\974271908\FileRecv\xiaoyongfinally\xiaoyongfinally\MyApplication\applsat\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Administrator\Documents\Tencent Files\974271908\FileRecv\xiaoyongfinally\xiaoyongfinally\MyApplication\applsat\src\main\AndroidManifest.xml
+uses-permission#android.permission.INTERNET
+ADDED from C:\Users\Administrator\Documents\Tencent Files\974271908\FileRecv\xiaoyongfinally\xiaoyongfinally\MyApplication\applsat\src\main\AndroidManifest.xml:5:5-67
+	android:name
+		ADDED from C:\Users\Administrator\Documents\Tencent Files\974271908\FileRecv\xiaoyongfinally\xiaoyongfinally\MyApplication\applsat\src\main\AndroidManifest.xml:5:22-64
+application
+ADDED from C:\Users\Administrator\Documents\Tencent Files\974271908\FileRecv\xiaoyongfinally\xiaoyongfinally\MyApplication\applsat\src\main\AndroidManifest.xml:7:5-79:19
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Administrator\.android\build-cache\155ee5201ce84908dc121396ccffd0710fb23e51\output\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support:design:25.3.1] C:\Users\Administrator\.android\build-cache\6332a33ac9620b7dcbb09ca4e43011b5bac4a7eb\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\Administrator\.android\build-cache\1dc6c3b7d40b8fe9d3e38e3fb0a2101fe97b1cef\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\Administrator\.android\build-cache\6d29a1f4d936165becf6f088f4d9135607f7cec2\output\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\Administrator\.android\build-cache\ade691eb2accd4e974ef946b5ccff700cb0b4f71\output\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:transition:25.3.1] C:\Users\Administrator\.android\build-cache\7bef1137735cfb855be0386cdc665ad5c9db7332\output\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-v4:25.3.1] C:\Users\Administrator\.android\build-cache\0460556656d77c758058e3ae13365b27cb61d66e\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\Administrator\.android\build-cache\cbb756b22985928f4a066cf96e52f74da007f351\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\Administrator\.android\build-cache\2d80abb37fc7cfc41edd56b5e8e3866f78d3d2fb\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\Administrator\.android\build-cache\6b0f11dc3745ad80204bdc17f8af23635567edbd\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\Administrator\.android\build-cache\36fce09398e77355ab578f36cdc1c474e0ab06c8\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\Administrator\.android\build-cache\fe7ac840bded7e0991f3a6d77f74c79060921578\output\AndroidManifest.xml:29:5-20
+	android:label
+		ADDED from C:\Users\Administrator\Documents\Tencent Files\974271908\FileRecv\xiaoyongfinally\xiaoyongfinally\MyApplication\applsat\src\main\AndroidManifest.xml:11:9-41
+	android:supportsRtl
+		ADDED from C:\Users\Administrator\Documents\Tencent Files\974271908\FileRecv\xiaoyongfinally\xiaoyongfinally\MyApplication\applsat\src\main\AndroidManifest.xml:13:9-35
+	android:roundIcon
+		ADDED from C:\Users\Administrator\Documents\Tencent Files\974271908\FileRecv\xiaoyongfinally\xiaoyongfinally\MyApplication\applsat\src\main\AndroidManifest.xml:12:9-54
+	android:allowBackup
+		ADDED from C:\Users\Administrator\Documents\Tencent Files\974271908\FileRecv\xiaoyongfinally\xiaoyongfinally\MyApplication\applsat\src\main\AndroidManifest.xml:9:9-35
+	android:icon
+		ADDED from C:\Users\Administrator\Documents\Tencent Files\974271908\FileRecv\xiaoyongfinally\xiaoyongfinally\MyApplication\applsat\src\main\AndroidManifest.xml:10:9-43
+	android:theme
+		ADDED from C:\Users\Administrator\Documents\Tencent Files\974271908\FileRecv\xiaoyongfinally\xiaoyongfinally\MyApplication\applsat\src\main\AndroidManifest.xml:14:9-40
+	android:name
+		ADDED from C:\Users\Administrator\Documents\Tencent Files\974271908\FileRecv\xiaoyongfinally\xiaoyongfinally\MyApplication\applsat\src\main\AndroidManifest.xml:8:9-38
+activity#com.yianke.pet.view.activity.SplashActivity
+ADDED from C:\Users\Administrator\Documents\Tencent Files\974271908\FileRecv\xiaoyongfinally\xiaoyongfinally\MyApplication\applsat\src\main\AndroidManifest.xml:17:9-26:20
+	android:screenOrientation
+		ADDED from C:\Users\Administrator\Documents\Tencent Files\974271908\FileRecv\xiaoyongfinally\xiaoyongfinally\MyApplication\applsat\src\main\AndroidManifest.xml:19:13-49
+	android:theme
+		ADDED from C:\Users\Administrator\Documents\Tencent Files\974271908\FileRecv\xiaoyongfinally\xiaoyongfinally\MyApplication\applsat\src\main\AndroidManifest.xml:20:13-69
+	android:name
+		ADDED from C:\Users\Administrator\Documents\Tencent Files\974271908\FileRecv\xiaoyongfinally\xiaoyongfinally\MyApplication\applsat\src\main\AndroidManifest.xml:18:13-57
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from C:\Users\Administrator\Documents\Tencent Files\974271908\FileRecv\xiaoyongfinally\xiaoyongfinally\MyApplication\applsat\src\main\AndroidManifest.xml:21:13-25:29
+action#android.intent.action.MAIN
+ADDED from C:\Users\Administrator\Documents\Tencent Files\974271908\FileRecv\xiaoyongfinally\xiaoyongfinally\MyApplication\applsat\src\main\AndroidManifest.xml:22:17-69
+	android:name
+		ADDED from C:\Users\Administrator\Documents\Tencent Files\974271908\FileRecv\xiaoyongfinally\xiaoyongfinally\MyApplication\applsat\src\main\AndroidManifest.xml:22:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\Administrator\Documents\Tencent Files\974271908\FileRecv\xiaoyongfinally\xiaoyongfinally\MyApplication\applsat\src\main\AndroidManifest.xml:24:17-77
+	android:name
+		ADDED from C:\Users\Administrator\Documents\Tencent Files\974271908\FileRecv\xiaoyongfinally\xiaoyongfinally\MyApplication\applsat\src\main\AndroidManifest.xml:24:27-74
+meta-data#design_width
+ADDED from C:\Users\Administrator\Documents\Tencent Files\974271908\FileRecv\xiaoyongfinally\xiaoyongfinally\MyApplication\applsat\src\main\AndroidManifest.xml:29:9-31:36
+	android:value
+		ADDED from C:\Users\Administrator\Documents\Tencent Files\974271908\FileRecv\xiaoyongfinally\xiaoyongfinally\MyApplication\applsat\src\main\AndroidManifest.xml:31:13-33
+	android:name
+		ADDED from C:\Users\Administrator\Documents\Tencent Files\974271908\FileRecv\xiaoyongfinally\xiaoyongfinally\MyApplication\applsat\src\main\AndroidManifest.xml:30:13-40
+meta-data#design_height
+ADDED from C:\Users\Administrator\Documents\Tencent Files\974271908\FileRecv\xiaoyongfinally\xiaoyongfinally\MyApplication\applsat\src\main\AndroidManifest.xml:32:9-34:36
+	android:value
+		ADDED from C:\Users\Administrator\Documents\Tencent Files\974271908\FileRecv\xiaoyongfinally\xiaoyongfinally\MyApplication\applsat\src\main\AndroidManifest.xml:34:13-33
+	android:name
+		ADDED from C:\Users\Administrator\Documents\Tencent Files\974271908\FileRecv\xiaoyongfinally\xiaoyongfinally\MyApplication\applsat\src\main\AndroidManifest.xml:33:13-41
+activity#com.yianke.pet.view.activity.LeaderActivity
+ADDED from C:\Users\Administrator\Documents\Tencent Files\974271908\FileRecv\xiaoyongfinally\xiaoyongfinally\MyApplication\applsat\src\main\AndroidManifest.xml:37:9-40:81
+	android:screenOrientation
+		ADDED from C:\Users\Administrator\Documents\Tencent Files\974271908\FileRecv\xiaoyongfinally\xiaoyongfinally\MyApplication\applsat\src\main\AndroidManifest.xml:39:13-49
+	android:theme
+		ADDED from C:\Users\Administrator\Documents\Tencent Files\974271908\FileRecv\xiaoyongfinally\xiaoyongfinally\MyApplication\applsat\src\main\AndroidManifest.xml:40:13-69
+	android:name
+		ADDED from C:\Users\Administrator\Documents\Tencent Files\974271908\FileRecv\xiaoyongfinally\xiaoyongfinally\MyApplication\applsat\src\main\AndroidManifest.xml:38:13-57
+activity#com.yianke.pet.view.activity.RegisterActivity
+ADDED from C:\Users\Administrator\Documents\Tencent Files\974271908\FileRecv\xiaoyongfinally\xiaoyongfinally\MyApplication\applsat\src\main\AndroidManifest.xml:42:9-45:81
+	android:screenOrientation
+		ADDED from C:\Users\Administrator\Documents\Tencent Files\974271908\FileRecv\xiaoyongfinally\xiaoyongfinally\MyApplication\applsat\src\main\AndroidManifest.xml:44:13-49
+	android:theme
+		ADDED from C:\Users\Administrator\Documents\Tencent Files\974271908\FileRecv\xiaoyongfinally\xiaoyongfinally\MyApplication\applsat\src\main\AndroidManifest.xml:45:13-69
+	android:name
+		ADDED from C:\Users\Administrator\Documents\Tencent Files\974271908\FileRecv\xiaoyongfinally\xiaoyongfinally\MyApplication\applsat\src\main\AndroidManifest.xml:43:13-59
+activity#com.yianke.pet.view.activity.AgreeDetialActivity
+ADDED from C:\Users\Administrator\Documents\Tencent Files\974271908\FileRecv\xiaoyongfinally\xiaoyongfinally\MyApplication\applsat\src\main\AndroidManifest.xml:47:9-50:81
+	android:screenOrientation
+		ADDED from C:\Users\Administrator\Documents\Tencent Files\974271908\FileRecv\xiaoyongfinally\xiaoyongfinally\MyApplication\applsat\src\main\AndroidManifest.xml:49:13-49
+	android:theme
+		ADDED from C:\Users\Administrator\Documents\Tencent Files\974271908\FileRecv\xiaoyongfinally\xiaoyongfinally\MyApplication\applsat\src\main\AndroidManifest.xml:50:13-69
+	android:name
+		ADDED from C:\Users\Administrator\Documents\Tencent Files\974271908\FileRecv\xiaoyongfinally\xiaoyongfinally\MyApplication\applsat\src\main\AndroidManifest.xml:48:13-62
+activity#com.yianke.pet.view.activity.VerificationCodeActivity
+ADDED from C:\Users\Administrator\Documents\Tencent Files\974271908\FileRecv\xiaoyongfinally\xiaoyongfinally\MyApplication\applsat\src\main\AndroidManifest.xml:52:9-55:81
+	android:screenOrientation
+		ADDED from C:\Users\Administrator\Documents\Tencent Files\974271908\FileRecv\xiaoyongfinally\xiaoyongfinally\MyApplication\applsat\src\main\AndroidManifest.xml:54:13-49
+	android:theme
+		ADDED from C:\Users\Administrator\Documents\Tencent Files\974271908\FileRecv\xiaoyongfinally\xiaoyongfinally\MyApplication\applsat\src\main\AndroidManifest.xml:55:13-69
+	android:name
+		ADDED from C:\Users\Administrator\Documents\Tencent Files\974271908\FileRecv\xiaoyongfinally\xiaoyongfinally\MyApplication\applsat\src\main\AndroidManifest.xml:53:13-67
+activity#com.yianke.pet.view.activity.PetMsgActivity
+ADDED from C:\Users\Administrator\Documents\Tencent Files\974271908\FileRecv\xiaoyongfinally\xiaoyongfinally\MyApplication\applsat\src\main\AndroidManifest.xml:57:9-60:81
+	android:screenOrientation
+		ADDED from C:\Users\Administrator\Documents\Tencent Files\974271908\FileRecv\xiaoyongfinally\xiaoyongfinally\MyApplication\applsat\src\main\AndroidManifest.xml:59:13-49
+	android:theme
+		ADDED from C:\Users\Administrator\Documents\Tencent Files\974271908\FileRecv\xiaoyongfinally\xiaoyongfinally\MyApplication\applsat\src\main\AndroidManifest.xml:60:13-69
+	android:name
+		ADDED from C:\Users\Administrator\Documents\Tencent Files\974271908\FileRecv\xiaoyongfinally\xiaoyongfinally\MyApplication\applsat\src\main\AndroidManifest.xml:58:13-57
+activity#com.yianke.pet.view.activity.LoginActivity
+ADDED from C:\Users\Administrator\Documents\Tencent Files\974271908\FileRecv\xiaoyongfinally\xiaoyongfinally\MyApplication\applsat\src\main\AndroidManifest.xml:62:9-65:81
+	android:screenOrientation
+		ADDED from C:\Users\Administrator\Documents\Tencent Files\974271908\FileRecv\xiaoyongfinally\xiaoyongfinally\MyApplication\applsat\src\main\AndroidManifest.xml:64:13-49
+	android:theme
+		ADDED from C:\Users\Administrator\Documents\Tencent Files\974271908\FileRecv\xiaoyongfinally\xiaoyongfinally\MyApplication\applsat\src\main\AndroidManifest.xml:65:13-69
+	android:name
+		ADDED from C:\Users\Administrator\Documents\Tencent Files\974271908\FileRecv\xiaoyongfinally\xiaoyongfinally\MyApplication\applsat\src\main\AndroidManifest.xml:63:13-56
+activity#com.yianke.pet.view.activity.MainActivity
+ADDED from C:\Users\Administrator\Documents\Tencent Files\974271908\FileRecv\xiaoyongfinally\xiaoyongfinally\MyApplication\applsat\src\main\AndroidManifest.xml:67:9-71:81
+	android:process
+		ADDED from C:\Users\Administrator\Documents\Tencent Files\974271908\FileRecv\xiaoyongfinally\xiaoyongfinally\MyApplication\applsat\src\main\AndroidManifest.xml:69:13-39
+	android:screenOrientation
+		ADDED from C:\Users\Administrator\Documents\Tencent Files\974271908\FileRecv\xiaoyongfinally\xiaoyongfinally\MyApplication\applsat\src\main\AndroidManifest.xml:70:13-49
+	android:theme
+		ADDED from C:\Users\Administrator\Documents\Tencent Files\974271908\FileRecv\xiaoyongfinally\xiaoyongfinally\MyApplication\applsat\src\main\AndroidManifest.xml:71:13-69
+	android:name
+		ADDED from C:\Users\Administrator\Documents\Tencent Files\974271908\FileRecv\xiaoyongfinally\xiaoyongfinally\MyApplication\applsat\src\main\AndroidManifest.xml:68:13-55
+activity#com.yianke.pet.view.activity.MissActivity
+ADDED from C:\Users\Administrator\Documents\Tencent Files\974271908\FileRecv\xiaoyongfinally\xiaoyongfinally\MyApplication\applsat\src\main\AndroidManifest.xml:73:9-76:81
+	android:screenOrientation
+		ADDED from C:\Users\Administrator\Documents\Tencent Files\974271908\FileRecv\xiaoyongfinally\xiaoyongfinally\MyApplication\applsat\src\main\AndroidManifest.xml:75:13-49
+	android:theme
+		ADDED from C:\Users\Administrator\Documents\Tencent Files\974271908\FileRecv\xiaoyongfinally\xiaoyongfinally\MyApplication\applsat\src\main\AndroidManifest.xml:76:13-69
+	android:name
+		ADDED from C:\Users\Administrator\Documents\Tencent Files\974271908\FileRecv\xiaoyongfinally\xiaoyongfinally\MyApplication\applsat\src\main\AndroidManifest.xml:74:13-55
+activity#com.yianke.pet.view.activity.Zinxun_web
+ADDED from C:\Users\Administrator\Documents\Tencent Files\974271908\FileRecv\xiaoyongfinally\xiaoyongfinally\MyApplication\applsat\src\main\AndroidManifest.xml:77:9-71
+	android:name
+		ADDED from C:\Users\Administrator\Documents\Tencent Files\974271908\FileRecv\xiaoyongfinally\xiaoyongfinally\MyApplication\applsat\src\main\AndroidManifest.xml:77:19-59
+uses-sdk
+INJECTED from C:\Users\Administrator\Documents\Tencent Files\974271908\FileRecv\xiaoyongfinally\xiaoyongfinally\MyApplication\applsat\src\main\AndroidManifest.xml reason: use-sdk injection requested
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Administrator\.android\build-cache\155ee5201ce84908dc121396ccffd0710fb23e51\output\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:fresco:0.12.0] C:\Users\Administrator\.android\build-cache\af526b0dbfaf07f933fb959948d75373b1a1cf1a\output\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:drawee:0.12.0] C:\Users\Administrator\.android\build-cache\3d06e56580f4bceee39bb598f0823d47187d3a23\output\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline:0.12.0] C:\Users\Administrator\.android\build-cache\7d28eb945621f908022ba09b327eb13784cfaef2\output\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-base:0.12.0] C:\Users\Administrator\.android\build-cache\37f3dd89e21469bbefbd7a90872cd1622f805dfb\output\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:fbcore:0.12.0] C:\Users\Administrator\.android\build-cache\eebddb15572759fd13edc1d963cc973f5bcb8899\output\AndroidManifest.xml:5:5-7:41
+MERGED from [com.jakewharton:butterknife:8.4.0] C:\Users\Administrator\.android\build-cache\694a4eeb5a3887b65549c84109920b04c3644f5d\output\AndroidManifest.xml:5:5-43
+MERGED from [com.zhy:autolayout:1.4.5] C:\Users\Administrator\.android\build-cache\702e1bf88e0d0c880860c553f768a1e33ed0cbac\output\AndroidManifest.xml:8:5-10:41
+MERGED from [com.android.support:design:25.3.1] C:\Users\Administrator\.android\build-cache\6332a33ac9620b7dcbb09ca4e43011b5bac4a7eb\output\AndroidManifest.xml:21:5-23:62
+MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\Administrator\.android\build-cache\1dc6c3b7d40b8fe9d3e38e3fb0a2101fe97b1cef\output\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\Administrator\.android\build-cache\6d29a1f4d936165becf6f088f4d9135607f7cec2\output\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\Administrator\.android\build-cache\ade691eb2accd4e974ef946b5ccff700cb0b4f71\output\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:recyclerview-v7:25.3.1] C:\Users\Administrator\.android\build-cache\69fd33c5118175b1fc0170559891f2bfc7257209\output\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:transition:25.3.1] C:\Users\Administrator\.android\build-cache\7bef1137735cfb855be0386cdc665ad5c9db7332\output\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:25.3.1] C:\Users\Administrator\.android\build-cache\0460556656d77c758058e3ae13365b27cb61d66e\output\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\Administrator\.android\build-cache\cbb756b22985928f4a066cf96e52f74da007f351\output\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\Administrator\.android\build-cache\2d80abb37fc7cfc41edd56b5e8e3866f78d3d2fb\output\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\Administrator\.android\build-cache\6b0f11dc3745ad80204bdc17f8af23635567edbd\output\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\Administrator\.android\build-cache\36fce09398e77355ab578f36cdc1c474e0ab06c8\output\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\Administrator\.android\build-cache\fe7ac840bded7e0991f3a6d77f74c79060921578\output\AndroidManifest.xml:21:5-23:58
+MERGED from [com.zhy:okhttputils:2.6.2] C:\Users\Administrator\.android\build-cache\531c19b3b09f8f82ca68a56d2681fe0f5e30d4ce\output\AndroidManifest.xml:7:5-9:41
+	tools:overrideLibrary
+		ADDED from [com.android.support:design:25.3.1] C:\Users\Administrator\.android\build-cache\6332a33ac9620b7dcbb09ca4e43011b5bac4a7eb\output\AndroidManifest.xml:23:9-59
+	android:targetSdkVersion
+		INJECTED from C:\Users\Administrator\Documents\Tencent Files\974271908\FileRecv\xiaoyongfinally\xiaoyongfinally\MyApplication\applsat\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Administrator\Documents\Tencent Files\974271908\FileRecv\xiaoyongfinally\xiaoyongfinally\MyApplication\applsat\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\Administrator\Documents\Tencent Files\974271908\FileRecv\xiaoyongfinally\xiaoyongfinally\MyApplication\applsat\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Administrator\Documents\Tencent Files\974271908\FileRecv\xiaoyongfinally\xiaoyongfinally\MyApplication\applsat\src\main\AndroidManifest.xml
+meta-data#android.support.VERSION
+ADDED from [com.android.support:design:25.3.1] C:\Users\Administrator\.android\build-cache\6332a33ac9620b7dcbb09ca4e43011b5bac4a7eb\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\Administrator\.android\build-cache\1dc6c3b7d40b8fe9d3e38e3fb0a2101fe97b1cef\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\Administrator\.android\build-cache\6d29a1f4d936165becf6f088f4d9135607f7cec2\output\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\Administrator\.android\build-cache\ade691eb2accd4e974ef946b5ccff700cb0b4f71\output\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:recyclerview-v7:25.3.1] C:\Users\Administrator\.android\build-cache\69fd33c5118175b1fc0170559891f2bfc7257209\output\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:transition:25.3.1] C:\Users\Administrator\.android\build-cache\7bef1137735cfb855be0386cdc665ad5c9db7332\output\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-v4:25.3.1] C:\Users\Administrator\.android\build-cache\0460556656d77c758058e3ae13365b27cb61d66e\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\Administrator\.android\build-cache\cbb756b22985928f4a066cf96e52f74da007f351\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\Administrator\.android\build-cache\2d80abb37fc7cfc41edd56b5e8e3866f78d3d2fb\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\Administrator\.android\build-cache\6b0f11dc3745ad80204bdc17f8af23635567edbd\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\Administrator\.android\build-cache\36fce09398e77355ab578f36cdc1c474e0ab06c8\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\Administrator\.android\build-cache\fe7ac840bded7e0991f3a6d77f74c79060921578\output\AndroidManifest.xml:25:5-27:34
+	android:value
+		ADDED from [com.android.support:design:25.3.1] C:\Users\Administrator\.android\build-cache\6332a33ac9620b7dcbb09ca4e43011b5bac4a7eb\output\AndroidManifest.xml:27:9-31
+	android:name
+		ADDED from [com.android.support:design:25.3.1] C:\Users\Administrator\.android\build-cache\6332a33ac9620b7dcbb09ca4e43011b5bac4a7eb\output\AndroidManifest.xml:26:9-47

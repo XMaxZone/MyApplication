@@ -86,8 +86,37 @@ public abstract class Constants {
     public static final String DELETE_SHOP_PRODUCT_ORDER_URL = IP_PORT + "/GoodlifeApi/api/v1/order/delete";
 
     /**
-     *
+     *查询所有订单
+     * data={"userId":"3"}
      */
+    public static final String FIND_ALL_ORDER_URL = IP_PORT + "/GoodlifeApi/api/v1/order/get";
+
+    /**
+     * 添加商品到购物车
+     * data={"productId":"1","state":"Y","number":"121","userId":"1","userName":"小苏苏","productName":"衣服",
+     * "productDis":"1080","geared":"21","index":"1","stock":"1","navigation":"3","label":"hello",
+     * "picture":"img","price":"1000"}
+     */
+    public static final String ADD_PRODUCT_SHOPPING_CAR_URL = IP_PORT + "/GoodlifeApi/api/v1/Shopping/save";
+
+    /**
+     * 删除购物车订单
+     * data={"id":"1"}
+     */
+    public static final String DELETE_SHOPPING_CAR_ORDER_URL = IP_PORT + "/GoodlifeApi/api/v1/shopping/delete";
+
+    /**
+     * 获取购物车
+     * data={"userId":"3"}
+     */
+    public static final String FIND_SHOPPING_CAR_LIST_URL = IP_PORT + "/GoodlifeApi/api/v1/shopping/get";
+
+    /**
+     * 获取分类商品
+     * data={"navigation":"21"}
+     */
+    public static final String FIND_PRODUCT_CLASS_TYPE_URL = IP_PORT + "/GoodlifeApi/api/v1/product/index";
+
 
 
 

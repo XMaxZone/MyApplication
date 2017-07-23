@@ -1,9 +1,5 @@
 [
     {
-        "merged": "/newProject/xiaoyongfinally/xiaoyongfinally/MyApplication/C:\\Users\\Administrator\\Documents\\Tencent Files\\974271908\\FileRecv\\xiaoyongfinally\\xiaoyongfinally\\MyApplication\\applsat\\build\\intermediates\\res\\merged\\debug\\animator-v21\\design_appbar_state_list_animator.xml",
-        "source": "/newProject/xiaoyongfinally/xiaoyongfinally/MyApplication/C:\\Users\\Administrator\\.android\\build-cache\\6332a33ac9620b7dcbb09ca4e43011b5bac4a7eb\\output\\res\\animator-v21\\design_appbar_state_list_animator.xml"
-    },
-    {
         "merged": "/newProject/xiaoyongfinally/xiaoyongfinally/MyApplication/applsat/build/intermediates/res/merged/debug/animator-v21/design_appbar_state_list_animator.xml",
         "source": "/Users/huc/.android/build-cache/36601ce09cf6a54002e1f6970317cc6513553c71/output/res/animator-v21/design_appbar_state_list_animator.xml"
     }

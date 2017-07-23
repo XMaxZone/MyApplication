@@ -14,9 +14,9 @@ import java.lang.Override;
 public class MissActivity_ViewBinding<T extends MissActivity> implements Unbinder {
   protected T target;
 
-  private View view2131558719;
+  private View view2131558760;
 
-  private View view2131558584;
+  private View view2131558600;
 
   @UiThread
   public MissActivity_ViewBinding(final T target, View source) {
@@ -24,7 +24,7 @@ public class MissActivity_ViewBinding<T extends MissActivity> implements Unbinde
 
     View view;
     view = Utils.findRequiredView(source, R.id.top_back, "method 'onViewClicked'");
-    view2131558719 = view;
+    view2131558760 = view;
     view.setOnClickListener(new DebouncingOnClickListener() {
       @Override
       public void doClick(View p0) {
@@ -32,7 +32,7 @@ public class MissActivity_ViewBinding<T extends MissActivity> implements Unbinde
       }
     });
     view = Utils.findRequiredView(source, R.id.miss_btn, "method 'onViewClicked'");
-    view2131558584 = view;
+    view2131558600 = view;
     view.setOnClickListener(new DebouncingOnClickListener() {
       @Override
       public void doClick(View p0) {
@@ -46,10 +46,10 @@ public class MissActivity_ViewBinding<T extends MissActivity> implements Unbinde
   public void unbind() {
     if (this.target == null) throw new IllegalStateException("Bindings already cleared.");
 
-    view2131558719.setOnClickListener(null);
-    view2131558719 = null;
-    view2131558584.setOnClickListener(null);
-    view2131558584 = null;
+    view2131558760.setOnClickListener(null);
+    view2131558760 = null;
+    view2131558600.setOnClickListener(null);
+    view2131558600 = null;
 
     this.target = null;
   }

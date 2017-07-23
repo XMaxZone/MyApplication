@@ -85,6 +85,8 @@
             android:screenOrientation="portrait"
             android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
         <activity android:name="com.yianke.pet.view.activity.Zinxun_web" />
+        <activity android:name="com.yianke.pet.bean.Shop_cart" />
+        <activity android:name="com.yianke.pet.model.shop.Shop_cart" />
     </application>
 
 </manifest>

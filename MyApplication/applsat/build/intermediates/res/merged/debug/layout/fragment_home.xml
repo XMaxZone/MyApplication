@@ -27,9 +27,9 @@
         <com.zhy.autolayout.AutoLinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:layout_marginLeft="273px"
-            android:layout_marginRight="273px"
-            android:weightSum="3">
+            android:layout_marginLeft="20px"
+            android:layout_marginRight="20px"
+            android:weightSum="8">
 
             <!--精选-->
             <com.zhy.autolayout.AutoRelativeLayout
@@ -42,10 +42,10 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_centerInParent="true"
-                    android:text="精选"
+                    android:text="首页"
                     android:textColor="@color/colorWhite"
-                    android:textSize="52px"/>
+                    android:textSize="52px"
+                    android:layout_centerVertical="true" />
 
                 <TextView
                     android:id="@+id/dic_one"
@@ -67,7 +67,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_centerInParent="true"
-                    android:text="动态"
+                    android:text="永登"
                     android:textColor="@color/colorWhite"
                     android:textSize="52px"/>
 
@@ -91,7 +91,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_centerInParent="true"
-                    android:text="频道"
+                    android:text="生活"
                     android:textColor="@color/colorWhite"
                     android:textSize="52px"/>
 
@@ -102,6 +102,99 @@
                     android:layout_alignParentBottom="true"
                     android:background="@color/colorPet"/>
             </com.zhy.autolayout.AutoRelativeLayout>
+
+            <com.zhy.autolayout.AutoRelativeLayout
+                android:id="@+id/home_four"
+                android:layout_width="0px"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:text="招聘"
+                    android:textColor="@color/colorWhite"
+                    android:textSize="52px"/>
+
+                <TextView
+                    android:id="@+id/dic_four"
+                    android:layout_width="match_parent"
+                    android:layout_height="7px"
+                    android:layout_alignParentBottom="true"
+                    android:background="@color/colorPet"/>
+            </com.zhy.autolayout.AutoRelativeLayout>
+
+            <com.zhy.autolayout.AutoRelativeLayout
+                android:id="@+id/home_five"
+                android:layout_width="0px"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:text="租凭"
+                    android:textColor="@color/colorWhite"
+                    android:textSize="52px"/>
+
+                <TextView
+                    android:id="@+id/dic_five"
+                    android:layout_width="match_parent"
+                    android:layout_height="7px"
+                    android:layout_alignParentBottom="true"
+                    android:background="@color/colorPet"/>
+            </com.zhy.autolayout.AutoRelativeLayout>
+
+
+            <com.zhy.autolayout.AutoRelativeLayout
+                android:id="@+id/home_six"
+                android:layout_width="0px"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:text="微商"
+                    android:textColor="@color/colorWhite"
+                    android:textSize="52px"/>
+
+                <TextView
+                    android:id="@+id/dic_six"
+                    android:layout_width="match_parent"
+                    android:layout_height="7px"
+                    android:layout_alignParentBottom="true"
+                    android:background="@color/colorPet"/>
+            </com.zhy.autolayout.AutoRelativeLayout>
+            <com.zhy.autolayout.AutoRelativeLayout
+                android:id="@+id/home_seave"
+                android:layout_width="0px"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:text="推广"
+                    android:textColor="@color/colorWhite"
+                    android:textSize="52px"/>
+
+                <TextView
+                    android:id="@+id/dic_seave"
+                    android:layout_width="match_parent"
+                    android:layout_height="7px"
+                    android:layout_alignParentBottom="true"
+                    android:background="@color/colorPet"/>
+            </com.zhy.autolayout.AutoRelativeLayout>
+
         </com.zhy.autolayout.AutoLinearLayout>
     </com.zhy.autolayout.AutoRelativeLayout>
 

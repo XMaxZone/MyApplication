@@ -85,11 +85,11 @@ public class JXAdapter extends BaseAdapter
 //        holder.mItemImg.setImageURI(Uri.parse("res://.../" + mList.get(position).getMainImg()));
 //        Picasso.with(mContext).load(mList.get(position).getMainImg()).resize(320,290).tag(mTag).centerCrop().into(holder.mItemImg);
 
-        Picasso.with(mContext).load(dataBeanList.get(0).getPostsImg()).resize(320,290).tag(mTag).centerCrop().into(holder.mItemImg);
+        Picasso.with(mContext).load(dataBeanList.get(position).getPostsImg()).resize(320,290).tag(mTag).centerCrop().into(holder.mItemImg);
         holder.mUserName.setText(mList.get(position).getUserName());
         holder.mUserPetName.setText(mList.get(position).getPetName());
         holder.mUserPetType.setText(mList.get(position).getPetType());
-
+        holder.mItemDescript.setText(dataBeanList.get(position).getPostsContent());
         return convertView;
     }
 

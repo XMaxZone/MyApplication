@@ -17,9 +17,9 @@ import java.lang.Override;
 public class LeaderActivity_ViewBinding<T extends LeaderActivity> implements Unbinder {
   protected T target;
 
-  private View view2131558553;
+  private View view2131558569;
 
-  private View view2131558554;
+  private View view2131558570;
 
   @UiThread
   public LeaderActivity_ViewBinding(final T target, View source) {
@@ -30,7 +30,7 @@ public class LeaderActivity_ViewBinding<T extends LeaderActivity> implements Unb
     target.mLeaderCircle = Utils.findRequiredViewAsType(source, R.id.leader_circle, "field 'mLeaderCircle'", AutoLinearLayout.class);
     target.mLeaderRed = Utils.findRequiredViewAsType(source, R.id.leader_red, "field 'mLeaderRed'", ImageView.class);
     view = Utils.findRequiredView(source, R.id.leader_register, "method 'onViewClicked'");
-    view2131558553 = view;
+    view2131558569 = view;
     view.setOnClickListener(new DebouncingOnClickListener() {
       @Override
       public void doClick(View p0) {
@@ -38,7 +38,7 @@ public class LeaderActivity_ViewBinding<T extends LeaderActivity> implements Unb
       }
     });
     view = Utils.findRequiredView(source, R.id.leader_login, "method 'onViewClicked'");
-    view2131558554 = view;
+    view2131558570 = view;
     view.setOnClickListener(new DebouncingOnClickListener() {
       @Override
       public void doClick(View p0) {
@@ -57,10 +57,10 @@ public class LeaderActivity_ViewBinding<T extends LeaderActivity> implements Unb
     target.mLeaderCircle = null;
     target.mLeaderRed = null;
 
-    view2131558553.setOnClickListener(null);
-    view2131558553 = null;
-    view2131558554.setOnClickListener(null);
-    view2131558554 = null;
+    view2131558569.setOnClickListener(null);
+    view2131558569 = null;
+    view2131558570.setOnClickListener(null);
+    view2131558570 = null;
 
     this.target = null;
   }

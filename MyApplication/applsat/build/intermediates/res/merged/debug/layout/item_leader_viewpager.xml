@@ -12,7 +12,7 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
         android:layout_marginTop="251px"
-        android:text="精选功能升级"
+        android:text="精选文章更新"
         android:textColor="@color/colorPet"
         android:textSize="76px"/>
 
@@ -22,7 +22,7 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
         android:layout_marginTop="73px"
-        android:text="多图形式展现，演绎爱宠生活点滴"
+        android:text="多图形式展现"
         android:textColor="@color/color9"
         android:textSize="46px"/>
 

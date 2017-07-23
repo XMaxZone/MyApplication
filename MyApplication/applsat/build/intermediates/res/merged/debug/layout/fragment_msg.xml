@@ -65,7 +65,7 @@
 
                 <TextView
                     android:id="@+id/msg_text2"
-                    android:text="要闻"
+                    android:text="生活"
                     android:textSize="52px"
                     android:layout_centerInParent="true"
                     android:textColor="@color/colorWhite"
@@ -89,7 +89,7 @@
 
                 <TextView
                     android:id="@+id/msg_text3"
-                    android:text="动漫"
+                    android:text="娱乐"
                     android:textSize="52px"
                     android:layout_centerInParent="true"
                     android:textColor="@color/colorWhite"
@@ -113,7 +113,7 @@
 
                 <TextView
                     android:id="@+id/msg_text4"
-                    android:text="杂志"
+                    android:text="资讯"
                     android:textSize="52px"
                     android:layout_centerInParent="true"
                     android:textColor="@color/colorWhite"
@@ -137,7 +137,7 @@
 
                 <TextView
                     android:id="@+id/msg_text5"
-                    android:text="学堂"
+                    android:text="新闻"
                     android:textSize="52px"
                     android:textColor="@color/colorWhite"
                     android:layout_width="wrap_content"
@@ -162,7 +162,7 @@
 
                 <TextView
                     android:id="@+id/msg_text6"
-                    android:text="官方"
+                    android:text="推广"
                     android:textSize="52px"
                     android:layout_centerInParent="true"
                     android:textColor="@color/colorWhite"

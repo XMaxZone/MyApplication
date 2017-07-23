@@ -1,7 +1,7 @@
 [
     {
-        "merged": "/newProject/xiaoyongfinally/xiaoyongfinally/MyApplication/C:\\Users\\Administrator\\Documents\\Tencent Files\\974271908\\FileRecv\\xiaoyongfinally\\xiaoyongfinally\\MyApplication\\applsat\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi\\ic_launcher.png",
-        "source": "/newProject/xiaoyongfinally/xiaoyongfinally/MyApplication/C:\\Users\\Administrator\\Documents\\Tencent Files\\974271908\\FileRecv\\xiaoyongfinally\\xiaoyongfinally\\MyApplication\\applsat\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
+        "merged": "/newProject/xiaoyongfinally/xiaoyongfinally/MyApplication/applsat/build/intermediates/res/merged/debug/mipmap-xxxhdpi/ic_launcher_bak.png",
+        "source": "/newProject/xiaoyongfinally/xiaoyongfinally/MyApplication/applsat/src/main/res/mipmap-xxxhdpi/ic_launcher_bak.png"
     },
     {
         "merged": "/newProject/xiaoyongfinally/xiaoyongfinally/MyApplication/applsat/build/intermediates/res/merged/debug/mipmap-xxxhdpi/ic_launcher.png",
@@ -10,9 +10,5 @@
     {
         "merged": "/newProject/xiaoyongfinally/xiaoyongfinally/MyApplication/applsat/build/intermediates/res/merged/debug/mipmap-xxxhdpi/ic_launcher_round.png",
         "source": "/newProject/xiaoyongfinally/xiaoyongfinally/MyApplication/applsat/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png"
-    },
-    {
-        "merged": "/newProject/xiaoyongfinally/xiaoyongfinally/MyApplication/C:\\Users\\Administrator\\Documents\\Tencent Files\\974271908\\FileRecv\\xiaoyongfinally\\xiaoyongfinally\\MyApplication\\applsat\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi\\ic_launcher_round.png",
-        "source": "/newProject/xiaoyongfinally/xiaoyongfinally/MyApplication/C:\\Users\\Administrator\\Documents\\Tencent Files\\974271908\\FileRecv\\xiaoyongfinally\\xiaoyongfinally\\MyApplication\\applsat\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_round.png"
     }
 ]

@@ -1,6 +1,6 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /newProject/xiaoyongfinally/xiaoyongfinally/MyApplication/applsat/src/main/AndroidManifest.xml:2:1-81:12
+ADDED from /newProject/xiaoyongfinally/xiaoyongfinally/MyApplication/applsat/src/main/AndroidManifest.xml:2:1-85:12
 	package
 		ADDED from /newProject/xiaoyongfinally/xiaoyongfinally/MyApplication/applsat/src/main/AndroidManifest.xml:3:5-29
 		INJECTED from /newProject/xiaoyongfinally/xiaoyongfinally/MyApplication/applsat/src/main/AndroidManifest.xml
@@ -18,7 +18,7 @@ ADDED from /newProject/xiaoyongfinally/xiaoyongfinally/MyApplication/applsat/src
 	android:name
 		ADDED from /newProject/xiaoyongfinally/xiaoyongfinally/MyApplication/applsat/src/main/AndroidManifest.xml:5:22-64
 application
-ADDED from /newProject/xiaoyongfinally/xiaoyongfinally/MyApplication/applsat/src/main/AndroidManifest.xml:7:5-79:19
+ADDED from /newProject/xiaoyongfinally/xiaoyongfinally/MyApplication/applsat/src/main/AndroidManifest.xml:7:5-83:19
 MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/huc/.android/build-cache/43fcef6c43c81d8538220ff457cd5e185d1ff3d3/output/AndroidManifest.xml:9:5-20
 MERGED from [com.android.support:design:25.3.1] /Users/huc/.android/build-cache/36601ce09cf6a54002e1f6970317cc6513553c71/output/AndroidManifest.xml:29:5-20
 MERGED from [com.android.support:appcompat-v7:25.3.1] /Users/huc/.android/build-cache/76a5113bb4036eac0b4307f578c9425c04a9399c/output/AndroidManifest.xml:29:5-20
@@ -46,7 +46,7 @@ MERGED from [com.android.support:support-compat:25.3.1] /Users/huc/.android/buil
 	android:name
 		ADDED from /newProject/xiaoyongfinally/xiaoyongfinally/MyApplication/applsat/src/main/AndroidManifest.xml:8:9-38
 activity#com.yianke.pet.view.activity.SplashActivity
-ADDED from /newProject/xiaoyongfinally/xiaoyongfinally/MyApplication/applsat/src/main/AndroidManifest.xml:17:9-26:20
+ADDED from /newProject/xiaoyongfinally/xiaoyongfinally/MyApplication/applsat/src/main/AndroidManifest.xml:17:9-25:20
 	android:screenOrientation
 		ADDED from /newProject/xiaoyongfinally/xiaoyongfinally/MyApplication/applsat/src/main/AndroidManifest.xml:19:13-49
 	android:theme
@@ -54,97 +54,105 @@ ADDED from /newProject/xiaoyongfinally/xiaoyongfinally/MyApplication/applsat/src
 	android:name
 		ADDED from /newProject/xiaoyongfinally/xiaoyongfinally/MyApplication/applsat/src/main/AndroidManifest.xml:18:13-57
 intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
-ADDED from /newProject/xiaoyongfinally/xiaoyongfinally/MyApplication/applsat/src/main/AndroidManifest.xml:21:13-25:29
+ADDED from /newProject/xiaoyongfinally/xiaoyongfinally/MyApplication/applsat/src/main/AndroidManifest.xml:21:13-24:29
 action#android.intent.action.MAIN
 ADDED from /newProject/xiaoyongfinally/xiaoyongfinally/MyApplication/applsat/src/main/AndroidManifest.xml:22:17-69
 	android:name
 		ADDED from /newProject/xiaoyongfinally/xiaoyongfinally/MyApplication/applsat/src/main/AndroidManifest.xml:22:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /newProject/xiaoyongfinally/xiaoyongfinally/MyApplication/applsat/src/main/AndroidManifest.xml:24:17-77
+ADDED from /newProject/xiaoyongfinally/xiaoyongfinally/MyApplication/applsat/src/main/AndroidManifest.xml:23:17-77
 	android:name
-		ADDED from /newProject/xiaoyongfinally/xiaoyongfinally/MyApplication/applsat/src/main/AndroidManifest.xml:24:27-74
+		ADDED from /newProject/xiaoyongfinally/xiaoyongfinally/MyApplication/applsat/src/main/AndroidManifest.xml:23:27-74
 meta-data#design_width
-ADDED from /newProject/xiaoyongfinally/xiaoyongfinally/MyApplication/applsat/src/main/AndroidManifest.xml:29:9-31:36
+ADDED from /newProject/xiaoyongfinally/xiaoyongfinally/MyApplication/applsat/src/main/AndroidManifest.xml:28:9-30:36
 	android:value
-		ADDED from /newProject/xiaoyongfinally/xiaoyongfinally/MyApplication/applsat/src/main/AndroidManifest.xml:31:13-33
+		ADDED from /newProject/xiaoyongfinally/xiaoyongfinally/MyApplication/applsat/src/main/AndroidManifest.xml:30:13-33
 	android:name
-		ADDED from /newProject/xiaoyongfinally/xiaoyongfinally/MyApplication/applsat/src/main/AndroidManifest.xml:30:13-40
+		ADDED from /newProject/xiaoyongfinally/xiaoyongfinally/MyApplication/applsat/src/main/AndroidManifest.xml:29:13-40
 meta-data#design_height
-ADDED from /newProject/xiaoyongfinally/xiaoyongfinally/MyApplication/applsat/src/main/AndroidManifest.xml:32:9-34:36
+ADDED from /newProject/xiaoyongfinally/xiaoyongfinally/MyApplication/applsat/src/main/AndroidManifest.xml:31:9-33:36
 	android:value
-		ADDED from /newProject/xiaoyongfinally/xiaoyongfinally/MyApplication/applsat/src/main/AndroidManifest.xml:34:13-33
+		ADDED from /newProject/xiaoyongfinally/xiaoyongfinally/MyApplication/applsat/src/main/AndroidManifest.xml:33:13-33
 	android:name
-		ADDED from /newProject/xiaoyongfinally/xiaoyongfinally/MyApplication/applsat/src/main/AndroidManifest.xml:33:13-41
+		ADDED from /newProject/xiaoyongfinally/xiaoyongfinally/MyApplication/applsat/src/main/AndroidManifest.xml:32:13-41
 activity#com.yianke.pet.view.activity.LeaderActivity
-ADDED from /newProject/xiaoyongfinally/xiaoyongfinally/MyApplication/applsat/src/main/AndroidManifest.xml:37:9-40:81
+ADDED from /newProject/xiaoyongfinally/xiaoyongfinally/MyApplication/applsat/src/main/AndroidManifest.xml:36:9-39:81
 	android:screenOrientation
-		ADDED from /newProject/xiaoyongfinally/xiaoyongfinally/MyApplication/applsat/src/main/AndroidManifest.xml:39:13-49
+		ADDED from /newProject/xiaoyongfinally/xiaoyongfinally/MyApplication/applsat/src/main/AndroidManifest.xml:38:13-49
 	android:theme
-		ADDED from /newProject/xiaoyongfinally/xiaoyongfinally/MyApplication/applsat/src/main/AndroidManifest.xml:40:13-69
+		ADDED from /newProject/xiaoyongfinally/xiaoyongfinally/MyApplication/applsat/src/main/AndroidManifest.xml:39:13-69
 	android:name
-		ADDED from /newProject/xiaoyongfinally/xiaoyongfinally/MyApplication/applsat/src/main/AndroidManifest.xml:38:13-57
+		ADDED from /newProject/xiaoyongfinally/xiaoyongfinally/MyApplication/applsat/src/main/AndroidManifest.xml:37:13-57
 activity#com.yianke.pet.view.activity.RegisterActivity
-ADDED from /newProject/xiaoyongfinally/xiaoyongfinally/MyApplication/applsat/src/main/AndroidManifest.xml:42:9-45:81
+ADDED from /newProject/xiaoyongfinally/xiaoyongfinally/MyApplication/applsat/src/main/AndroidManifest.xml:41:9-44:81
 	android:screenOrientation
-		ADDED from /newProject/xiaoyongfinally/xiaoyongfinally/MyApplication/applsat/src/main/AndroidManifest.xml:44:13-49
+		ADDED from /newProject/xiaoyongfinally/xiaoyongfinally/MyApplication/applsat/src/main/AndroidManifest.xml:43:13-49
 	android:theme
-		ADDED from /newProject/xiaoyongfinally/xiaoyongfinally/MyApplication/applsat/src/main/AndroidManifest.xml:45:13-69
+		ADDED from /newProject/xiaoyongfinally/xiaoyongfinally/MyApplication/applsat/src/main/AndroidManifest.xml:44:13-69
 	android:name
-		ADDED from /newProject/xiaoyongfinally/xiaoyongfinally/MyApplication/applsat/src/main/AndroidManifest.xml:43:13-59
+		ADDED from /newProject/xiaoyongfinally/xiaoyongfinally/MyApplication/applsat/src/main/AndroidManifest.xml:42:13-59
 activity#com.yianke.pet.view.activity.AgreeDetialActivity
-ADDED from /newProject/xiaoyongfinally/xiaoyongfinally/MyApplication/applsat/src/main/AndroidManifest.xml:47:9-50:81
+ADDED from /newProject/xiaoyongfinally/xiaoyongfinally/MyApplication/applsat/src/main/AndroidManifest.xml:46:9-49:81
 	android:screenOrientation
-		ADDED from /newProject/xiaoyongfinally/xiaoyongfinally/MyApplication/applsat/src/main/AndroidManifest.xml:49:13-49
+		ADDED from /newProject/xiaoyongfinally/xiaoyongfinally/MyApplication/applsat/src/main/AndroidManifest.xml:48:13-49
 	android:theme
-		ADDED from /newProject/xiaoyongfinally/xiaoyongfinally/MyApplication/applsat/src/main/AndroidManifest.xml:50:13-69
+		ADDED from /newProject/xiaoyongfinally/xiaoyongfinally/MyApplication/applsat/src/main/AndroidManifest.xml:49:13-69
 	android:name
-		ADDED from /newProject/xiaoyongfinally/xiaoyongfinally/MyApplication/applsat/src/main/AndroidManifest.xml:48:13-62
+		ADDED from /newProject/xiaoyongfinally/xiaoyongfinally/MyApplication/applsat/src/main/AndroidManifest.xml:47:13-62
 activity#com.yianke.pet.view.activity.VerificationCodeActivity
-ADDED from /newProject/xiaoyongfinally/xiaoyongfinally/MyApplication/applsat/src/main/AndroidManifest.xml:52:9-55:81
+ADDED from /newProject/xiaoyongfinally/xiaoyongfinally/MyApplication/applsat/src/main/AndroidManifest.xml:51:9-54:81
 	android:screenOrientation
-		ADDED from /newProject/xiaoyongfinally/xiaoyongfinally/MyApplication/applsat/src/main/AndroidManifest.xml:54:13-49
+		ADDED from /newProject/xiaoyongfinally/xiaoyongfinally/MyApplication/applsat/src/main/AndroidManifest.xml:53:13-49
 	android:theme
-		ADDED from /newProject/xiaoyongfinally/xiaoyongfinally/MyApplication/applsat/src/main/AndroidManifest.xml:55:13-69
+		ADDED from /newProject/xiaoyongfinally/xiaoyongfinally/MyApplication/applsat/src/main/AndroidManifest.xml:54:13-69
 	android:name
-		ADDED from /newProject/xiaoyongfinally/xiaoyongfinally/MyApplication/applsat/src/main/AndroidManifest.xml:53:13-67
+		ADDED from /newProject/xiaoyongfinally/xiaoyongfinally/MyApplication/applsat/src/main/AndroidManifest.xml:52:13-67
 activity#com.yianke.pet.view.activity.PetMsgActivity
-ADDED from /newProject/xiaoyongfinally/xiaoyongfinally/MyApplication/applsat/src/main/AndroidManifest.xml:57:9-60:81
+ADDED from /newProject/xiaoyongfinally/xiaoyongfinally/MyApplication/applsat/src/main/AndroidManifest.xml:56:9-59:81
 	android:screenOrientation
-		ADDED from /newProject/xiaoyongfinally/xiaoyongfinally/MyApplication/applsat/src/main/AndroidManifest.xml:59:13-49
+		ADDED from /newProject/xiaoyongfinally/xiaoyongfinally/MyApplication/applsat/src/main/AndroidManifest.xml:58:13-49
 	android:theme
-		ADDED from /newProject/xiaoyongfinally/xiaoyongfinally/MyApplication/applsat/src/main/AndroidManifest.xml:60:13-69
+		ADDED from /newProject/xiaoyongfinally/xiaoyongfinally/MyApplication/applsat/src/main/AndroidManifest.xml:59:13-69
 	android:name
-		ADDED from /newProject/xiaoyongfinally/xiaoyongfinally/MyApplication/applsat/src/main/AndroidManifest.xml:58:13-57
+		ADDED from /newProject/xiaoyongfinally/xiaoyongfinally/MyApplication/applsat/src/main/AndroidManifest.xml:57:13-57
 activity#com.yianke.pet.view.activity.LoginActivity
-ADDED from /newProject/xiaoyongfinally/xiaoyongfinally/MyApplication/applsat/src/main/AndroidManifest.xml:62:9-65:81
+ADDED from /newProject/xiaoyongfinally/xiaoyongfinally/MyApplication/applsat/src/main/AndroidManifest.xml:61:9-64:81
 	android:screenOrientation
-		ADDED from /newProject/xiaoyongfinally/xiaoyongfinally/MyApplication/applsat/src/main/AndroidManifest.xml:64:13-49
+		ADDED from /newProject/xiaoyongfinally/xiaoyongfinally/MyApplication/applsat/src/main/AndroidManifest.xml:63:13-49
 	android:theme
-		ADDED from /newProject/xiaoyongfinally/xiaoyongfinally/MyApplication/applsat/src/main/AndroidManifest.xml:65:13-69
+		ADDED from /newProject/xiaoyongfinally/xiaoyongfinally/MyApplication/applsat/src/main/AndroidManifest.xml:64:13-69
 	android:name
-		ADDED from /newProject/xiaoyongfinally/xiaoyongfinally/MyApplication/applsat/src/main/AndroidManifest.xml:63:13-56
+		ADDED from /newProject/xiaoyongfinally/xiaoyongfinally/MyApplication/applsat/src/main/AndroidManifest.xml:62:13-56
 activity#com.yianke.pet.view.activity.MainActivity
-ADDED from /newProject/xiaoyongfinally/xiaoyongfinally/MyApplication/applsat/src/main/AndroidManifest.xml:67:9-71:81
+ADDED from /newProject/xiaoyongfinally/xiaoyongfinally/MyApplication/applsat/src/main/AndroidManifest.xml:66:9-70:81
 	android:process
-		ADDED from /newProject/xiaoyongfinally/xiaoyongfinally/MyApplication/applsat/src/main/AndroidManifest.xml:69:13-39
+		ADDED from /newProject/xiaoyongfinally/xiaoyongfinally/MyApplication/applsat/src/main/AndroidManifest.xml:68:13-39
 	android:screenOrientation
-		ADDED from /newProject/xiaoyongfinally/xiaoyongfinally/MyApplication/applsat/src/main/AndroidManifest.xml:70:13-49
+		ADDED from /newProject/xiaoyongfinally/xiaoyongfinally/MyApplication/applsat/src/main/AndroidManifest.xml:69:13-49
 	android:theme
-		ADDED from /newProject/xiaoyongfinally/xiaoyongfinally/MyApplication/applsat/src/main/AndroidManifest.xml:71:13-69
+		ADDED from /newProject/xiaoyongfinally/xiaoyongfinally/MyApplication/applsat/src/main/AndroidManifest.xml:70:13-69
 	android:name
-		ADDED from /newProject/xiaoyongfinally/xiaoyongfinally/MyApplication/applsat/src/main/AndroidManifest.xml:68:13-55
+		ADDED from /newProject/xiaoyongfinally/xiaoyongfinally/MyApplication/applsat/src/main/AndroidManifest.xml:67:13-55
 activity#com.yianke.pet.view.activity.MissActivity
-ADDED from /newProject/xiaoyongfinally/xiaoyongfinally/MyApplication/applsat/src/main/AndroidManifest.xml:73:9-76:81
+ADDED from /newProject/xiaoyongfinally/xiaoyongfinally/MyApplication/applsat/src/main/AndroidManifest.xml:72:9-75:81
 	android:screenOrientation
-		ADDED from /newProject/xiaoyongfinally/xiaoyongfinally/MyApplication/applsat/src/main/AndroidManifest.xml:75:13-49
+		ADDED from /newProject/xiaoyongfinally/xiaoyongfinally/MyApplication/applsat/src/main/AndroidManifest.xml:74:13-49
 	android:theme
-		ADDED from /newProject/xiaoyongfinally/xiaoyongfinally/MyApplication/applsat/src/main/AndroidManifest.xml:76:13-69
+		ADDED from /newProject/xiaoyongfinally/xiaoyongfinally/MyApplication/applsat/src/main/AndroidManifest.xml:75:13-69
 	android:name
-		ADDED from /newProject/xiaoyongfinally/xiaoyongfinally/MyApplication/applsat/src/main/AndroidManifest.xml:74:13-55
+		ADDED from /newProject/xiaoyongfinally/xiaoyongfinally/MyApplication/applsat/src/main/AndroidManifest.xml:73:13-55
 activity#com.yianke.pet.view.activity.Zinxun_web
 ADDED from /newProject/xiaoyongfinally/xiaoyongfinally/MyApplication/applsat/src/main/AndroidManifest.xml:77:9-71
 	android:name
 		ADDED from /newProject/xiaoyongfinally/xiaoyongfinally/MyApplication/applsat/src/main/AndroidManifest.xml:77:19-59
+activity#com.yianke.pet.bean.Shop_cart
+ADDED from /newProject/xiaoyongfinally/xiaoyongfinally/MyApplication/applsat/src/main/AndroidManifest.xml:79:9-61
+	android:name
+		ADDED from /newProject/xiaoyongfinally/xiaoyongfinally/MyApplication/applsat/src/main/AndroidManifest.xml:79:19-49
+activity#com.yianke.pet.model.shop.Shop_cart
+ADDED from /newProject/xiaoyongfinally/xiaoyongfinally/MyApplication/applsat/src/main/AndroidManifest.xml:81:9-67
+	android:name
+		ADDED from /newProject/xiaoyongfinally/xiaoyongfinally/MyApplication/applsat/src/main/AndroidManifest.xml:81:19-55
 uses-sdk
 INJECTED from /newProject/xiaoyongfinally/xiaoyongfinally/MyApplication/applsat/src/main/AndroidManifest.xml reason: use-sdk injection requested
 MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/huc/.android/build-cache/43fcef6c43c81d8538220ff457cd5e185d1ff3d3/output/AndroidManifest.xml:5:5-7:41

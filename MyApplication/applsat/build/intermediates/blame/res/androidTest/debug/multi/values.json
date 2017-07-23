@@ -22,29 +22,5 @@
                 }
             }
         ]
-    },
-    {
-        "outputFile": "/newProject/xiaoyongfinally/xiaoyongfinally/MyApplication/C:\\Users\\Administrator\\Documents\\Tencent Files\\974271908\\FileRecv\\xiaoyongfinally\\xiaoyongfinally\\MyApplication\\applsat\\build\\intermediates\\incremental\\mergeDebugAndroidTestResources\\merged.dir\\values\\values.xml",
-        "map": [
-            {
-                "to": {
-                    "startLine": 2,
-                    "startColumn": 4,
-                    "startOffset": 55,
-                    "endColumn": 45,
-                    "endOffset": 96
-                },
-                "from": {
-                    "file": "/newProject/xiaoyongfinally/xiaoyongfinally/MyApplication/C:\\Users\\Administrator\\.android\\build-cache\\5452493a1462f7de77c580712ccf78cdcf9643c0\\output\\res\\values\\values.xml",
-                    "position": {
-                        "startLine": 4,
-                        "startColumn": 4,
-                        "startOffset": 229,
-                        "endColumn": 45,
-                        "endOffset": 270
-                    }
-                }
-            }
-        ]
     }
 ]

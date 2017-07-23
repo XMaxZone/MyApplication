@@ -1,24 +1,35 @@
 package com.yianke.pet.view.fragment;
 
+import android.content.Intent;
+import android.os.Handler;
 import android.os.Message;
 import android.support.v4.view.PagerAdapter;
 import android.support.v4.view.ViewPager;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.AdapterView;
 import android.widget.ImageView;
-import android.widget.ListView;
 
+import com.alibaba.fastjson.JSON;
 import com.squareup.picasso.Picasso;
+import com.yianke.pet.Common.Listview;
+import com.yianke.pet.Common.MyGridview;
 import com.yianke.pet.R;
 import com.yianke.pet.adapter.PintuanAdapter;
+import com.yianke.pet.adapter.shop.Myshop_adapter;
 import com.yianke.pet.adapter.shop.ShopAdapter;
+import com.yianke.pet.bean.Shop_bean;
 import com.yianke.pet.model.shop.Pintuan;
 import com.yianke.pet.model.shop.ShopModel;
+import com.yianke.pet.model.shop.Shop_cart;
 import com.yianke.pet.utils.BaseHandler;
 import com.zhy.autolayout.utils.AutoUtils;
+import com.zhy.http.okhttp.OkHttpUtils;
+import com.zhy.http.okhttp.callback.StringCallback;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -26,6 +37,9 @@ import java.util.List;
 import butterknife.BindView;
 import butterknife.ButterKnife;
 import butterknife.Unbinder;
+import okhttp3.Call;
+
+import static com.yianke.pet.Common.Constants.FIND_SHOP_INDEX_URL;
 
 /**
  * 作者：${赵若位} on 2017/6/3 23:06
@@ -37,7 +51,7 @@ public class ShoppingFragment extends BaseFragment
 {
 
     @BindView(R.id.shop_main)
-    ListView mShopMain;
+    Listview mShopMain;
     //轮播指示器
     ImageView mIndic1;
     ImageView mIndic2;
@@ -47,12 +61,42 @@ public class ShoppingFragment extends BaseFragment
 
 
     private Unbinder mUnbinder;
+    private MyGridview mygridview;
+    private Myshop_adapter myshop_adapter;
 
     private View header;
 
     private ShopAdapter mAdapter;
     private List<ShopModel> mList;
-
+    private Shop_bean shop_bean;
+    private List<Shop_bean.DataBean> dataBeanList;
+    private Handler handler = new Handler(new Handler.Callback() {
+        @Override
+        public boolean handleMessage(Message message) {
+            switch (message.what){
+                case 1:
+                    initHeader();
+                    mShopMain.addHeaderView(header);
+                    mAdapter = new ShopAdapter(getActivity(), mList);
+                    myshop_adapter = new Myshop_adapter(getActivity(),dataBeanList);
+                    mygridview.setAdapter(myshop_adapter);
+                    mShopMain.setAdapter(mAdapter);
+                    mygridview.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+                        @Override
+                        public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+                            String mydata = dataBeanList.get(position).getId();
+                            Log.e("TAG","我是准备传递的数据"+mydata);
+                            Intent intent = new Intent(getContext(),Shop_cart.class);
+                            intent.putExtra("mydata",mydata);
+                            startActivity(intent);
+                        }
+                    });
+//                    initFooter();
+                    break;
+            }
+            return false;
+        }
+    });
 
     private int[] images =
             {
@@ -110,22 +154,40 @@ public class ShoppingFragment extends BaseFragment
     public void init(View view)
     {
         mUnbinder = ButterKnife.bind(this, view);
-        initHeader();
-        mShopMain.addHeaderView(header);
-        mList = new ArrayList<>();
-        mList.add(new ShopModel("主粮零食", R.drawable.shop_parent1, new int[]{R.drawable.shop_child1, R.drawable.shop_child2, R.drawable.shop_child3, R.drawable.shop_child4,
-                R.drawable.shop_child5, R.drawable.shop_child6, R.drawable.shop_child7, R.drawable.shop_child8, R.drawable.shop_child9}));
-
-        mList.add(new ShopModel("医疗保健", R.drawable.shop_parent2, new int[]{R.drawable.shop_child10, R.drawable.shop_child11, 0, R.drawable.shop_child12, R.drawable.shop_child13, 0,
-                R.drawable.shop_child14, 0, R.drawable.shop_child15}));
-
-        mList.add(new ShopModel("玩具用品", R.drawable.shop_parent3, new int[]{R.drawable.shop_child16, R.drawable.shop_child17, R.drawable.shop_child18, R.drawable.shop_child19,
-                R.drawable.shop_child20, R.drawable.shop_child21, R.drawable.shop_child22, R.drawable.shop_child23, R.drawable.shop_child24}));
+        mygridview = (MyGridview)view.findViewById(R.id.mygridview);
+        getdata();
 
 
-        mAdapter = new ShopAdapter(getActivity(), mList);
-        mShopMain.setAdapter(mAdapter);
-        initFooter();
+    }
+
+    private void getdata() {
+        String url = FIND_SHOP_INDEX_URL+"?"+"data={}";
+        OkHttpUtils.post()
+                .url(url)
+                .build()
+                .execute(new StringCallback() {
+                    @Override
+                    public void onError(Call call, Exception e, int id) {
+                        Log.e("TAG","error"+e);
+                    }
+
+                    @Override
+                    public void onResponse(String response, int id) {
+                        processdata(response);
+                    }
+                });
+    }
+
+    private void processdata(String response) {
+        shop_bean = JSONparse(response);
+        dataBeanList = shop_bean.getData();
+        if (response!=null){
+            handler.sendEmptyMessage(1);
+        }
+    }
+
+    private Shop_bean JSONparse(String response) {
+        return JSON.parseObject(response,Shop_bean.class);
     }
 
     private void initFooter()
@@ -141,23 +203,35 @@ public class ShoppingFragment extends BaseFragment
     private void initHeader()
     {
         List<Pintuan> mList = new ArrayList<>();
-        mList.add(new Pintuan(R.drawable.pintuan_one, "【天然健康膳\n食狗粮，提升...", 39.9, 99));
-        mList.add(new Pintuan(R.drawable.pintuan_two, "【适合搭配\n各类猫砂使用...", 29, 62));
-        mList.add(new Pintuan(R.drawable.pintuan_three, "【温和配方,\n消炎止痒，抗...", 25, 40));
-        mList.add(new Pintuan(R.drawable.pintuan_four, "【精致牛肉肉\n粒，美味有营...", 9.9, 35));
-        mList.add(new Pintuan(R.drawable.pintuan_five, "【营养护理系\n列零食，美毛...", 19.9, 39));
-        mList.add(new Pintuan(R.drawable.pintuan_six, "【买即送罐\n头】贵族鸸鹋...", 59, 125));
-        mList.add(new Pintuan(R.drawable.pintuan_seven, "派地奥 盒装乳\n胶犬用玩具 宠...", 15.9, 35));
-        mList.add(new Pintuan(R.drawable.pintuan_eight, "【满99送大礼\n包】 大宠爱 体...", 219, 438));
-        mList.add(new Pintuan(R.drawable.pintuan_nine, "柏可心 猫薄荷\n猫零食 天然4...", 6.9, 19));
+        mList.add(new Pintuan(R.drawable.pintuan_one, dataBeanList.get(0).getProductName(), 39.9, 99));
+        mList.add(new Pintuan(R.drawable.pintuan_two, dataBeanList.get(1).getProductName(), 29, 62));
+        mList.add(new Pintuan(R.drawable.pintuan_three,dataBeanList.get(2).getProductName(), 25, 40));
+        mList.add(new Pintuan(R.drawable.pintuan_four,dataBeanList.get(3).getProductName(), 9.9, 35));
+        mList.add(new Pintuan(R.drawable.pintuan_five, dataBeanList.get(4).getProductName(), 19.9, 39));
+//        mList.add(new Pintuan(R.drawable.pintuan_six, dataBeanList.get(5).getProductName(), 59, 125));
+//        mList.add(new Pintuan(R.drawable.pintuan_seven, dataBeanList.get(6).getProductName(), 15.9, 35));
+//        mList.add(new Pintuan(R.drawable.pintuan_eight, dataBeanList.get(7).getProductName(), 219, 438));
+//        mList.add(new Pintuan(R.drawable.pintuan_nine, dataBeanList.get(8).getProductName(), 6.9, 19));
 
         header = LayoutInflater.from(getActivity()).inflate(R.layout.header_shopping, null);
         RecyclerView mHeaderMain = (RecyclerView) header.findViewById(R.id.header_recycler);
         mHeaderBanner = (ViewPager) header.findViewById(R.id.header_banner);
         LinearLayoutManager manager = new LinearLayoutManager(getActivity(), LinearLayoutManager.HORIZONTAL, false);
         mHeaderMain.setLayoutManager(manager);
-        mHeaderMain.setAdapter(new PintuanAdapter(mList, getActivity()));
-        mHeaderMain.setNestedScrollingEnabled(false);
+        PintuanAdapter pintuanAdapter = new PintuanAdapter(mList, getActivity());
+        mHeaderMain.setAdapter(pintuanAdapter);
+        pintuanAdapter.setOnItemclickListener(new PintuanAdapter.OnItemclickListener() {
+            @Override
+            public void onItemClick(int position) {
+                String mydata = dataBeanList.get(position).getId();
+                Log.e("TAG","我是准备传递的数据"+mydata);
+                Intent intent = new Intent(getContext(),Shop_cart.class);
+                intent.putExtra("mydata",mydata);
+                startActivity(intent);
+            }
+        });
+
+//        mHeaderMain.setNestedScrollingEnabled(false);
 
         mIndic1 = (ImageView) header.findViewById(R.id.indic1);
         mIndic2 = (ImageView) header.findViewById(R.id.indic2);

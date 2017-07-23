@@ -27,7 +27,7 @@ public abstract class Constants {
     public static final String ARTICLE_DETAIL_URL = IP_PORT + "/GoodlifeApi/api/v1/article/get";
 
     /** 获取顶部Banner广告
-     *
+     *data={"typeId":"1"}
      **/
     public static final String FIND_TOP_BANNER_URL = IP_PORT + "/GoodlifeApi/api/v1/banner/get";
 
@@ -103,13 +103,13 @@ public abstract class Constants {
      * 删除购物车订单
      * data={"id":"1"}
      */
-    public static final String DELETE_SHOPPING_CAR_ORDER_URL = IP_PORT + "/GoodlifeApi/api/v1/shopping/delete";
+    public static final String DELETE_SHOPPING_CAR_ORDER_URL = IP_PORT + "/GoodlifeApi/api/v1/Shopping/delete";
 
     /**
      * 获取购物车
      * data={"userId":"3"}
      */
-    public static final String FIND_SHOPPING_CAR_LIST_URL = IP_PORT + "/GoodlifeApi/api/v1/shopping/get";
+    public static final String FIND_SHOPPING_CAR_LIST_URL = IP_PORT + "/GoodlifeApi/api/v1/Shopping/get";
 
     /**
      * 获取分类商品

@@ -16,7 +16,7 @@ import java.lang.Override;
 public class AgreeDetialActivity_ViewBinding<T extends AgreeDetialActivity> implements Unbinder {
   protected T target;
 
-  private View view2131558719;
+  private View view2131558760;
 
   @UiThread
   public AgreeDetialActivity_ViewBinding(final T target, View source) {
@@ -26,7 +26,7 @@ public class AgreeDetialActivity_ViewBinding<T extends AgreeDetialActivity> impl
     target.mTopText = Utils.findRequiredViewAsType(source, R.id.top_text, "field 'mTopText'", TextView.class);
     target.mAgreeWeb = Utils.findRequiredViewAsType(source, R.id.agree_web, "field 'mAgreeWeb'", WebView.class);
     view = Utils.findRequiredView(source, R.id.top_back, "method 'onViewClicked'");
-    view2131558719 = view;
+    view2131558760 = view;
     view.setOnClickListener(new DebouncingOnClickListener() {
       @Override
       public void doClick(View p0) {
@@ -44,8 +44,8 @@ public class AgreeDetialActivity_ViewBinding<T extends AgreeDetialActivity> impl
     target.mTopText = null;
     target.mAgreeWeb = null;
 
-    view2131558719.setOnClickListener(null);
-    view2131558719 = null;
+    view2131558760.setOnClickListener(null);
+    view2131558760 = null;
 
     this.target = null;
   }

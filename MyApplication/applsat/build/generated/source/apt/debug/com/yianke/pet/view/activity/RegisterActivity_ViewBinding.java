@@ -16,15 +16,15 @@ import java.lang.Override;
 public class RegisterActivity_ViewBinding<T extends RegisterActivity> implements Unbinder {
   protected T target;
 
-  private View view2131558602;
+  private View view2131558618;
 
-  private View view2131558719;
+  private View view2131558760;
 
-  private View view2131558557;
+  private View view2131558573;
 
-  private View view2131558559;
+  private View view2131558575;
 
-  private View view2131558603;
+  private View view2131558619;
 
   @UiThread
   public RegisterActivity_ViewBinding(final T target, View source) {
@@ -36,7 +36,7 @@ public class RegisterActivity_ViewBinding<T extends RegisterActivity> implements
     target.mRegisterPass = Utils.findRequiredViewAsType(source, R.id.register_pass, "field 'mRegisterPass'", EditText.class);
     view = Utils.findRequiredView(source, R.id.register_btn, "field 'mRegisterBtn' and method 'onViewClicked'");
     target.mRegisterBtn = Utils.castView(view, R.id.register_btn, "field 'mRegisterBtn'", TextView.class);
-    view2131558602 = view;
+    view2131558618 = view;
     view.setOnClickListener(new DebouncingOnClickListener() {
       @Override
       public void doClick(View p0) {
@@ -44,7 +44,7 @@ public class RegisterActivity_ViewBinding<T extends RegisterActivity> implements
       }
     });
     view = Utils.findRequiredView(source, R.id.top_back, "method 'onViewClicked'");
-    view2131558719 = view;
+    view2131558760 = view;
     view.setOnClickListener(new DebouncingOnClickListener() {
       @Override
       public void doClick(View p0) {
@@ -52,7 +52,7 @@ public class RegisterActivity_ViewBinding<T extends RegisterActivity> implements
       }
     });
     view = Utils.findRequiredView(source, R.id.parent_phone, "method 'onViewClicked'");
-    view2131558557 = view;
+    view2131558573 = view;
     view.setOnClickListener(new DebouncingOnClickListener() {
       @Override
       public void doClick(View p0) {
@@ -60,7 +60,7 @@ public class RegisterActivity_ViewBinding<T extends RegisterActivity> implements
       }
     });
     view = Utils.findRequiredView(source, R.id.parent_pass, "method 'onViewClicked'");
-    view2131558559 = view;
+    view2131558575 = view;
     view.setOnClickListener(new DebouncingOnClickListener() {
       @Override
       public void doClick(View p0) {
@@ -68,7 +68,7 @@ public class RegisterActivity_ViewBinding<T extends RegisterActivity> implements
       }
     });
     view = Utils.findRequiredView(source, R.id.register_agree, "method 'onViewClicked'");
-    view2131558603 = view;
+    view2131558619 = view;
     view.setOnClickListener(new DebouncingOnClickListener() {
       @Override
       public void doClick(View p0) {
@@ -88,16 +88,16 @@ public class RegisterActivity_ViewBinding<T extends RegisterActivity> implements
     target.mRegisterPass = null;
     target.mRegisterBtn = null;
 
-    view2131558602.setOnClickListener(null);
-    view2131558602 = null;
-    view2131558719.setOnClickListener(null);
-    view2131558719 = null;
-    view2131558557.setOnClickListener(null);
-    view2131558557 = null;
-    view2131558559.setOnClickListener(null);
-    view2131558559 = null;
-    view2131558603.setOnClickListener(null);
-    view2131558603 = null;
+    view2131558618.setOnClickListener(null);
+    view2131558618 = null;
+    view2131558760.setOnClickListener(null);
+    view2131558760 = null;
+    view2131558573.setOnClickListener(null);
+    view2131558573 = null;
+    view2131558575.setOnClickListener(null);
+    view2131558575 = null;
+    view2131558619.setOnClickListener(null);
+    view2131558619 = null;
 
     this.target = null;
   }

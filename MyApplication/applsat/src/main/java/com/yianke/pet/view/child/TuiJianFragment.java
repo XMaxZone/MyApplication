@@ -13,17 +13,19 @@ import android.widget.AdapterView;
 import android.widget.ImageView;
 import android.widget.ListView;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import com.alibaba.fastjson.JSON;
 import com.squareup.picasso.Picasso;
+import com.yianke.pet.Common.Constants;
 import com.yianke.pet.R;
 import com.yianke.pet.adapter.msg.MsgChildAdapter;
 import com.yianke.pet.bean.All_daohang_bean;
+import com.yianke.pet.bean.Zhixun_bean;
 import com.yianke.pet.model.msg.MsgChildModel;
 import com.yianke.pet.utils.BaseHandler;
 import com.yianke.pet.utils.Constances;
 import com.yianke.pet.view.activity.AgreeDetialActivity;
-import com.yianke.pet.view.activity.Zinxun_web;
 import com.yianke.pet.view.fragment.BaseFragment;
 import com.zhy.http.okhttp.OkHttpUtils;
 import com.zhy.http.okhttp.callback.StringCallback;
@@ -56,6 +58,10 @@ public class TuiJianFragment extends BaseFragment
     private List<MsgChildModel> mList;
     private All_daohang_bean all_daohang_bean;
     private List<All_daohang_bean.DataBean> dataBeanList;
+    private Zhixun_bean zhixun_bean;
+    private List<Zhixun_bean.DataBean> advdataBeen;
+    private List<String> imagesdata;
+    private List<String> tittles;
 
     //****************************Banner***************************//
     private List<View> mViewList;
@@ -66,18 +72,10 @@ public class TuiJianFragment extends BaseFragment
             switch (message.what){
                 case 1:
                     mList = new ArrayList<>();
-                    mList.add(new MsgChildModel(dataBeanList.get(0).getDescription(), true, true, dataBeanList.get(0).getAuthor(), 22000, R.drawable.tuijian1));
-                    mList.add(new MsgChildModel(dataBeanList.get(1).getDescription(), false, false, dataBeanList.get(1).getAuthor(), 1199, R.drawable.tuijian2));
-                    mList.add(new MsgChildModel(dataBeanList.get(2).getDescription(), false, false, dataBeanList.get(2).getAuthor(), 2298, R.drawable.tuijian3));
-                    mList.add(new MsgChildModel(dataBeanList.get(3).getDescription(), false, false, dataBeanList.get(3).getAuthor(), 1839, R.drawable.tuijian4));
-                    mList.add(new MsgChildModel(dataBeanList.get(4).getDescription(), true, false, dataBeanList.get(4).getAuthor(), 7599, R.drawable.tuijian5));
-                    mList.add(new MsgChildModel(dataBeanList.get(5).getDescription(), false, false, dataBeanList.get(5).getAuthor(), 32000, R.drawable.tuijian6));
-                    mList.add(new MsgChildModel(dataBeanList.get(6).getDescription(), false, false, dataBeanList.get(6).getAuthor(), 9678, R.drawable.tuijian7));
-                    mList.add(new MsgChildModel(dataBeanList.get(7).getDescription(), false, false, dataBeanList.get(7).getAuthor(), 11000, R.drawable.tuijian8));
-                    mList.add(new MsgChildModel(dataBeanList.get(8).getDescription(), false, false, dataBeanList.get(8).getAuthor(), 9119, R.drawable.tuijian9));
-                    mList.add(new MsgChildModel(dataBeanList.get(9).getDescription(), false, false, dataBeanList.get(9).getAuthor(), 3259, R.drawable.tuijian10));
-                    mList.add(new MsgChildModel(dataBeanList.get(10).getDescription(), false, false, dataBeanList.get(10).getAuthor(), 13000, R.drawable.tuijian11));
-                    mList.add(new MsgChildModel(dataBeanList.get(11).getDescription(), false, false, dataBeanList.get(11).getAuthor(), 5959, R.drawable.tuijian12));
+                    mList.add(new MsgChildModel(dataBeanList.get(0).getDescription(), true, true, dataBeanList.get(0).getAuthor(), 22000, dataBeanList.get(0).getArticleImage()));
+                    mList.add(new MsgChildModel(dataBeanList.get(1).getDescription(), false, false, dataBeanList.get(1).getAuthor(), 1199, dataBeanList.get(1).getArticleImage()));
+                    mList.add(new MsgChildModel(dataBeanList.get(2).getDescription(), false, false, dataBeanList.get(2).getAuthor(), 2298, dataBeanList.get(2).getArticleImage()));
+                    mList.add(new MsgChildModel(dataBeanList.get(3).getDescription(), false, false, dataBeanList.get(3).getAuthor(), 1839, dataBeanList.get(3).getArticleImage()));
 //                    mList.add(new MsgChildModel(dataBeanList.get(11).getDescription(), false, false, "云宁", 7879, R.drawable.tuijian13));
 //                    mList.add(new MsgChildModel(dataBeanList.get(13).getDescription(), false, false, "苗仔", 16000, R.drawable.tuijian14));
 //                    mList.add(new MsgChildModel(dataBeanList.get(14).getDescription(), false, false, "苗仔", 18000, R.drawable.tuijian15));
@@ -88,13 +86,48 @@ public class TuiJianFragment extends BaseFragment
                     mTuijianLists.setOnItemClickListener(new AdapterView.OnItemClickListener() {
                         @Override
                         public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-//                            Intent intent = new Intent(getContext(), Zinxun_web.class);
                             Intent intent = new Intent(getContext(), AgreeDetialActivity.class);
-                            intent.putExtra("id",dataBeanList.get(position).getId());
-                            intent.putExtra("navigation",dataBeanList.get(position).getNavigation());
+                           // Toast.makeText(getContext(),""+dataBeanList.get(position).getId(),Toast.LENGTH_SHORT).show();
+                            intent.putExtra("id",dataBeanList.get(position).getId() - 1);
                             startActivity(intent);
                         }
                     });
+                    break;
+                case 2:
+
+                    tittles.add(tittles.get(0).toString());
+                    tittles.add(tittles.get(1).toString());
+                    tittles.add(tittles.get(2).toString());
+                    tittles.add(tittles.get(1).toString());
+                    tittles.add(tittles.get(2).toString());
+
+                    imagesdata.add(imagesdata.get(0).toString());
+                    imagesdata.add(imagesdata.get(1).toString());
+                    imagesdata.add(imagesdata.get(2).toString());
+                    imagesdata.add(imagesdata.get(1).toString());
+                    imagesdata.add(imagesdata.get(2).toString());
+//                    private int[] images =//banner图片
+//                            {
+//                                    R.drawable.banner_tuijian1,
+//                                    R.drawable.banner_tuijian2,
+//                                    R.drawable.banner_tuijian3,
+//                                    R.drawable.banner_tuijian4,
+//                                    R.drawable.banner_tuijian5
+//                            };
+                    getalldata();
+//                     String[] titles =
+//                            {
+////                                    tittles.get(0).toString(),
+////                                    tittles.get(1).toString(),
+////                                    tittles.get(2).toString(),
+////                                    tittles.get(1).toString(),
+////                                    tittles.get(2).toString(),
+////                    "有宠福利购第八期来了，这次是个大手笔",
+////                    "世界献血日，宠物用血为何这么难",
+////                    "有宠福布斯：探秘名画中的狗，哪些狗是画家...",
+////                    "宠事儿：宅男网红养成记",
+////                    "名撕其实：你走过狗屎运吗？"
+//                            };
                     break;
             }
             return false;
@@ -102,22 +135,9 @@ public class TuiJianFragment extends BaseFragment
     });
 
 
-    private int[] images =//banner图片
-            {
-                    R.drawable.banner_tuijian1,
-                    R.drawable.banner_tuijian2,
-                    R.drawable.banner_tuijian3,
-                    R.drawable.banner_tuijian4,
-                    R.drawable.banner_tuijian5
-            };
-    private String[] titles =
-            {
-                    "有宠福利购第八期来了，这次是个大手笔",
-                    "世界献血日，宠物用血为何这么难",
-                    "有宠福布斯：探秘名画中的狗，哪些狗是画家...",
-                    "宠事儿：宅男网红养成记",
-                    "名撕其实：你走过狗屎运吗？"
-            };
+
+
+
 
     //指示器
     private ImageView mIndic1;
@@ -133,8 +153,8 @@ public class TuiJianFragment extends BaseFragment
         public void handleMessage(Message msg)
         {
             super.handleMessage(msg);
-            mBanner.setCurrentItem(msg.what % images.length);
-            Log.e("info", "+++++++++++++轮播开启！！！！++++++++++++++++>");
+//            mBanner.setCurrentItem(msg.what % imagesdata.size());
+//            Log.e("info", "+++++++++++++轮播开启！！！！++++++++++++++++>");
         }
     };
     private boolean isBanner = false;//是否开启轮播图片
@@ -171,6 +191,30 @@ public class TuiJianFragment extends BaseFragment
                     }
                 });
 
+
+
+
+    }
+
+    private void processlunbo(String response) {
+        zhixun_bean = JSOnparse(response);
+        advdataBeen = zhixun_bean.getData();
+
+        if (response!=null){
+            imagesdata = new ArrayList<>();
+            tittles = new ArrayList<>();
+            for (int i= 0;i<advdataBeen.size();i++){
+                tittles.add(advdataBeen.get(i).getBannerName());
+                imagesdata.add(advdataBeen.get(i).getBanndrUrl());
+
+            }
+
+            handler.sendEmptyMessage(2);
+        }
+    }
+
+    private Zhixun_bean JSOnparse(String response) {
+        return JSON.parseObject(response,Zhixun_bean.class);
     }
 
     private void processdata(String response) {
@@ -193,25 +237,13 @@ public class TuiJianFragment extends BaseFragment
         View header = LayoutInflater.from(getActivity()).inflate(R.layout.header_msg_tuijian, null);
         mTuijianLists.addHeaderView(header);
         mViewList = new ArrayList<>();
+        netwang();
 
         mIndic1 = (ImageView) header.findViewById(R.id.indic1);
         mIndic2 = (ImageView) header.findViewById(R.id.indic2);
         mIndic3 = (ImageView) header.findViewById(R.id.indic3);
         mIndic4 = (ImageView) header.findViewById(R.id.indic4);
         mIndic5 = (ImageView) header.findViewById(R.id.indic5);
-
-
-        //banner装配数据
-        for (int i = 0; i < 5; i++)
-        {
-            mView = LayoutInflater.from(getActivity()).inflate(R.layout.item_msg_tuijian_banner, null);
-            ImageView mBannerImage = (ImageView) mView.findViewById(R.id.banner_image);
-            TextView mBannerTitle = (TextView) mView.findViewById(R.id.banner_titles);
-
-            Picasso.with(getActivity()).load(images[i]).resize(400,205).into(mBannerImage);
-            mBannerTitle.setText(titles[i]);
-            mViewList.add(mView);
-        }
 
         mBanner = (ViewPager) header.findViewById(R.id.banner_ViewPager);
         mBanner.setAdapter(new HeaderViewPager());
@@ -260,6 +292,42 @@ public class TuiJianFragment extends BaseFragment
 
         isBanner = true;
         startBanner();
+    }
+
+    private void netwang() {
+        //轮播图
+        String urls  = Constants.FIND_TOP_BANNER_URL+"?data={'typeId':'1'}";
+        OkHttpUtils
+                .post()
+                .url(urls)
+                .build()
+                .execute(new StringCallback() {
+                    @Override
+                    public void onError(Call call, Exception e, int id) {
+
+                    }
+
+                    @Override
+                    public void onResponse(String response, int id) {
+                        processlunbo(response);
+                    }
+                });
+
+    }
+
+    private void getalldata() {
+
+        //banner装配数据
+        for (int i = 0; i < 5; i++)
+        {
+            mView = LayoutInflater.from(getActivity()).inflate(R.layout.item_msg_tuijian_banner, null);
+            ImageView mBannerImage = (ImageView) mView.findViewById(R.id.banner_image);
+            TextView mBannerTitle = (TextView) mView.findViewById(R.id.banner_titles);
+
+            Picasso.with(getActivity()).load(imagesdata.get(i)).resize(400,205).into(mBannerImage);
+            mBannerTitle.setText(tittles.get(i));
+            mViewList.add(mView);
+        }
     }
 
     @Override

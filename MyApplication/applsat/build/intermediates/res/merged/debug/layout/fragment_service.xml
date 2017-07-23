@@ -59,7 +59,7 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="专家在线"
+                        android:text="电话查询"
                         android:textColor="#000000"
                         android:textSize="50px"/>
 
@@ -67,7 +67,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="31px"
-                        android:text="宠物专家为您解答各类养宠疑问"
+                        android:text="本地知名商家电话查询"
                         android:textColor="#999999"
                         android:textSize="44px"/>
                 </com.zhy.autolayout.AutoLinearLayout>
@@ -120,7 +120,7 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="同城服务"
+                        android:text="政务办理"
                         android:textColor="#000000"
                         android:textSize="50px"/>
 
@@ -128,7 +128,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="31px"
-                        android:text="最齐全的宠物服务就在您身边"
+                        android:text="网上政务办事厅"
                         android:textColor="#999999"
                         android:textSize="44px"/>
                 </com.zhy.autolayout.AutoLinearLayout>
@@ -181,7 +181,7 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="养宠宝典"
+                        android:text="生活缴费"
                         android:textColor="#000000"
                         android:textSize="50px"/>
 
@@ -189,7 +189,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="31px"
-                        android:text="各类宝典助您成为养宠达人"
+                        android:text="水电气暖缴费"
                         android:textColor="#999999"
                         android:textSize="44px"/>
                 </com.zhy.autolayout.AutoLinearLayout>
@@ -242,7 +242,7 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="有宠智能"
+                        android:text="预约挂号"
                         android:textColor="#000000"
                         android:textSize="50px"/>
 
@@ -250,7 +250,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="31px"
-                        android:text="最专业智慧的养宠管家"
+                        android:text="附近医院快速预约挂号"
                         android:textColor="#999999"
                         android:textSize="44px"/>
                 </com.zhy.autolayout.AutoLinearLayout>
@@ -277,7 +277,7 @@
         <!--******************************************-->
 
         <!--有宠公益-->
-        <com.zhy.autolayout.AutoLinearLayout
+        <!--<com.zhy.autolayout.AutoLinearLayout
             android:layout_width="match_parent"
             android:layout_height="224px"
             android:layout_marginTop="42px"
@@ -306,7 +306,7 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="有宠公益"
+                        android:text="平安监控"
                         android:textColor="#000000"
                         android:textSize="50px"/>
 
@@ -338,7 +338,7 @@
             </com.zhy.autolayout.AutoRelativeLayout>
         </com.zhy.autolayout.AutoLinearLayout>
 
-        <!--专业认证-->
+        &lt;!&ndash;专业认证&ndash;&gt;
         <com.zhy.autolayout.AutoLinearLayout
             android:layout_width="match_parent"
             android:layout_height="224px"
@@ -399,7 +399,7 @@
             </com.zhy.autolayout.AutoRelativeLayout>
         </com.zhy.autolayout.AutoLinearLayout>
 
-        <!--商家入驻-->
+        &lt;!&ndash;商家入驻&ndash;&gt;
         <com.zhy.autolayout.AutoLinearLayout
             android:layout_marginBottom="358px"
             android:layout_width="match_parent"
@@ -459,7 +459,7 @@
                     android:layout_alignParentBottom="true"
                     android:background="#e7e7e7"/>
             </com.zhy.autolayout.AutoRelativeLayout>
-        </com.zhy.autolayout.AutoLinearLayout>
+        </com.zhy.autolayout.AutoLinearLayout>-->
 
     </com.zhy.autolayout.AutoLinearLayout>
 </ScrollView>

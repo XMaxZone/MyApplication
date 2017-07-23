@@ -1,7 +1,6 @@
 package com.yianke.pet.adapter;
 
 import android.content.Context;
-import android.net.Uri;
 import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -9,11 +8,9 @@ import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-import com.facebook.drawee.view.SimpleDraweeView;
 import com.squareup.picasso.Picasso;
 import com.yianke.pet.R;
 import com.yianke.pet.model.shop.Pintuan;
-import com.yianke.pet.utils.CacheImageView;
 import com.zhy.autolayout.utils.AutoUtils;
 
 import java.util.List;
@@ -81,7 +78,23 @@ public class PintuanAdapter extends RecyclerView.Adapter<PintuanAdapter.ViewHold
         {
             super(itemView);
             ButterKnife.bind(this, itemView);
+
+            itemView.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View view) {
+                    onItemclickListener.onItemClick(getAdapterPosition());
+                }
+            });
         }
     }
 
+    public interface  OnItemclickListener{
+        public void onItemClick(int position);
+    }
+
+    private OnItemclickListener onItemclickListener;
+
+    public void setOnItemclickListener(OnItemclickListener onItemclickListener){
+        this.onItemclickListener = onItemclickListener;
+    }
 }

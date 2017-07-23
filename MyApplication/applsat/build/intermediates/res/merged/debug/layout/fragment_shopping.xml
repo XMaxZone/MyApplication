@@ -101,14 +101,37 @@
 
     </com.zhy.autolayout.AutoRelativeLayout>
 
-    <ListView
-        android:id="@+id/shop_main"
-        android:dividerHeight="36px"
-        android:divider="#f4f4f4"
-        android:scrollbars="none"
+
+    <com.yianke.pet.Common.MyScrollview
         android:layout_marginTop="172px"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"/>
+        android:layout_height="match_parent">
+    <RelativeLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <com.yianke.pet.Common.Listview
+            android:id="@+id/shop_main"
+            android:dividerHeight="36px"
+            android:divider="#f4f4f4"
+            android:scrollbars="none"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <com.yianke.pet.Common.MyGridview
+            android:layout_below="@+id/shop_main"
+            android:id="@+id/mygridview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        </com.yianke.pet.Common.MyGridview>
+    </RelativeLayout>
+    </com.yianke.pet.Common.MyScrollview>
+
+
+
 
     <!--购物车-->
     <ImageView

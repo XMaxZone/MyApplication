@@ -45,8 +45,8 @@ public class GuanfangFRagment extends BaseFragment
             switch (msg.what){
                 case 1:
                     mList = new ArrayList<>();
-                    mList.add(new MsgChildModel(dataBeanList.get(0).getDescription(),false,false,dataBeanList.get(1).getAuthor(),499,R.drawable.guanfang1));
-                    mList.add(new MsgChildModel(dataBeanList.get(1).getDescription(),false,false,dataBeanList.get(1).getAuthor(),15000,R.drawable.guanfang2));
+                    mList.add(new MsgChildModel(dataBeanList.get(0).getDescription(),false,false,dataBeanList.get(1).getAuthor(),499,dataBeanList.get(0).getArticleImage()));
+                    mList.add(new MsgChildModel(dataBeanList.get(1).getDescription(),false,false,dataBeanList.get(1).getAuthor(),15000,dataBeanList.get(1).getArticleImage()));
 //                    mList.add(new MsgChildModel("这家最美宠物店，连鹿晗都要亲自做饭给店里员工吃！",false,false,"有宠小记者",49900,R.drawable.guanfang3));
 //                    mList.add(new MsgChildModel("【有宠推新品】“有宠蛋蛋”便携铲屎神器！",false,false,"有宠小记者",18000,R.drawable.guanfang4));
 //                    mList.add(new MsgChildModel("搞事情！有宠宠物生活会馆进驻广州禺万达~",true,false,"有宠小记者",17000,R.drawable.guanfang5));

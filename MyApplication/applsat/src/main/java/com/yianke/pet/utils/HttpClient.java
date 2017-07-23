@@ -2,7 +2,10 @@ package com.yianke.pet.utils;
 
 import android.util.Log;
 
+import com.alibaba.fastjson.JSONObject;
 import com.yianke.pet.Common.Constants;
+import com.zhy.http.okhttp.OkHttpUtils;
+import com.zhy.http.okhttp.callback.StringCallback;
 
 import java.io.IOException;
 
@@ -20,11 +23,11 @@ import okhttp3.Response;
 public class HttpClient {
 
 
-    private OkHttpClient okHttpClient;
+    public static OkHttpClient okHttpClient;
 
-    private Request.Builder builder;
+    public static Request.Builder builder;
 
-    private static final String TAG = "OkHttpRequest";
+    public static final String TAG = "OkHttpRequest";
 
     public HttpClient(){
         okHttpClient = new OkHttpClient();
@@ -57,9 +60,10 @@ public class HttpClient {
      * @param parame 请求参数
      * @return
      */
-    public String HttpPostRequest(String url ,String parame){
+    public String HttpPostRequest(String url ,JSONObject parame){
         String result = "";
-        RequestBody body = RequestBody.create(Constants.REQUEST_PARAMERS_TYPE_JSON, parame);
+        String JSON = "data"+parame.toString();
+        RequestBody body = RequestBody.create(Constants.REQUEST_PARAMERS_TYPE_JSON, JSON);
         Request request = new Request.Builder().url(url).post(body).build();
         Response response = null;
         try {
@@ -74,6 +78,29 @@ public class HttpClient {
         }
         return result;
     }
+
+    public String GetHttpdata(String url ){
+        final String result = "";
+        OkHttpUtils.post()
+                .url(url)
+                .build()
+                .execute(new StringCallback() {
+                    @Override
+                    public void onError(Call call, Exception e, int id) {
+                            Log.e("TAG","error"+e);
+                    }
+
+                    @Override
+                    public void onResponse(String response, int id) {
+                            Log.e("TAG","succeend"+response);
+
+                    }
+                });
+        return result;
+    }
+
+
+
 
 
 }

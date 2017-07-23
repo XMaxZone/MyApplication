@@ -15,6 +15,6 @@
         android:layout_height="match_parent"
         android:adjustViewBounds="true"
         fresco:actualImageScaleType="centerCrop"
-        fresco:placeholderImage="@mipmap/launcher_bg"/>
+        fresco:placeholderImage="@mipmap/ic_launcher" />
 
 </com.zhy.autolayout.AutoLinearLayout>

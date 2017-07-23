@@ -15,13 +15,13 @@ import java.lang.Override;
 public class LoginActivity_ViewBinding<T extends LoginActivity> implements Unbinder {
   protected T target;
 
-  private View view2131558719;
+  private View view2131558760;
 
-  private View view2131558562;
+  private View view2131558578;
 
-  private View view2131558563;
+  private View view2131558579;
 
-  private View view2131558564;
+  private View view2131558580;
 
   @UiThread
   public LoginActivity_ViewBinding(final T target, View source) {
@@ -30,7 +30,7 @@ public class LoginActivity_ViewBinding<T extends LoginActivity> implements Unbin
     View view;
     target.mTopText = Utils.findRequiredViewAsType(source, R.id.top_text, "field 'mTopText'", TextView.class);
     view = Utils.findRequiredView(source, R.id.top_back, "method 'onViewClicked'");
-    view2131558719 = view;
+    view2131558760 = view;
     view.setOnClickListener(new DebouncingOnClickListener() {
       @Override
       public void doClick(View p0) {
@@ -38,7 +38,7 @@ public class LoginActivity_ViewBinding<T extends LoginActivity> implements Unbin
       }
     });
     view = Utils.findRequiredView(source, R.id.login_miss, "method 'onViewClicked'");
-    view2131558562 = view;
+    view2131558578 = view;
     view.setOnClickListener(new DebouncingOnClickListener() {
       @Override
       public void doClick(View p0) {
@@ -46,7 +46,7 @@ public class LoginActivity_ViewBinding<T extends LoginActivity> implements Unbin
       }
     });
     view = Utils.findRequiredView(source, R.id.login_btn, "method 'onViewClicked'");
-    view2131558563 = view;
+    view2131558579 = view;
     view.setOnClickListener(new DebouncingOnClickListener() {
       @Override
       public void doClick(View p0) {
@@ -54,7 +54,7 @@ public class LoginActivity_ViewBinding<T extends LoginActivity> implements Unbin
       }
     });
     view = Utils.findRequiredView(source, R.id.login_more, "method 'onViewClicked'");
-    view2131558564 = view;
+    view2131558580 = view;
     view.setOnClickListener(new DebouncingOnClickListener() {
       @Override
       public void doClick(View p0) {
@@ -71,14 +71,14 @@ public class LoginActivity_ViewBinding<T extends LoginActivity> implements Unbin
 
     target.mTopText = null;
 
-    view2131558719.setOnClickListener(null);
-    view2131558719 = null;
-    view2131558562.setOnClickListener(null);
-    view2131558562 = null;
-    view2131558563.setOnClickListener(null);
-    view2131558563 = null;
-    view2131558564.setOnClickListener(null);
-    view2131558564 = null;
+    view2131558760.setOnClickListener(null);
+    view2131558760 = null;
+    view2131558578.setOnClickListener(null);
+    view2131558578 = null;
+    view2131558579.setOnClickListener(null);
+    view2131558579 = null;
+    view2131558580.setOnClickListener(null);
+    view2131558580 = null;
 
     this.target = null;
   }

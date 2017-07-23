@@ -44,8 +44,8 @@ public class YaowenFragment extends BaseFragment
             switch (message.what){
                 case 1:
                     mList = new ArrayList<>();
-                    mList.add(new MsgChildModel(dataBeanList.get(0).getArticleName(),false,false,dataBeanList.get(0).getAuthor(),4191,R.drawable.yaowen1));
-                    mList.add(new MsgChildModel(dataBeanList.get(1).getArticleName(),false,false,dataBeanList.get(1).getAuthor(),5178,R.drawable.yaowen2));
+                    mList.add(new MsgChildModel(dataBeanList.get(0).getArticleName(),false,false,dataBeanList.get(0).getAuthor(),4191,dataBeanList.get(0).getArticleImage()));
+                    mList.add(new MsgChildModel(dataBeanList.get(1).getArticleName(),false,false,dataBeanList.get(1).getAuthor(),5178,dataBeanList.get(0).getArticleImage()));
 //                    mList.add(new MsgChildModel(dataBeanList.get(2).getArticleName(),false,false,"",4679,R.drawable.yaowen3));
 //                    mList.add(new MsgChildModel(dataBeanList.get(3).getArticleName(),false,false,"",8209,R.drawable.yaowen4));
 //                    mList.add(new MsgChildModel(dataBeanList.get(4).getArticleName(),false,false,"",5038,R.drawable.yaowen5));

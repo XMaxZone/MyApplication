@@ -1,6 +1,7 @@
 package com.yianke.pet.model.home;
 
 import com.yianke.pet.R;
+import com.yianke.pet.bean.Posts;
 
 import java.util.List;
 import java.util.Map;
@@ -22,6 +23,8 @@ public class JXModel
     private String petType;
     private int mainImg;
     private String descript;
+    private List<Posts> data;
+
 
 
     public JXModel()
@@ -33,6 +36,14 @@ public class JXModel
         this.petName = "豌豆";
         this.petType = "小小柯基犬";
         this.mainImg = R.drawable.jx_main;
+    }
+
+    public List<Posts> getData() {
+        return data;
+    }
+
+    public void setData(List<Posts> data) {
+        this.data = data;
     }
 
     public int getHeaderImg()

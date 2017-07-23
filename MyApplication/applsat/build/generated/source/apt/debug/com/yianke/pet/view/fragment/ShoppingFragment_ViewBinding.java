@@ -4,9 +4,9 @@ package com.yianke.pet.view.fragment;
 import android.support.annotation.CallSuper;
 import android.support.annotation.UiThread;
 import android.view.View;
-import android.widget.ListView;
 import butterknife.Unbinder;
 import butterknife.internal.Utils;
+import com.yianke.pet.Common.Listview;
 import com.yianke.pet.R;
 import java.lang.IllegalStateException;
 import java.lang.Override;
@@ -18,7 +18,7 @@ public class ShoppingFragment_ViewBinding<T extends ShoppingFragment> implements
   public ShoppingFragment_ViewBinding(T target, View source) {
     this.target = target;
 
-    target.mShopMain = Utils.findRequiredViewAsType(source, R.id.shop_main, "field 'mShopMain'", ListView.class);
+    target.mShopMain = Utils.findRequiredViewAsType(source, R.id.shop_main, "field 'mShopMain'", Listview.class);
   }
 
   @Override

@@ -46,8 +46,8 @@ public class XuetangFragment extends BaseFragment
             switch (msg.what){
                 case 1:
                     mList = new ArrayList<>();
-                    mList.add(new MsgChildModel(dataBeanList.get(0).getDescription(),false,false,dataBeanList.get(0).getAuthor(),52000,R.drawable.xuetang1));
-                    mList.add(new MsgChildModel(dataBeanList.get(1).getDescription(),false,false,dataBeanList.get(1).getAuthor(),1000,R.drawable.xuetang2));
+                    mList.add(new MsgChildModel(dataBeanList.get(0).getDescription(),false,false,dataBeanList.get(0).getAuthor(),52000,dataBeanList.get(0).getArticleImage()));
+                    mList.add(new MsgChildModel(dataBeanList.get(1).getDescription(),false,false,dataBeanList.get(1).getAuthor(),1000,dataBeanList.get(1).getArticleImage()));
 //                    mList.add(new MsgChildModel("子宫蓄脓+膀胱结石=小宝的痛苦",false,false,"派美特长青宠物医院",1000,R.drawable.xuetang3));
 //                    mList.add(new MsgChildModel("炎炎夏日，狂洗澡&剃光狗狗的毛就对了？",false,false,"哦四姑",10000,R.drawable.xuetang4));
 //                    mList.add(new MsgChildModel("市面疫苗种类那么多，我们该怎么选择？",false,false,"来份豆沙包",2658,R.drawable.xuetang5));

@@ -7,6 +7,7 @@
     android:fillViewport="true"
     android:orientation="vertical"
     android:scrollbars="none">
+    <!--我说的AS背景  好嘞-->
 
     <com.zhy.autolayout.AutoLinearLayout
         android:layout_width="match_parent"
@@ -56,7 +57,7 @@
                 android:layout_marginBottom="28px"
                 android:layout_marginLeft="42px"
                 android:layout_marginTop="28px"
-                android:src="@drawable/default_pet_middle"/>
+                android:src="@mipmap/ic_launcher"/>
 
             <com.zhy.autolayout.AutoLinearLayout
                 android:layout_width="wrap_content"
@@ -75,7 +76,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center_vertical"
-                        android:text="赵若位"
+                        android:text="小乔"
                         android:textColor="#000000"
                         android:textSize="59px"/>
 
@@ -97,7 +98,7 @@
                         android:background="@drawable/level_bg_19_24"
                         android:gravity="center"
                         android:scaleType="centerCrop"
-                        android:text="Lv2"
+                        android:text="Lv8"
                         android:textColor="#5e290e"
                         android:textSize="19px"/>
 
@@ -194,7 +195,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="27px"
-                    android:text="遛宠"
+                    android:text="活动"
                     android:textColor="#666666"
                     android:textSize="35px"/>
             </com.zhy.autolayout.AutoLinearLayout>
@@ -257,7 +258,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="45px"
-                    android:text="宠钻"
+                    android:text="牛币"
                     android:textColor="#666666"
                     android:textSize="40px"/>
             </com.zhy.autolayout.AutoLinearLayout>
@@ -280,7 +281,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="45px"
-                    android:text="宠币"
+                    android:text="余额"
                     android:textColor="#666666"
                     android:textSize="40px"/>
             </com.zhy.autolayout.AutoLinearLayout>
@@ -344,7 +345,7 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_vertical"
                 android:layout_marginLeft="50px"
-                android:text="日常管理"
+                android:text="与我相关"
                 android:textColor="#464646"
                 android:textSize="47px"/>
         </com.zhy.autolayout.AutoLinearLayout>
@@ -375,7 +376,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="43px"
-                    android:text="宠物"
+                    android:text="与我相关"
                     android:textColor="#666666"
                     android:textSize="40px"/>
             </com.zhy.autolayout.AutoLinearLayout>
@@ -386,7 +387,7 @@
                 android:layout_gravity="center"
                 android:background="#f4f4f4"/>
 
-            <com.zhy.autolayout.AutoLinearLayout
+            <!--<com.zhy.autolayout.AutoLinearLayout
                 android:layout_width="0px"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
@@ -407,9 +408,9 @@
                     android:text="宠友"
                     android:textColor="#666666"
                     android:textSize="40px"/>
-            </com.zhy.autolayout.AutoLinearLayout>
+            </com.zhy.autolayout.AutoLinearLayout>-->
 
-            <TextView
+            <!--<TextView
                 android:layout_width="1px"
                 android:layout_height="91px"
                 android:layout_gravity="center"
@@ -436,7 +437,7 @@
                     android:text="社区"
                     android:textColor="#666666"
                     android:textSize="40px"/>
-            </com.zhy.autolayout.AutoLinearLayout>
+            </com.zhy.autolayout.AutoLinearLayout>-->
 
             <TextView
                 android:layout_width="1px"
@@ -679,7 +680,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="37px"
-                    android:text="账户明细"
+                    android:text="交易明细"
                     android:textColor="#666666"
                     android:textSize="40px"/>
             </com.zhy.autolayout.AutoLinearLayout>
@@ -721,7 +722,7 @@
                 android:background="#f4f4f4"/>
 
             <!--游戏中心-->
-            <com.zhy.autolayout.AutoLinearLayout
+            <!--<com.zhy.autolayout.AutoLinearLayout
                 android:layout_width="0px"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
@@ -742,7 +743,7 @@
                     android:text="游戏中心"
                     android:textColor="#666666"
                     android:textSize="40px"/>
-            </com.zhy.autolayout.AutoLinearLayout>
+            </com.zhy.autolayout.AutoLinearLayout>-->
 
             <TextView
                 android:layout_width="2px"

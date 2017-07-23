@@ -1,23 +1,15 @@
 [
     {
-        "merged": "/newProject/xiaoyongfinally/xiaoyongfinally/MyApplication/C:\\Users\\Administrator\\Documents\\Tencent Files\\974271908\\FileRecv\\xiaoyongfinally\\xiaoyongfinally\\MyApplication\\applsat\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_item_material.xml",
-        "source": "/newProject/xiaoyongfinally/xiaoyongfinally/MyApplication/C:\\Users\\Administrator\\.android\\build-cache\\1dc6c3b7d40b8fe9d3e38e3fb0a2101fe97b1cef\\output\\res\\layout\\select_dialog_item_material.xml"
-    },
-    {
-        "merged": "/newProject/xiaoyongfinally/xiaoyongfinally/MyApplication/C:\\Users\\Administrator\\Documents\\Tencent Files\\974271908\\FileRecv\\xiaoyongfinally\\xiaoyongfinally\\MyApplication\\applsat\\build\\intermediates\\res\\merged\\debug\\layout\\abc_popup_menu_header_item_layout.xml",
-        "source": "/newProject/xiaoyongfinally/xiaoyongfinally/MyApplication/C:\\Users\\Administrator\\.android\\build-cache\\1dc6c3b7d40b8fe9d3e38e3fb0a2101fe97b1cef\\output\\res\\layout\\abc_popup_menu_header_item_layout.xml"
-    },
-    {
         "merged": "/newProject/xiaoyongfinally/xiaoyongfinally/MyApplication/applsat/build/intermediates/res/merged/debug/layout/design_menu_item_action_area.xml",
         "source": "/Users/huc/.android/build-cache/36601ce09cf6a54002e1f6970317cc6513553c71/output/res/layout/design_menu_item_action_area.xml"
     },
     {
-        "merged": "/newProject/xiaoyongfinally/xiaoyongfinally/MyApplication/applsat/build/intermediates/res/merged/debug/layout/abc_select_dialog_material.xml",
-        "source": "/Users/huc/.android/build-cache/76a5113bb4036eac0b4307f578c9425c04a9399c/output/res/layout/abc_select_dialog_material.xml"
+        "merged": "/newProject/xiaoyongfinally/xiaoyongfinally/MyApplication/applsat/build/intermediates/res/merged/debug/layout/item_shop_cart.xml",
+        "source": "/newProject/xiaoyongfinally/xiaoyongfinally/MyApplication/applsat/src/main/res/layout/item_shop_cart.xml"
     },
     {
-        "merged": "/newProject/xiaoyongfinally/xiaoyongfinally/MyApplication/C:\\Users\\Administrator\\Documents\\Tencent Files\\974271908\\FileRecv\\xiaoyongfinally\\xiaoyongfinally\\MyApplication\\applsat\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_layout.xml",
-        "source": "/newProject/xiaoyongfinally/xiaoyongfinally/MyApplication/C:\\Users\\Administrator\\.android\\build-cache\\1dc6c3b7d40b8fe9d3e38e3fb0a2101fe97b1cef\\output\\res\\layout\\abc_list_menu_item_layout.xml"
+        "merged": "/newProject/xiaoyongfinally/xiaoyongfinally/MyApplication/applsat/build/intermediates/res/merged/debug/layout/abc_select_dialog_material.xml",
+        "source": "/Users/huc/.android/build-cache/76a5113bb4036eac0b4307f578c9425c04a9399c/output/res/layout/abc_select_dialog_material.xml"
     },
     {
         "merged": "/newProject/xiaoyongfinally/xiaoyongfinally/MyApplication/applsat/build/intermediates/res/merged/debug/layout/design_navigation_item_subheader.xml",
@@ -28,24 +20,16 @@
         "source": "/Users/huc/.android/build-cache/76a5113bb4036eac0b4307f578c9425c04a9399c/output/res/layout/select_dialog_multichoice_material.xml"
     },
     {
-        "merged": "/newProject/xiaoyongfinally/xiaoyongfinally/MyApplication/C:\\Users\\Administrator\\Documents\\Tencent Files\\974271908\\FileRecv\\xiaoyongfinally\\xiaoyongfinally\\MyApplication\\applsat\\build\\intermediates\\res\\merged\\debug\\layout\\abc_dialog_title_material.xml",
-        "source": "/newProject/xiaoyongfinally/xiaoyongfinally/MyApplication/C:\\Users\\Administrator\\.android\\build-cache\\1dc6c3b7d40b8fe9d3e38e3fb0a2101fe97b1cef\\output\\res\\layout\\abc_dialog_title_material.xml"
-    },
-    {
         "merged": "/newProject/xiaoyongfinally/xiaoyongfinally/MyApplication/applsat/build/intermediates/res/merged/debug/layout/activity_leader.xml",
         "source": "/newProject/xiaoyongfinally/xiaoyongfinally/MyApplication/applsat/src/main/res/layout/activity_leader.xml"
-    },
-    {
-        "merged": "/newProject/xiaoyongfinally/xiaoyongfinally/MyApplication/applsat/build/intermediates/res/merged/debug/layout/fragment_xuetang.xml",
-        "source": "/newProject/xiaoyongfinally/xiaoyongfinally/MyApplication/applsat/src/main/res/layout/fragment_xuetang.xml"
     },
     {
         "merged": "/newProject/xiaoyongfinally/xiaoyongfinally/MyApplication/applsat/build/intermediates/res/merged/debug/layout/activity_agree_detial.xml",
         "source": "/newProject/xiaoyongfinally/xiaoyongfinally/MyApplication/applsat/src/main/res/layout/activity_agree_detial.xml"
     },
     {
-        "merged": "/newProject/xiaoyongfinally/xiaoyongfinally/MyApplication/C:\\Users\\Administrator\\Documents\\Tencent Files\\974271908\\FileRecv\\xiaoyongfinally\\xiaoyongfinally\\MyApplication\\applsat\\build\\intermediates\\res\\merged\\debug\\layout\\abc_alert_dialog_material.xml",
-        "source": "/newProject/xiaoyongfinally/xiaoyongfinally/MyApplication/C:\\Users\\Administrator\\.android\\build-cache\\1dc6c3b7d40b8fe9d3e38e3fb0a2101fe97b1cef\\output\\res\\layout\\abc_alert_dialog_material.xml"
+        "merged": "/newProject/xiaoyongfinally/xiaoyongfinally/MyApplication/applsat/build/intermediates/res/merged/debug/layout/fragment_xuetang.xml",
+        "source": "/newProject/xiaoyongfinally/xiaoyongfinally/MyApplication/applsat/src/main/res/layout/fragment_xuetang.xml"
     },
     {
         "merged": "/newProject/xiaoyongfinally/xiaoyongfinally/MyApplication/applsat/build/intermediates/res/merged/debug/layout/abc_screen_content_include.xml",
@@ -56,28 +40,20 @@
         "source": "/Users/huc/.android/build-cache/76a5113bb4036eac0b4307f578c9425c04a9399c/output/res/layout/abc_list_menu_item_radio.xml"
     },
     {
-        "merged": "/newProject/xiaoyongfinally/xiaoyongfinally/MyApplication/applsat/build/intermediates/res/merged/debug/layout/abc_action_mode_bar.xml",
-        "source": "/Users/huc/.android/build-cache/76a5113bb4036eac0b4307f578c9425c04a9399c/output/res/layout/abc_action_mode_bar.xml"
+        "merged": "/newProject/xiaoyongfinally/xiaoyongfinally/MyApplication/applsat/build/intermediates/res/merged/debug/layout/abc_list_menu_item_icon.xml",
+        "source": "/Users/huc/.android/build-cache/76a5113bb4036eac0b4307f578c9425c04a9399c/output/res/layout/abc_list_menu_item_icon.xml"
     },
     {
         "merged": "/newProject/xiaoyongfinally/xiaoyongfinally/MyApplication/applsat/build/intermediates/res/merged/debug/layout/item_shopping_footer.xml",
         "source": "/newProject/xiaoyongfinally/xiaoyongfinally/MyApplication/applsat/src/main/res/layout/item_shopping_footer.xml"
     },
     {
-        "merged": "/newProject/xiaoyongfinally/xiaoyongfinally/MyApplication/applsat/build/intermediates/res/merged/debug/layout/abc_list_menu_item_icon.xml",
-        "source": "/Users/huc/.android/build-cache/76a5113bb4036eac0b4307f578c9425c04a9399c/output/res/layout/abc_list_menu_item_icon.xml"
-    },
-    {
-        "merged": "/newProject/xiaoyongfinally/xiaoyongfinally/MyApplication/C:\\Users\\Administrator\\Documents\\Tencent Files\\974271908\\FileRecv\\xiaoyongfinally\\xiaoyongfinally\\MyApplication\\applsat\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item_subheader.xml",
-        "source": "/newProject/xiaoyongfinally/xiaoyongfinally/MyApplication/C:\\Users\\Administrator\\.android\\build-cache\\6332a33ac9620b7dcbb09ca4e43011b5bac4a7eb\\output\\res\\layout\\design_navigation_item_subheader.xml"
+        "merged": "/newProject/xiaoyongfinally/xiaoyongfinally/MyApplication/applsat/build/intermediates/res/merged/debug/layout/abc_action_mode_bar.xml",
+        "source": "/Users/huc/.android/build-cache/76a5113bb4036eac0b4307f578c9425c04a9399c/output/res/layout/abc_action_mode_bar.xml"
     },
     {
         "merged": "/newProject/xiaoyongfinally/xiaoyongfinally/MyApplication/applsat/build/intermediates/res/merged/debug/layout/fragment_pd.xml",
         "source": "/newProject/xiaoyongfinally/xiaoyongfinally/MyApplication/applsat/src/main/res/layout/fragment_pd.xml"
-    },
-    {
-        "merged": "/newProject/xiaoyongfinally/xiaoyongfinally/MyApplication/C:\\Users\\Administrator\\Documents\\Tencent Files\\974271908\\FileRecv\\xiaoyongfinally\\xiaoyongfinally\\MyApplication\\applsat\\build\\intermediates\\res\\merged\\debug\\layout\\abc_activity_chooser_view.xml",
-        "source": "/newProject/xiaoyongfinally/xiaoyongfinally/MyApplication/C:\\Users\\Administrator\\.android\\build-cache\\1dc6c3b7d40b8fe9d3e38e3fb0a2101fe97b1cef\\output\\res\\layout\\abc_activity_chooser_view.xml"
     },
     {
         "merged": "/newProject/xiaoyongfinally/xiaoyongfinally/MyApplication/applsat/build/intermediates/res/merged/debug/layout/fragment_tuijian.xml",
@@ -88,24 +64,8 @@
         "source": "/Users/huc/.android/build-cache/76a5113bb4036eac0b4307f578c9425c04a9399c/output/res/layout/abc_action_menu_layout.xml"
     },
     {
-        "merged": "/newProject/xiaoyongfinally/xiaoyongfinally/MyApplication/C:\\Users\\Administrator\\Documents\\Tencent Files\\974271908\\FileRecv\\xiaoyongfinally\\xiaoyongfinally\\MyApplication\\applsat\\build\\intermediates\\res\\merged\\debug\\layout\\header_jx.xml",
-        "source": "/newProject/xiaoyongfinally/xiaoyongfinally/MyApplication/C:\\Users\\Administrator\\Documents\\Tencent Files\\974271908\\FileRecv\\xiaoyongfinally\\xiaoyongfinally\\MyApplication\\applsat\\src\\main\\res\\layout\\header_jx.xml"
-    },
-    {
-        "merged": "/newProject/xiaoyongfinally/xiaoyongfinally/MyApplication/C:\\Users\\Administrator\\Documents\\Tencent Files\\974271908\\FileRecv\\xiaoyongfinally\\xiaoyongfinally\\MyApplication\\applsat\\build\\intermediates\\res\\merged\\debug\\layout\\item_home_jx.xml",
-        "source": "/newProject/xiaoyongfinally/xiaoyongfinally/MyApplication/C:\\Users\\Administrator\\Documents\\Tencent Files\\974271908\\FileRecv\\xiaoyongfinally\\xiaoyongfinally\\MyApplication\\applsat\\src\\main\\res\\layout\\item_home_jx.xml"
-    },
-    {
-        "merged": "/newProject/xiaoyongfinally/xiaoyongfinally/MyApplication/C:\\Users\\Administrator\\Documents\\Tencent Files\\974271908\\FileRecv\\xiaoyongfinally\\xiaoyongfinally\\MyApplication\\applsat\\build\\intermediates\\res\\merged\\debug\\layout\\activity_main.xml",
-        "source": "/newProject/xiaoyongfinally/xiaoyongfinally/MyApplication/C:\\Users\\Administrator\\Documents\\Tencent Files\\974271908\\FileRecv\\xiaoyongfinally\\xiaoyongfinally\\MyApplication\\applsat\\src\\main\\res\\layout\\activity_main.xml"
-    },
-    {
         "merged": "/newProject/xiaoyongfinally/xiaoyongfinally/MyApplication/applsat/build/intermediates/res/merged/debug/layout/abc_action_mode_close_item_material.xml",
         "source": "/Users/huc/.android/build-cache/76a5113bb4036eac0b4307f578c9425c04a9399c/output/res/layout/abc_action_mode_close_item_material.xml"
-    },
-    {
-        "merged": "/newProject/xiaoyongfinally/xiaoyongfinally/MyApplication/C:\\Users\\Administrator\\Documents\\Tencent Files\\974271908\\FileRecv\\xiaoyongfinally\\xiaoyongfinally\\MyApplication\\applsat\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item_separator.xml",
-        "source": "/newProject/xiaoyongfinally/xiaoyongfinally/MyApplication/C:\\Users\\Administrator\\.android\\build-cache\\6332a33ac9620b7dcbb09ca4e43011b5bac4a7eb\\output\\res\\layout\\design_navigation_item_separator.xml"
     },
     {
         "merged": "/newProject/xiaoyongfinally/xiaoyongfinally/MyApplication/applsat/build/intermediates/res/merged/debug/layout/design_layout_snackbar.xml",
@@ -116,72 +76,32 @@
         "source": "/newProject/xiaoyongfinally/xiaoyongfinally/MyApplication/applsat/src/main/res/layout/header_msg_tuijian.xml"
     },
     {
-        "merged": "/newProject/xiaoyongfinally/xiaoyongfinally/MyApplication/applsat/build/intermediates/res/merged/debug/layout/abc_list_menu_item_checkbox.xml",
-        "source": "/Users/huc/.android/build-cache/76a5113bb4036eac0b4307f578c9425c04a9399c/output/res/layout/abc_list_menu_item_checkbox.xml"
-    },
-    {
         "merged": "/newProject/xiaoyongfinally/xiaoyongfinally/MyApplication/applsat/build/intermediates/res/merged/debug/layout/item_pintuan.xml",
         "source": "/newProject/xiaoyongfinally/xiaoyongfinally/MyApplication/applsat/src/main/res/layout/item_pintuan.xml"
     },
     {
-        "merged": "/newProject/xiaoyongfinally/xiaoyongfinally/MyApplication/C:\\Users\\Administrator\\Documents\\Tencent Files\\974271908\\FileRecv\\xiaoyongfinally\\xiaoyongfinally\\MyApplication\\applsat\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_part_time.xml",
-        "source": "/newProject/xiaoyongfinally/xiaoyongfinally/MyApplication/C:\\Users\\Administrator\\.android\\build-cache\\1dc6c3b7d40b8fe9d3e38e3fb0a2101fe97b1cef\\output\\res\\layout\\notification_template_part_time.xml"
-    },
-    {
-        "merged": "/newProject/xiaoyongfinally/xiaoyongfinally/MyApplication/C:\\Users\\Administrator\\Documents\\Tencent Files\\974271908\\FileRecv\\xiaoyongfinally\\xiaoyongfinally\\MyApplication\\applsat\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_zhazi.xml",
-        "source": "/newProject/xiaoyongfinally/xiaoyongfinally/MyApplication/C:\\Users\\Administrator\\Documents\\Tencent Files\\974271908\\FileRecv\\xiaoyongfinally\\xiaoyongfinally\\MyApplication\\applsat\\src\\main\\res\\layout\\fragment_zhazi.xml"
-    },
-    {
-        "merged": "/newProject/xiaoyongfinally/xiaoyongfinally/MyApplication/C:\\Users\\Administrator\\Documents\\Tencent Files\\974271908\\FileRecv\\xiaoyongfinally\\xiaoyongfinally\\MyApplication\\applsat\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_content_include.xml",
-        "source": "/newProject/xiaoyongfinally/xiaoyongfinally/MyApplication/C:\\Users\\Administrator\\.android\\build-cache\\1dc6c3b7d40b8fe9d3e38e3fb0a2101fe97b1cef\\output\\res\\layout\\abc_screen_content_include.xml"
-    },
-    {
-        "merged": "/newProject/xiaoyongfinally/xiaoyongfinally/MyApplication/C:\\Users\\Administrator\\Documents\\Tencent Files\\974271908\\FileRecv\\xiaoyongfinally\\xiaoyongfinally\\MyApplication\\applsat\\build\\intermediates\\res\\merged\\debug\\layout\\item_shopping.xml",
-        "source": "/newProject/xiaoyongfinally/xiaoyongfinally/MyApplication/C:\\Users\\Administrator\\Documents\\Tencent Files\\974271908\\FileRecv\\xiaoyongfinally\\xiaoyongfinally\\MyApplication\\applsat\\src\\main\\res\\layout\\item_shopping.xml"
-    },
-    {
-        "merged": "/newProject/xiaoyongfinally/xiaoyongfinally/MyApplication/C:\\Users\\Administrator\\Documents\\Tencent Files\\974271908\\FileRecv\\xiaoyongfinally\\xiaoyongfinally\\MyApplication\\applsat\\build\\intermediates\\res\\merged\\debug\\layout\\design_layout_tab_text.xml",
-        "source": "/newProject/xiaoyongfinally/xiaoyongfinally/MyApplication/C:\\Users\\Administrator\\.android\\build-cache\\6332a33ac9620b7dcbb09ca4e43011b5bac4a7eb\\output\\res\\layout\\design_layout_tab_text.xml"
+        "merged": "/newProject/xiaoyongfinally/xiaoyongfinally/MyApplication/applsat/build/intermediates/res/merged/debug/layout/abc_list_menu_item_checkbox.xml",
+        "source": "/Users/huc/.android/build-cache/76a5113bb4036eac0b4307f578c9425c04a9399c/output/res/layout/abc_list_menu_item_checkbox.xml"
     },
     {
         "merged": "/newProject/xiaoyongfinally/xiaoyongfinally/MyApplication/applsat/build/intermediates/res/merged/debug/layout/design_navigation_item_header.xml",
         "source": "/Users/huc/.android/build-cache/36601ce09cf6a54002e1f6970317cc6513553c71/output/res/layout/design_navigation_item_header.xml"
     },
     {
-        "merged": "/newProject/xiaoyongfinally/xiaoyongfinally/MyApplication/C:\\Users\\Administrator\\Documents\\Tencent Files\\974271908\\FileRecv\\xiaoyongfinally\\xiaoyongfinally\\MyApplication\\applsat\\build\\intermediates\\res\\merged\\debug\\layout\\activity_register.xml",
-        "source": "/newProject/xiaoyongfinally/xiaoyongfinally/MyApplication/C:\\Users\\Administrator\\Documents\\Tencent Files\\974271908\\FileRecv\\xiaoyongfinally\\xiaoyongfinally\\MyApplication\\applsat\\src\\main\\res\\layout\\activity_register.xml"
-    },
-    {
-        "merged": "/newProject/xiaoyongfinally/xiaoyongfinally/MyApplication/C:\\Users\\Administrator\\Documents\\Tencent Files\\974271908\\FileRecv\\xiaoyongfinally\\xiaoyongfinally\\MyApplication\\applsat\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_menu.xml",
-        "source": "/newProject/xiaoyongfinally/xiaoyongfinally/MyApplication/C:\\Users\\Administrator\\.android\\build-cache\\6332a33ac9620b7dcbb09ca4e43011b5bac4a7eb\\output\\res\\layout\\design_navigation_menu.xml"
-    },
-    {
-        "merged": "/newProject/xiaoyongfinally/xiaoyongfinally/MyApplication/C:\\Users\\Administrator\\Documents\\Tencent Files\\974271908\\FileRecv\\xiaoyongfinally\\xiaoyongfinally\\MyApplication\\applsat\\build\\intermediates\\res\\merged\\debug\\layout\\activity_agree_detial.xml",
-        "source": "/newProject/xiaoyongfinally/xiaoyongfinally/MyApplication/C:\\Users\\Administrator\\Documents\\Tencent Files\\974271908\\FileRecv\\xiaoyongfinally\\xiaoyongfinally\\MyApplication\\applsat\\src\\main\\res\\layout\\activity_agree_detial.xml"
-    },
-    {
-        "merged": "/newProject/xiaoyongfinally/xiaoyongfinally/MyApplication/applsat/build/intermediates/res/merged/debug/layout/fragment_shopping.xml",
-        "source": "/newProject/xiaoyongfinally/xiaoyongfinally/MyApplication/applsat/src/main/res/layout/fragment_shopping.xml"
+        "merged": "/newProject/xiaoyongfinally/xiaoyongfinally/MyApplication/applsat/build/intermediates/res/merged/debug/layout/design_navigation_menu_item.xml",
+        "source": "/Users/huc/.android/build-cache/36601ce09cf6a54002e1f6970317cc6513553c71/output/res/layout/design_navigation_menu_item.xml"
     },
     {
         "merged": "/newProject/xiaoyongfinally/xiaoyongfinally/MyApplication/applsat/build/intermediates/res/merged/debug/layout/notification_template_media.xml",
         "source": "/Users/huc/.android/build-cache/76a5113bb4036eac0b4307f578c9425c04a9399c/output/res/layout/notification_template_media.xml"
     },
     {
-        "merged": "/newProject/xiaoyongfinally/xiaoyongfinally/MyApplication/applsat/build/intermediates/res/merged/debug/layout/design_navigation_menu_item.xml",
-        "source": "/Users/huc/.android/build-cache/36601ce09cf6a54002e1f6970317cc6513553c71/output/res/layout/design_navigation_menu_item.xml"
+        "merged": "/newProject/xiaoyongfinally/xiaoyongfinally/MyApplication/applsat/build/intermediates/res/merged/debug/layout/fragment_shopping.xml",
+        "source": "/newProject/xiaoyongfinally/xiaoyongfinally/MyApplication/applsat/src/main/res/layout/fragment_shopping.xml"
     },
     {
         "merged": "/newProject/xiaoyongfinally/xiaoyongfinally/MyApplication/applsat/build/intermediates/res/merged/debug/layout/abc_screen_toolbar.xml",
         "source": "/Users/huc/.android/build-cache/76a5113bb4036eac0b4307f578c9425c04a9399c/output/res/layout/abc_screen_toolbar.xml"
-    },
-    {
-        "merged": "/newProject/xiaoyongfinally/xiaoyongfinally/MyApplication/C:\\Users\\Administrator\\Documents\\Tencent Files\\974271908\\FileRecv\\xiaoyongfinally\\xiaoyongfinally\\MyApplication\\applsat\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_part_chronometer.xml",
-        "source": "/newProject/xiaoyongfinally/xiaoyongfinally/MyApplication/C:\\Users\\Administrator\\.android\\build-cache\\1dc6c3b7d40b8fe9d3e38e3fb0a2101fe97b1cef\\output\\res\\layout\\notification_template_part_chronometer.xml"
-    },
-    {
-        "merged": "/newProject/xiaoyongfinally/xiaoyongfinally/MyApplication/C:\\Users\\Administrator\\Documents\\Tencent Files\\974271908\\FileRecv\\xiaoyongfinally\\xiaoyongfinally\\MyApplication\\applsat\\build\\intermediates\\res\\merged\\debug\\layout\\notification_action.xml",
-        "source": "/newProject/xiaoyongfinally/xiaoyongfinally/MyApplication/C:\\Users\\Administrator\\.android\\build-cache\\1dc6c3b7d40b8fe9d3e38e3fb0a2101fe97b1cef\\output\\res\\layout\\notification_action.xml"
     },
     {
         "merged": "/newProject/xiaoyongfinally/xiaoyongfinally/MyApplication/applsat/build/intermediates/res/merged/debug/layout/activity_pet_msg.xml",
@@ -192,40 +112,8 @@
         "source": "/newProject/xiaoyongfinally/xiaoyongfinally/MyApplication/applsat/src/main/res/layout/activity_splash.xml"
     },
     {
-        "merged": "/newProject/xiaoyongfinally/xiaoyongfinally/MyApplication/C:\\Users\\Administrator\\Documents\\Tencent Files\\974271908\\FileRecv\\xiaoyongfinally\\xiaoyongfinally\\MyApplication\\applsat\\build\\intermediates\\res\\merged\\debug\\layout\\activity_miss.xml",
-        "source": "/newProject/xiaoyongfinally/xiaoyongfinally/MyApplication/C:\\Users\\Administrator\\Documents\\Tencent Files\\974271908\\FileRecv\\xiaoyongfinally\\xiaoyongfinally\\MyApplication\\applsat\\src\\main\\res\\layout\\activity_miss.xml"
-    },
-    {
-        "merged": "/newProject/xiaoyongfinally/xiaoyongfinally/MyApplication/C:\\Users\\Administrator\\Documents\\Tencent Files\\974271908\\FileRecv\\xiaoyongfinally\\xiaoyongfinally\\MyApplication\\applsat\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_radio.xml",
-        "source": "/newProject/xiaoyongfinally/xiaoyongfinally/MyApplication/C:\\Users\\Administrator\\.android\\build-cache\\1dc6c3b7d40b8fe9d3e38e3fb0a2101fe97b1cef\\output\\res\\layout\\abc_list_menu_item_radio.xml"
-    },
-    {
-        "merged": "/newProject/xiaoyongfinally/xiaoyongfinally/MyApplication/C:\\Users\\Administrator\\Documents\\Tencent Files\\974271908\\FileRecv\\xiaoyongfinally\\xiaoyongfinally\\MyApplication\\applsat\\build\\intermediates\\res\\merged\\debug\\layout\\design_layout_snackbar.xml",
-        "source": "/newProject/xiaoyongfinally/xiaoyongfinally/MyApplication/C:\\Users\\Administrator\\.android\\build-cache\\6332a33ac9620b7dcbb09ca4e43011b5bac4a7eb\\output\\res\\layout\\design_layout_snackbar.xml"
-    },
-    {
         "merged": "/newProject/xiaoyongfinally/xiaoyongfinally/MyApplication/applsat/build/intermediates/res/merged/debug/layout/activity_verification_code.xml",
         "source": "/newProject/xiaoyongfinally/xiaoyongfinally/MyApplication/applsat/src/main/res/layout/activity_verification_code.xml"
-    },
-    {
-        "merged": "/newProject/xiaoyongfinally/xiaoyongfinally/MyApplication/C:\\Users\\Administrator\\Documents\\Tencent Files\\974271908\\FileRecv\\xiaoyongfinally\\xiaoyongfinally\\MyApplication\\applsat\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_mode_bar.xml",
-        "source": "/newProject/xiaoyongfinally/xiaoyongfinally/MyApplication/C:\\Users\\Administrator\\.android\\build-cache\\1dc6c3b7d40b8fe9d3e38e3fb0a2101fe97b1cef\\output\\res\\layout\\abc_action_mode_bar.xml"
-    },
-    {
-        "merged": "/newProject/xiaoyongfinally/xiaoyongfinally/MyApplication/C:\\Users\\Administrator\\Documents\\Tencent Files\\974271908\\FileRecv\\xiaoyongfinally\\xiaoyongfinally\\MyApplication\\applsat\\build\\intermediates\\res\\merged\\debug\\layout\\item_home_pd.xml",
-        "source": "/newProject/xiaoyongfinally/xiaoyongfinally/MyApplication/C:\\Users\\Administrator\\Documents\\Tencent Files\\974271908\\FileRecv\\xiaoyongfinally\\xiaoyongfinally\\MyApplication\\applsat\\src\\main\\res\\layout\\item_home_pd.xml"
-    },
-    {
-        "merged": "/newProject/xiaoyongfinally/xiaoyongfinally/MyApplication/C:\\Users\\Administrator\\Documents\\Tencent Files\\974271908\\FileRecv\\xiaoyongfinally\\xiaoyongfinally\\MyApplication\\applsat\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_mine.xml",
-        "source": "/newProject/xiaoyongfinally/xiaoyongfinally/MyApplication/C:\\Users\\Administrator\\Documents\\Tencent Files\\974271908\\FileRecv\\xiaoyongfinally\\xiaoyongfinally\\MyApplication\\applsat\\src\\main\\res\\layout\\fragment_mine.xml"
-    },
-    {
-        "merged": "/newProject/xiaoyongfinally/xiaoyongfinally/MyApplication/C:\\Users\\Administrator\\Documents\\Tencent Files\\974271908\\FileRecv\\xiaoyongfinally\\xiaoyongfinally\\MyApplication\\applsat\\build\\intermediates\\res\\merged\\debug\\layout\\item_dt_images.xml",
-        "source": "/newProject/xiaoyongfinally/xiaoyongfinally/MyApplication/C:\\Users\\Administrator\\Documents\\Tencent Files\\974271908\\FileRecv\\xiaoyongfinally\\xiaoyongfinally\\MyApplication\\applsat\\src\\main\\res\\layout\\item_dt_images.xml"
-    },
-    {
-        "merged": "/newProject/xiaoyongfinally/xiaoyongfinally/MyApplication/C:\\Users\\Administrator\\Documents\\Tencent Files\\974271908\\FileRecv\\xiaoyongfinally\\xiaoyongfinally\\MyApplication\\applsat\\build\\intermediates\\res\\merged\\debug\\layout\\activity_verification_code.xml",
-        "source": "/newProject/xiaoyongfinally/xiaoyongfinally/MyApplication/C:\\Users\\Administrator\\Documents\\Tencent Files\\974271908\\FileRecv\\xiaoyongfinally\\xiaoyongfinally\\MyApplication\\applsat\\src\\main\\res\\layout\\activity_verification_code.xml"
     },
     {
         "merged": "/newProject/xiaoyongfinally/xiaoyongfinally/MyApplication/applsat/build/intermediates/res/merged/debug/layout/header_shopping.xml",
@@ -236,16 +124,8 @@
         "source": "/Users/huc/.android/build-cache/76a5113bb4036eac0b4307f578c9425c04a9399c/output/res/layout/abc_action_bar_up_container.xml"
     },
     {
-        "merged": "/newProject/xiaoyongfinally/xiaoyongfinally/MyApplication/C:\\Users\\Administrator\\Documents\\Tencent Files\\974271908\\FileRecv\\xiaoyongfinally\\xiaoyongfinally\\MyApplication\\applsat\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_title_item.xml",
-        "source": "/newProject/xiaoyongfinally/xiaoyongfinally/MyApplication/C:\\Users\\Administrator\\.android\\build-cache\\1dc6c3b7d40b8fe9d3e38e3fb0a2101fe97b1cef\\output\\res\\layout\\abc_action_bar_title_item.xml"
-    },
-    {
         "merged": "/newProject/xiaoyongfinally/xiaoyongfinally/MyApplication/applsat/build/intermediates/res/merged/debug/layout/abc_screen_simple.xml",
         "source": "/Users/huc/.android/build-cache/76a5113bb4036eac0b4307f578c9425c04a9399c/output/res/layout/abc_screen_simple.xml"
-    },
-    {
-        "merged": "/newProject/xiaoyongfinally/xiaoyongfinally/MyApplication/C:\\Users\\Administrator\\Documents\\Tencent Files\\974271908\\FileRecv\\xiaoyongfinally\\xiaoyongfinally\\MyApplication\\applsat\\build\\intermediates\\res\\merged\\debug\\layout\\notification_action_tombstone.xml",
-        "source": "/newProject/xiaoyongfinally/xiaoyongfinally/MyApplication/C:\\Users\\Administrator\\.android\\build-cache\\1dc6c3b7d40b8fe9d3e38e3fb0a2101fe97b1cef\\output\\res\\layout\\notification_action_tombstone.xml"
     },
     {
         "merged": "/newProject/xiaoyongfinally/xiaoyongfinally/MyApplication/applsat/build/intermediates/res/merged/debug/layout/notification_template_media_custom.xml",
@@ -264,24 +144,8 @@
         "source": "/Users/huc/.android/build-cache/76a5113bb4036eac0b4307f578c9425c04a9399c/output/res/layout/abc_action_menu_item_layout.xml"
     },
     {
-        "merged": "/newProject/xiaoyongfinally/xiaoyongfinally/MyApplication/C:\\Users\\Administrator\\Documents\\Tencent Files\\974271908\\FileRecv\\xiaoyongfinally\\xiaoyongfinally\\MyApplication\\applsat\\build\\intermediates\\res\\merged\\debug\\layout\\item_msg_zazhi.xml",
-        "source": "/newProject/xiaoyongfinally/xiaoyongfinally/MyApplication/C:\\Users\\Administrator\\Documents\\Tencent Files\\974271908\\FileRecv\\xiaoyongfinally\\xiaoyongfinally\\MyApplication\\applsat\\src\\main\\res\\layout\\item_msg_zazhi.xml"
-    },
-    {
-        "merged": "/newProject/xiaoyongfinally/xiaoyongfinally/MyApplication/C:\\Users\\Administrator\\Documents\\Tencent Files\\974271908\\FileRecv\\xiaoyongfinally\\xiaoyongfinally\\MyApplication\\applsat\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_lines_media.xml",
-        "source": "/newProject/xiaoyongfinally/xiaoyongfinally/MyApplication/C:\\Users\\Administrator\\.android\\build-cache\\1dc6c3b7d40b8fe9d3e38e3fb0a2101fe97b1cef\\output\\res\\layout\\notification_template_lines_media.xml"
-    },
-    {
-        "merged": "/newProject/xiaoyongfinally/xiaoyongfinally/MyApplication/C:\\Users\\Administrator\\Documents\\Tencent Files\\974271908\\FileRecv\\xiaoyongfinally\\xiaoyongfinally\\MyApplication\\applsat\\build\\intermediates\\res\\merged\\debug\\layout\\abc_expanded_menu_layout.xml",
-        "source": "/newProject/xiaoyongfinally/xiaoyongfinally/MyApplication/C:\\Users\\Administrator\\.android\\build-cache\\1dc6c3b7d40b8fe9d3e38e3fb0a2101fe97b1cef\\output\\res\\layout\\abc_expanded_menu_layout.xml"
-    },
-    {
         "merged": "/newProject/xiaoyongfinally/xiaoyongfinally/MyApplication/applsat/build/intermediates/res/merged/debug/layout/fragment_msg.xml",
         "source": "/newProject/xiaoyongfinally/xiaoyongfinally/MyApplication/applsat/src/main/res/layout/fragment_msg.xml"
-    },
-    {
-        "merged": "/newProject/xiaoyongfinally/xiaoyongfinally/MyApplication/C:\\Users\\Administrator\\Documents\\Tencent Files\\974271908\\FileRecv\\xiaoyongfinally\\xiaoyongfinally\\MyApplication\\applsat\\build\\intermediates\\res\\merged\\debug\\layout\\header_msg_tuijian.xml",
-        "source": "/newProject/xiaoyongfinally/xiaoyongfinally/MyApplication/C:\\Users\\Administrator\\Documents\\Tencent Files\\974271908\\FileRecv\\xiaoyongfinally\\xiaoyongfinally\\MyApplication\\applsat\\src\\main\\res\\layout\\header_msg_tuijian.xml"
     },
     {
         "merged": "/newProject/xiaoyongfinally/xiaoyongfinally/MyApplication/applsat/build/intermediates/res/merged/debug/layout/activity_main.xml",
@@ -304,80 +168,32 @@
         "source": "/Users/huc/.android/build-cache/76a5113bb4036eac0b4307f578c9425c04a9399c/output/res/layout/abc_alert_dialog_title_material.xml"
     },
     {
-        "merged": "/newProject/xiaoyongfinally/xiaoyongfinally/MyApplication/C:\\Users\\Administrator\\Documents\\Tencent Files\\974271908\\FileRecv\\xiaoyongfinally\\xiaoyongfinally\\MyApplication\\applsat\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_simple_overlay_action_mode.xml",
-        "source": "/newProject/xiaoyongfinally/xiaoyongfinally/MyApplication/C:\\Users\\Administrator\\.android\\build-cache\\1dc6c3b7d40b8fe9d3e38e3fb0a2101fe97b1cef\\output\\res\\layout\\abc_screen_simple_overlay_action_mode.xml"
-    },
-    {
         "merged": "/newProject/xiaoyongfinally/xiaoyongfinally/MyApplication/applsat/build/intermediates/res/merged/debug/layout/fragment_zhazi.xml",
         "source": "/newProject/xiaoyongfinally/xiaoyongfinally/MyApplication/applsat/src/main/res/layout/fragment_zhazi.xml"
-    },
-    {
-        "merged": "/newProject/xiaoyongfinally/xiaoyongfinally/MyApplication/C:\\Users\\Administrator\\Documents\\Tencent Files\\974271908\\FileRecv\\xiaoyongfinally\\xiaoyongfinally\\MyApplication\\applsat\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_view_list_nav_layout.xml",
-        "source": "/newProject/xiaoyongfinally/xiaoyongfinally/MyApplication/C:\\Users\\Administrator\\.android\\build-cache\\1dc6c3b7d40b8fe9d3e38e3fb0a2101fe97b1cef\\output\\res\\layout\\abc_action_bar_view_list_nav_layout.xml"
-    },
-    {
-        "merged": "/newProject/xiaoyongfinally/xiaoyongfinally/MyApplication/C:\\Users\\Administrator\\Documents\\Tencent Files\\974271908\\FileRecv\\xiaoyongfinally\\xiaoyongfinally\\MyApplication\\applsat\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_icon.xml",
-        "source": "/newProject/xiaoyongfinally/xiaoyongfinally/MyApplication/C:\\Users\\Administrator\\.android\\build-cache\\1dc6c3b7d40b8fe9d3e38e3fb0a2101fe97b1cef\\output\\res\\layout\\abc_list_menu_item_icon.xml"
-    },
-    {
-        "merged": "/newProject/xiaoyongfinally/xiaoyongfinally/MyApplication/C:\\Users\\Administrator\\Documents\\Tencent Files\\974271908\\FileRecv\\xiaoyongfinally\\xiaoyongfinally\\MyApplication\\applsat\\build\\intermediates\\res\\merged\\debug\\layout\\abc_select_dialog_material.xml",
-        "source": "/newProject/xiaoyongfinally/xiaoyongfinally/MyApplication/C:\\Users\\Administrator\\.android\\build-cache\\1dc6c3b7d40b8fe9d3e38e3fb0a2101fe97b1cef\\output\\res\\layout\\abc_select_dialog_material.xml"
     },
     {
         "merged": "/newProject/xiaoyongfinally/xiaoyongfinally/MyApplication/applsat/build/intermediates/res/merged/debug/layout/select_dialog_item_material.xml",
         "source": "/Users/huc/.android/build-cache/76a5113bb4036eac0b4307f578c9425c04a9399c/output/res/layout/select_dialog_item_material.xml"
     },
     {
-        "merged": "/newProject/xiaoyongfinally/xiaoyongfinally/MyApplication/C:\\Users\\Administrator\\Documents\\Tencent Files\\974271908\\FileRecv\\xiaoyongfinally\\xiaoyongfinally\\MyApplication\\applsat\\build\\intermediates\\res\\merged\\debug\\layout\\abc_search_view.xml",
-        "source": "/newProject/xiaoyongfinally/xiaoyongfinally/MyApplication/C:\\Users\\Administrator\\.android\\build-cache\\1dc6c3b7d40b8fe9d3e38e3fb0a2101fe97b1cef\\output\\res\\layout\\abc_search_view.xml"
-    },
-    {
         "merged": "/newProject/xiaoyongfinally/xiaoyongfinally/MyApplication/applsat/build/intermediates/res/merged/debug/layout/activity_miss.xml",
         "source": "/newProject/xiaoyongfinally/xiaoyongfinally/MyApplication/applsat/src/main/res/layout/activity_miss.xml"
-    },
-    {
-        "merged": "/newProject/xiaoyongfinally/xiaoyongfinally/MyApplication/C:\\Users\\Administrator\\Documents\\Tencent Files\\974271908\\FileRecv\\xiaoyongfinally\\xiaoyongfinally\\MyApplication\\applsat\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_menu_item_layout.xml",
-        "source": "/newProject/xiaoyongfinally/xiaoyongfinally/MyApplication/C:\\Users\\Administrator\\.android\\build-cache\\1dc6c3b7d40b8fe9d3e38e3fb0a2101fe97b1cef\\output\\res\\layout\\abc_action_menu_item_layout.xml"
-    },
-    {
-        "merged": "/newProject/xiaoyongfinally/xiaoyongfinally/MyApplication/C:\\Users\\Administrator\\Documents\\Tencent Files\\974271908\\FileRecv\\xiaoyongfinally\\xiaoyongfinally\\MyApplication\\applsat\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_singlechoice_material.xml",
-        "source": "/newProject/xiaoyongfinally/xiaoyongfinally/MyApplication/C:\\Users\\Administrator\\.android\\build-cache\\1dc6c3b7d40b8fe9d3e38e3fb0a2101fe97b1cef\\output\\res\\layout\\select_dialog_singlechoice_material.xml"
     },
     {
         "merged": "/newProject/xiaoyongfinally/xiaoyongfinally/MyApplication/applsat/build/intermediates/res/merged/debug/layout/abc_expanded_menu_layout.xml",
         "source": "/Users/huc/.android/build-cache/76a5113bb4036eac0b4307f578c9425c04a9399c/output/res/layout/abc_expanded_menu_layout.xml"
     },
     {
-        "merged": "/newProject/xiaoyongfinally/xiaoyongfinally/MyApplication/C:\\Users\\Administrator\\Documents\\Tencent Files\\974271908\\FileRecv\\xiaoyongfinally\\xiaoyongfinally\\MyApplication\\applsat\\build\\intermediates\\res\\merged\\debug\\layout\\design_layout_snackbar_include.xml",
-        "source": "/newProject/xiaoyongfinally/xiaoyongfinally/MyApplication/C:\\Users\\Administrator\\.android\\build-cache\\6332a33ac9620b7dcbb09ca4e43011b5bac4a7eb\\output\\res\\layout\\design_layout_snackbar_include.xml"
-    },
-    {
         "merged": "/newProject/xiaoyongfinally/xiaoyongfinally/MyApplication/applsat/build/intermediates/res/merged/debug/layout/notification_action_tombstone.xml",
         "source": "/Users/huc/.android/build-cache/76a5113bb4036eac0b4307f578c9425c04a9399c/output/res/layout/notification_action_tombstone.xml"
-    },
-    {
-        "merged": "/newProject/xiaoyongfinally/xiaoyongfinally/MyApplication/C:\\Users\\Administrator\\Documents\\Tencent Files\\974271908\\FileRecv\\xiaoyongfinally\\xiaoyongfinally\\MyApplication\\applsat\\build\\intermediates\\res\\merged\\debug\\layout\\item_msg_tuijian_banner.xml",
-        "source": "/newProject/xiaoyongfinally/xiaoyongfinally/MyApplication/C:\\Users\\Administrator\\Documents\\Tencent Files\\974271908\\FileRecv\\xiaoyongfinally\\xiaoyongfinally\\MyApplication\\applsat\\src\\main\\res\\layout\\item_msg_tuijian_banner.xml"
     },
     {
         "merged": "/newProject/xiaoyongfinally/xiaoyongfinally/MyApplication/applsat/build/intermediates/res/merged/debug/layout/fragment_service.xml",
         "source": "/newProject/xiaoyongfinally/xiaoyongfinally/MyApplication/applsat/src/main/res/layout/fragment_service.xml"
     },
     {
-        "merged": "/newProject/xiaoyongfinally/xiaoyongfinally/MyApplication/C:\\Users\\Administrator\\Documents\\Tencent Files\\974271908\\FileRecv\\xiaoyongfinally\\xiaoyongfinally\\MyApplication\\applsat\\build\\intermediates\\res\\merged\\debug\\layout\\activity_zinxun_web.xml",
-        "source": "/newProject/xiaoyongfinally/xiaoyongfinally/MyApplication/C:\\Users\\Administrator\\Documents\\Tencent Files\\974271908\\FileRecv\\xiaoyongfinally\\xiaoyongfinally\\MyApplication\\applsat\\src\\main\\res\\layout\\activity_zinxun_web.xml"
-    },
-    {
-        "merged": "/newProject/xiaoyongfinally/xiaoyongfinally/MyApplication/C:\\Users\\Administrator\\Documents\\Tencent Files\\974271908\\FileRecv\\xiaoyongfinally\\xiaoyongfinally\\MyApplication\\applsat\\build\\intermediates\\res\\merged\\debug\\layout\\abc_alert_dialog_title_material.xml",
-        "source": "/newProject/xiaoyongfinally/xiaoyongfinally/MyApplication/C:\\Users\\Administrator\\.android\\build-cache\\1dc6c3b7d40b8fe9d3e38e3fb0a2101fe97b1cef\\output\\res\\layout\\abc_alert_dialog_title_material.xml"
-    },
-    {
-        "merged": "/newProject/xiaoyongfinally/xiaoyongfinally/MyApplication/C:\\Users\\Administrator\\Documents\\Tencent Files\\974271908\\FileRecv\\xiaoyongfinally\\xiaoyongfinally\\MyApplication\\applsat\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_guanfang.xml",
-        "source": "/newProject/xiaoyongfinally/xiaoyongfinally/MyApplication/C:\\Users\\Administrator\\Documents\\Tencent Files\\974271908\\FileRecv\\xiaoyongfinally\\xiaoyongfinally\\MyApplication\\applsat\\src\\main\\res\\layout\\fragment_guanfang.xml"
-    },
-    {
-        "merged": "/newProject/xiaoyongfinally/xiaoyongfinally/MyApplication/C:\\Users\\Administrator\\Documents\\Tencent Files\\974271908\\FileRecv\\xiaoyongfinally\\xiaoyongfinally\\MyApplication\\applsat\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_shopping.xml",
-        "source": "/newProject/xiaoyongfinally/xiaoyongfinally/MyApplication/C:\\Users\\Administrator\\Documents\\Tencent Files\\974271908\\FileRecv\\xiaoyongfinally\\xiaoyongfinally\\MyApplication\\applsat\\src\\main\\res\\layout\\fragment_shopping.xml"
+        "merged": "/newProject/xiaoyongfinally/xiaoyongfinally/MyApplication/applsat/build/intermediates/res/merged/debug/layout/item_goods_list.xml",
+        "source": "/newProject/xiaoyongfinally/xiaoyongfinally/MyApplication/applsat/src/main/res/layout/item_goods_list.xml"
     },
     {
         "merged": "/newProject/xiaoyongfinally/xiaoyongfinally/MyApplication/applsat/build/intermediates/res/merged/debug/layout/item_shop_child.xml",
@@ -396,20 +212,12 @@
         "source": "/Users/huc/.android/build-cache/76a5113bb4036eac0b4307f578c9425c04a9399c/output/res/layout/notification_action.xml"
     },
     {
-        "merged": "/newProject/xiaoyongfinally/xiaoyongfinally/MyApplication/C:\\Users\\Administrator\\Documents\\Tencent Files\\974271908\\FileRecv\\xiaoyongfinally\\xiaoyongfinally\\MyApplication\\applsat\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_mode_close_item_material.xml",
-        "source": "/newProject/xiaoyongfinally/xiaoyongfinally/MyApplication/C:\\Users\\Administrator\\.android\\build-cache\\1dc6c3b7d40b8fe9d3e38e3fb0a2101fe97b1cef\\output\\res\\layout\\abc_action_mode_close_item_material.xml"
-    },
-    {
         "merged": "/newProject/xiaoyongfinally/xiaoyongfinally/MyApplication/applsat/build/intermediates/res/merged/debug/layout/activity_register.xml",
         "source": "/newProject/xiaoyongfinally/xiaoyongfinally/MyApplication/applsat/src/main/res/layout/activity_register.xml"
     },
     {
         "merged": "/newProject/xiaoyongfinally/xiaoyongfinally/MyApplication/applsat/build/intermediates/res/merged/debug/layout/fragment_mine.xml",
         "source": "/newProject/xiaoyongfinally/xiaoyongfinally/MyApplication/applsat/src/main/res/layout/fragment_mine.xml"
-    },
-    {
-        "merged": "/newProject/xiaoyongfinally/xiaoyongfinally/MyApplication/C:\\Users\\Administrator\\Documents\\Tencent Files\\974271908\\FileRecv\\xiaoyongfinally\\xiaoyongfinally\\MyApplication\\applsat\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_xuetang.xml",
-        "source": "/newProject/xiaoyongfinally/xiaoyongfinally/MyApplication/C:\\Users\\Administrator\\Documents\\Tencent Files\\974271908\\FileRecv\\xiaoyongfinally\\xiaoyongfinally\\MyApplication\\applsat\\src\\main\\res\\layout\\fragment_xuetang.xml"
     },
     {
         "merged": "/newProject/xiaoyongfinally/xiaoyongfinally/MyApplication/applsat/build/intermediates/res/merged/debug/layout/abc_popup_menu_item_layout.xml",
@@ -420,44 +228,16 @@
         "source": "/newProject/xiaoyongfinally/xiaoyongfinally/MyApplication/applsat/src/main/res/layout/item_home_jx.xml"
     },
     {
-        "merged": "/newProject/xiaoyongfinally/xiaoyongfinally/MyApplication/C:\\Users\\Administrator\\Documents\\Tencent Files\\974271908\\FileRecv\\xiaoyongfinally\\xiaoyongfinally\\MyApplication\\applsat\\build\\intermediates\\res\\merged\\debug\\layout\\abc_activity_chooser_view_list_item.xml",
-        "source": "/newProject/xiaoyongfinally/xiaoyongfinally/MyApplication/C:\\Users\\Administrator\\.android\\build-cache\\1dc6c3b7d40b8fe9d3e38e3fb0a2101fe97b1cef\\output\\res\\layout\\abc_activity_chooser_view_list_item.xml"
+        "merged": "/newProject/xiaoyongfinally/xiaoyongfinally/MyApplication/applsat/build/intermediates/res/merged/debug/layout/activity_goods_info.xml",
+        "source": "/newProject/xiaoyongfinally/xiaoyongfinally/MyApplication/applsat/src/main/res/layout/activity_goods_info.xml"
     },
     {
-        "merged": "/newProject/xiaoyongfinally/xiaoyongfinally/MyApplication/C:\\Users\\Administrator\\Documents\\Tencent Files\\974271908\\FileRecv\\xiaoyongfinally\\xiaoyongfinally\\MyApplication\\applsat\\build\\intermediates\\res\\merged\\debug\\layout\\design_bottom_sheet_dialog.xml",
-        "source": "/newProject/xiaoyongfinally/xiaoyongfinally/MyApplication/C:\\Users\\Administrator\\.android\\build-cache\\6332a33ac9620b7dcbb09ca4e43011b5bac4a7eb\\output\\res\\layout\\design_bottom_sheet_dialog.xml"
-    },
-    {
-        "merged": "/newProject/xiaoyongfinally/xiaoyongfinally/MyApplication/C:\\Users\\Administrator\\Documents\\Tencent Files\\974271908\\FileRecv\\xiaoyongfinally\\xiaoyongfinally\\MyApplication\\applsat\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item.xml",
-        "source": "/newProject/xiaoyongfinally/xiaoyongfinally/MyApplication/C:\\Users\\Administrator\\.android\\build-cache\\6332a33ac9620b7dcbb09ca4e43011b5bac4a7eb\\output\\res\\layout\\design_navigation_item.xml"
-    },
-    {
-        "merged": "/newProject/xiaoyongfinally/xiaoyongfinally/MyApplication/C:\\Users\\Administrator\\Documents\\Tencent Files\\974271908\\FileRecv\\xiaoyongfinally\\xiaoyongfinally\\MyApplication\\applsat\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_tuijian.xml",
-        "source": "/newProject/xiaoyongfinally/xiaoyongfinally/MyApplication/C:\\Users\\Administrator\\Documents\\Tencent Files\\974271908\\FileRecv\\xiaoyongfinally\\xiaoyongfinally\\MyApplication\\applsat\\src\\main\\res\\layout\\fragment_tuijian.xml"
-    },
-    {
-        "merged": "/newProject/xiaoyongfinally/xiaoyongfinally/MyApplication/C:\\Users\\Administrator\\Documents\\Tencent Files\\974271908\\FileRecv\\xiaoyongfinally\\xiaoyongfinally\\MyApplication\\applsat\\build\\intermediates\\res\\merged\\debug\\layout\\item_shop_child.xml",
-        "source": "/newProject/xiaoyongfinally/xiaoyongfinally/MyApplication/C:\\Users\\Administrator\\Documents\\Tencent Files\\974271908\\FileRecv\\xiaoyongfinally\\xiaoyongfinally\\MyApplication\\applsat\\src\\main\\res\\layout\\item_shop_child.xml"
-    },
-    {
-        "merged": "/newProject/xiaoyongfinally/xiaoyongfinally/MyApplication/C:\\Users\\Administrator\\Documents\\Tencent Files\\974271908\\FileRecv\\xiaoyongfinally\\xiaoyongfinally\\MyApplication\\applsat\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_pd.xml",
-        "source": "/newProject/xiaoyongfinally/xiaoyongfinally/MyApplication/C:\\Users\\Administrator\\Documents\\Tencent Files\\974271908\\FileRecv\\xiaoyongfinally\\xiaoyongfinally\\MyApplication\\applsat\\src\\main\\res\\layout\\fragment_pd.xml"
-    },
-    {
-        "merged": "/newProject/xiaoyongfinally/xiaoyongfinally/MyApplication/C:\\Users\\Administrator\\Documents\\Tencent Files\\974271908\\FileRecv\\xiaoyongfinally\\xiaoyongfinally\\MyApplication\\applsat\\build\\intermediates\\res\\merged\\debug\\layout\\item_pintuan.xml",
-        "source": "/newProject/xiaoyongfinally/xiaoyongfinally/MyApplication/C:\\Users\\Administrator\\Documents\\Tencent Files\\974271908\\FileRecv\\xiaoyongfinally\\xiaoyongfinally\\MyApplication\\applsat\\src\\main\\res\\layout\\item_pintuan.xml"
+        "merged": "/newProject/xiaoyongfinally/xiaoyongfinally/MyApplication/applsat/build/intermediates/res/merged/debug/layout/fragment_shopping_cart.xml",
+        "source": "/newProject/xiaoyongfinally/xiaoyongfinally/MyApplication/applsat/src/main/res/layout/fragment_shopping_cart.xml"
     },
     {
         "merged": "/newProject/xiaoyongfinally/xiaoyongfinally/MyApplication/applsat/build/intermediates/res/merged/debug/layout/abc_screen_simple_overlay_action_mode.xml",
         "source": "/Users/huc/.android/build-cache/76a5113bb4036eac0b4307f578c9425c04a9399c/output/res/layout/abc_screen_simple_overlay_action_mode.xml"
-    },
-    {
-        "merged": "/newProject/xiaoyongfinally/xiaoyongfinally/MyApplication/C:\\Users\\Administrator\\Documents\\Tencent Files\\974271908\\FileRecv\\xiaoyongfinally\\xiaoyongfinally\\MyApplication\\applsat\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_simple.xml",
-        "source": "/newProject/xiaoyongfinally/xiaoyongfinally/MyApplication/C:\\Users\\Administrator\\.android\\build-cache\\1dc6c3b7d40b8fe9d3e38e3fb0a2101fe97b1cef\\output\\res\\layout\\abc_screen_simple.xml"
-    },
-    {
-        "merged": "/newProject/xiaoyongfinally/xiaoyongfinally/MyApplication/C:\\Users\\Administrator\\Documents\\Tencent Files\\974271908\\FileRecv\\xiaoyongfinally\\xiaoyongfinally\\MyApplication\\applsat\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_checkbox.xml",
-        "source": "/newProject/xiaoyongfinally/xiaoyongfinally/MyApplication/C:\\Users\\Administrator\\.android\\build-cache\\1dc6c3b7d40b8fe9d3e38e3fb0a2101fe97b1cef\\output\\res\\layout\\abc_list_menu_item_checkbox.xml"
     },
     {
         "merged": "/newProject/xiaoyongfinally/xiaoyongfinally/MyApplication/applsat/build/intermediates/res/merged/debug/layout/abc_search_view.xml",
@@ -468,32 +248,8 @@
         "source": "/Users/huc/.android/build-cache/36601ce09cf6a54002e1f6970317cc6513553c71/output/res/layout/design_text_input_password_icon.xml"
     },
     {
-        "merged": "/newProject/xiaoyongfinally/xiaoyongfinally/MyApplication/C:\\Users\\Administrator\\Documents\\Tencent Files\\974271908\\FileRecv\\xiaoyongfinally\\xiaoyongfinally\\MyApplication\\applsat\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_media.xml",
-        "source": "/newProject/xiaoyongfinally/xiaoyongfinally/MyApplication/C:\\Users\\Administrator\\.android\\build-cache\\1dc6c3b7d40b8fe9d3e38e3fb0a2101fe97b1cef\\output\\res\\layout\\notification_template_media.xml"
-    },
-    {
-        "merged": "/newProject/xiaoyongfinally/xiaoyongfinally/MyApplication/C:\\Users\\Administrator\\Documents\\Tencent Files\\974271908\\FileRecv\\xiaoyongfinally\\xiaoyongfinally\\MyApplication\\applsat\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_dongman.xml",
-        "source": "/newProject/xiaoyongfinally/xiaoyongfinally/MyApplication/C:\\Users\\Administrator\\Documents\\Tencent Files\\974271908\\FileRecv\\xiaoyongfinally\\xiaoyongfinally\\MyApplication\\applsat\\src\\main\\res\\layout\\fragment_dongman.xml"
-    },
-    {
-        "merged": "/newProject/xiaoyongfinally/xiaoyongfinally/MyApplication/C:\\Users\\Administrator\\Documents\\Tencent Files\\974271908\\FileRecv\\xiaoyongfinally\\xiaoyongfinally\\MyApplication\\applsat\\build\\intermediates\\res\\merged\\debug\\layout\\header_msg_zazhi.xml",
-        "source": "/newProject/xiaoyongfinally/xiaoyongfinally/MyApplication/C:\\Users\\Administrator\\Documents\\Tencent Files\\974271908\\FileRecv\\xiaoyongfinally\\xiaoyongfinally\\MyApplication\\applsat\\src\\main\\res\\layout\\header_msg_zazhi.xml"
-    },
-    {
-        "merged": "/newProject/xiaoyongfinally/xiaoyongfinally/MyApplication/C:\\Users\\Administrator\\Documents\\Tencent Files\\974271908\\FileRecv\\xiaoyongfinally\\xiaoyongfinally\\MyApplication\\applsat\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_toolbar.xml",
-        "source": "/newProject/xiaoyongfinally/xiaoyongfinally/MyApplication/C:\\Users\\Administrator\\.android\\build-cache\\1dc6c3b7d40b8fe9d3e38e3fb0a2101fe97b1cef\\output\\res\\layout\\abc_screen_toolbar.xml"
-    },
-    {
-        "merged": "/newProject/xiaoyongfinally/xiaoyongfinally/MyApplication/C:\\Users\\Administrator\\Documents\\Tencent Files\\974271908\\FileRecv\\xiaoyongfinally\\xiaoyongfinally\\MyApplication\\applsat\\build\\intermediates\\res\\merged\\debug\\layout\\activity_leader.xml",
-        "source": "/newProject/xiaoyongfinally/xiaoyongfinally/MyApplication/C:\\Users\\Administrator\\Documents\\Tencent Files\\974271908\\FileRecv\\xiaoyongfinally\\xiaoyongfinally\\MyApplication\\applsat\\src\\main\\res\\layout\\activity_leader.xml"
-    },
-    {
         "merged": "/newProject/xiaoyongfinally/xiaoyongfinally/MyApplication/applsat/build/intermediates/res/merged/debug/layout/notification_template_lines_media.xml",
         "source": "/Users/huc/.android/build-cache/76a5113bb4036eac0b4307f578c9425c04a9399c/output/res/layout/notification_template_lines_media.xml"
-    },
-    {
-        "merged": "/newProject/xiaoyongfinally/xiaoyongfinally/MyApplication/C:\\Users\\Administrator\\Documents\\Tencent Files\\974271908\\FileRecv\\xiaoyongfinally\\xiaoyongfinally\\MyApplication\\applsat\\build\\intermediates\\res\\merged\\debug\\layout\\abc_popup_menu_item_layout.xml",
-        "source": "/newProject/xiaoyongfinally/xiaoyongfinally/MyApplication/C:\\Users\\Administrator\\.android\\build-cache\\1dc6c3b7d40b8fe9d3e38e3fb0a2101fe97b1cef\\output\\res\\layout\\abc_popup_menu_item_layout.xml"
     },
     {
         "merged": "/newProject/xiaoyongfinally/xiaoyongfinally/MyApplication/applsat/build/intermediates/res/merged/debug/layout/design_layout_tab_icon.xml",
@@ -516,28 +272,12 @@
         "source": "/newProject/xiaoyongfinally/xiaoyongfinally/MyApplication/applsat/src/main/res/layout/activity_login.xml"
     },
     {
-        "merged": "/newProject/xiaoyongfinally/xiaoyongfinally/MyApplication/C:\\Users\\Administrator\\Documents\\Tencent Files\\974271908\\FileRecv\\xiaoyongfinally\\xiaoyongfinally\\MyApplication\\applsat\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_jx.xml",
-        "source": "/newProject/xiaoyongfinally/xiaoyongfinally/MyApplication/C:\\Users\\Administrator\\Documents\\Tencent Files\\974271908\\FileRecv\\xiaoyongfinally\\xiaoyongfinally\\MyApplication\\applsat\\src\\main\\res\\layout\\fragment_jx.xml"
-    },
-    {
-        "merged": "/newProject/xiaoyongfinally/xiaoyongfinally/MyApplication/C:\\Users\\Administrator\\Documents\\Tencent Files\\974271908\\FileRecv\\xiaoyongfinally\\xiaoyongfinally\\MyApplication\\applsat\\build\\intermediates\\res\\merged\\debug\\layout\\header_shopping.xml",
-        "source": "/newProject/xiaoyongfinally/xiaoyongfinally/MyApplication/C:\\Users\\Administrator\\Documents\\Tencent Files\\974271908\\FileRecv\\xiaoyongfinally\\xiaoyongfinally\\MyApplication\\applsat\\src\\main\\res\\layout\\header_shopping.xml"
-    },
-    {
-        "merged": "/newProject/xiaoyongfinally/xiaoyongfinally/MyApplication/C:\\Users\\Administrator\\Documents\\Tencent Files\\974271908\\FileRecv\\xiaoyongfinally\\xiaoyongfinally\\MyApplication\\applsat\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_up_container.xml",
-        "source": "/newProject/xiaoyongfinally/xiaoyongfinally/MyApplication/C:\\Users\\Administrator\\.android\\build-cache\\1dc6c3b7d40b8fe9d3e38e3fb0a2101fe97b1cef\\output\\res\\layout\\abc_action_bar_up_container.xml"
-    },
-    {
         "merged": "/newProject/xiaoyongfinally/xiaoyongfinally/MyApplication/applsat/build/intermediates/res/merged/debug/layout/abc_dialog_title_material.xml",
         "source": "/Users/huc/.android/build-cache/76a5113bb4036eac0b4307f578c9425c04a9399c/output/res/layout/abc_dialog_title_material.xml"
     },
     {
         "merged": "/newProject/xiaoyongfinally/xiaoyongfinally/MyApplication/applsat/build/intermediates/res/merged/debug/layout/fragment_dt.xml",
         "source": "/newProject/xiaoyongfinally/xiaoyongfinally/MyApplication/applsat/src/main/res/layout/fragment_dt.xml"
-    },
-    {
-        "merged": "/newProject/xiaoyongfinally/xiaoyongfinally/MyApplication/C:\\Users\\Administrator\\Documents\\Tencent Files\\974271908\\FileRecv\\xiaoyongfinally\\xiaoyongfinally\\MyApplication\\applsat\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_menu_item.xml",
-        "source": "/newProject/xiaoyongfinally/xiaoyongfinally/MyApplication/C:\\Users\\Administrator\\.android\\build-cache\\6332a33ac9620b7dcbb09ca4e43011b5bac4a7eb\\output\\res\\layout\\design_navigation_menu_item.xml"
     },
     {
         "merged": "/newProject/xiaoyongfinally/xiaoyongfinally/MyApplication/applsat/build/intermediates/res/merged/debug/layout/item_msg_tuijian_banner.xml",
@@ -548,24 +288,12 @@
         "source": "/newProject/xiaoyongfinally/xiaoyongfinally/MyApplication/applsat/src/main/res/layout/fragment_guanfang.xml"
     },
     {
-        "merged": "/newProject/xiaoyongfinally/xiaoyongfinally/MyApplication/C:\\Users\\Administrator\\Documents\\Tencent Files\\974271908\\FileRecv\\xiaoyongfinally\\xiaoyongfinally\\MyApplication\\applsat\\build\\intermediates\\res\\merged\\debug\\layout\\activity_splash.xml",
-        "source": "/newProject/xiaoyongfinally/xiaoyongfinally/MyApplication/C:\\Users\\Administrator\\Documents\\Tencent Files\\974271908\\FileRecv\\xiaoyongfinally\\xiaoyongfinally\\MyApplication\\applsat\\src\\main\\res\\layout\\activity_splash.xml"
-    },
-    {
         "merged": "/newProject/xiaoyongfinally/xiaoyongfinally/MyApplication/applsat/build/intermediates/res/merged/debug/layout/item_home_pd.xml",
         "source": "/newProject/xiaoyongfinally/xiaoyongfinally/MyApplication/applsat/src/main/res/layout/item_home_pd.xml"
     },
     {
-        "merged": "/newProject/xiaoyongfinally/xiaoyongfinally/MyApplication/C:\\Users\\Administrator\\Documents\\Tencent Files\\974271908\\FileRecv\\xiaoyongfinally\\xiaoyongfinally\\MyApplication\\applsat\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_home.xml",
-        "source": "/newProject/xiaoyongfinally/xiaoyongfinally/MyApplication/C:\\Users\\Administrator\\Documents\\Tencent Files\\974271908\\FileRecv\\xiaoyongfinally\\xiaoyongfinally\\MyApplication\\applsat\\src\\main\\res\\layout\\fragment_home.xml"
-    },
-    {
         "merged": "/newProject/xiaoyongfinally/xiaoyongfinally/MyApplication/applsat/build/intermediates/res/merged/debug/layout/abc_activity_chooser_view_list_item.xml",
         "source": "/Users/huc/.android/build-cache/76a5113bb4036eac0b4307f578c9425c04a9399c/output/res/layout/abc_activity_chooser_view_list_item.xml"
-    },
-    {
-        "merged": "/newProject/xiaoyongfinally/xiaoyongfinally/MyApplication/C:\\Users\\Administrator\\Documents\\Tencent Files\\974271908\\FileRecv\\xiaoyongfinally\\xiaoyongfinally\\MyApplication\\applsat\\build\\intermediates\\res\\merged\\debug\\layout\\design_bottom_navigation_item.xml",
-        "source": "/newProject/xiaoyongfinally/xiaoyongfinally/MyApplication/C:\\Users\\Administrator\\.android\\build-cache\\6332a33ac9620b7dcbb09ca4e43011b5bac4a7eb\\output\\res\\layout\\design_bottom_navigation_item.xml"
     },
     {
         "merged": "/newProject/xiaoyongfinally/xiaoyongfinally/MyApplication/applsat/build/intermediates/res/merged/debug/layout/item_msg_zazhi.xml",
@@ -576,40 +304,12 @@
         "source": "/Users/huc/.android/build-cache/76a5113bb4036eac0b4307f578c9425c04a9399c/output/res/layout/notification_template_icon_group.xml"
     },
     {
-        "merged": "/newProject/xiaoyongfinally/xiaoyongfinally/MyApplication/C:\\Users\\Administrator\\Documents\\Tencent Files\\974271908\\FileRecv\\xiaoyongfinally\\xiaoyongfinally\\MyApplication\\applsat\\build\\intermediates\\res\\merged\\debug\\layout\\item_msg_child.xml",
-        "source": "/newProject/xiaoyongfinally/xiaoyongfinally/MyApplication/C:\\Users\\Administrator\\Documents\\Tencent Files\\974271908\\FileRecv\\xiaoyongfinally\\xiaoyongfinally\\MyApplication\\applsat\\src\\main\\res\\layout\\item_msg_child.xml"
-    },
-    {
         "merged": "/newProject/xiaoyongfinally/xiaoyongfinally/MyApplication/applsat/build/intermediates/res/merged/debug/layout/fragment_jx.xml",
         "source": "/newProject/xiaoyongfinally/xiaoyongfinally/MyApplication/applsat/src/main/res/layout/fragment_jx.xml"
     },
     {
         "merged": "/newProject/xiaoyongfinally/xiaoyongfinally/MyApplication/applsat/build/intermediates/res/merged/debug/layout/abc_action_bar_view_list_nav_layout.xml",
         "source": "/Users/huc/.android/build-cache/76a5113bb4036eac0b4307f578c9425c04a9399c/output/res/layout/abc_action_bar_view_list_nav_layout.xml"
-    },
-    {
-        "merged": "/newProject/xiaoyongfinally/xiaoyongfinally/MyApplication/C:\\Users\\Administrator\\Documents\\Tencent Files\\974271908\\FileRecv\\xiaoyongfinally\\xiaoyongfinally\\MyApplication\\applsat\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item_header.xml",
-        "source": "/newProject/xiaoyongfinally/xiaoyongfinally/MyApplication/C:\\Users\\Administrator\\.android\\build-cache\\6332a33ac9620b7dcbb09ca4e43011b5bac4a7eb\\output\\res\\layout\\design_navigation_item_header.xml"
-    },
-    {
-        "merged": "/newProject/xiaoyongfinally/xiaoyongfinally/MyApplication/C:\\Users\\Administrator\\Documents\\Tencent Files\\974271908\\FileRecv\\xiaoyongfinally\\xiaoyongfinally\\MyApplication\\applsat\\build\\intermediates\\res\\merged\\debug\\layout\\item_shopping_footer.xml",
-        "source": "/newProject/xiaoyongfinally/xiaoyongfinally/MyApplication/C:\\Users\\Administrator\\Documents\\Tencent Files\\974271908\\FileRecv\\xiaoyongfinally\\xiaoyongfinally\\MyApplication\\applsat\\src\\main\\res\\layout\\item_shopping_footer.xml"
-    },
-    {
-        "merged": "/newProject/xiaoyongfinally/xiaoyongfinally/MyApplication/C:\\Users\\Administrator\\Documents\\Tencent Files\\974271908\\FileRecv\\xiaoyongfinally\\xiaoyongfinally\\MyApplication\\applsat\\build\\intermediates\\res\\merged\\debug\\layout\\design_menu_item_action_area.xml",
-        "source": "/newProject/xiaoyongfinally/xiaoyongfinally/MyApplication/C:\\Users\\Administrator\\.android\\build-cache\\6332a33ac9620b7dcbb09ca4e43011b5bac4a7eb\\output\\res\\layout\\design_menu_item_action_area.xml"
-    },
-    {
-        "merged": "/newProject/xiaoyongfinally/xiaoyongfinally/MyApplication/C:\\Users\\Administrator\\Documents\\Tencent Files\\974271908\\FileRecv\\xiaoyongfinally\\xiaoyongfinally\\MyApplication\\applsat\\build\\intermediates\\res\\merged\\debug\\layout\\abc_alert_dialog_button_bar_material.xml",
-        "source": "/newProject/xiaoyongfinally/xiaoyongfinally/MyApplication/C:\\Users\\Administrator\\.android\\build-cache\\1dc6c3b7d40b8fe9d3e38e3fb0a2101fe97b1cef\\output\\res\\layout\\abc_alert_dialog_button_bar_material.xml"
-    },
-    {
-        "merged": "/newProject/xiaoyongfinally/xiaoyongfinally/MyApplication/C:\\Users\\Administrator\\Documents\\Tencent Files\\974271908\\FileRecv\\xiaoyongfinally\\xiaoyongfinally\\MyApplication\\applsat\\build\\intermediates\\res\\merged\\debug\\layout\\abc_search_dropdown_item_icons_2line.xml",
-        "source": "/newProject/xiaoyongfinally/xiaoyongfinally/MyApplication/C:\\Users\\Administrator\\.android\\build-cache\\1dc6c3b7d40b8fe9d3e38e3fb0a2101fe97b1cef\\output\\res\\layout\\abc_search_dropdown_item_icons_2line.xml"
-    },
-    {
-        "merged": "/newProject/xiaoyongfinally/xiaoyongfinally/MyApplication/C:\\Users\\Administrator\\Documents\\Tencent Files\\974271908\\FileRecv\\xiaoyongfinally\\xiaoyongfinally\\MyApplication\\applsat\\build\\intermediates\\res\\merged\\debug\\layout\\support_simple_spinner_dropdown_item.xml",
-        "source": "/newProject/xiaoyongfinally/xiaoyongfinally/MyApplication/C:\\Users\\Administrator\\.android\\build-cache\\1dc6c3b7d40b8fe9d3e38e3fb0a2101fe97b1cef\\output\\res\\layout\\support_simple_spinner_dropdown_item.xml"
     },
     {
         "merged": "/newProject/xiaoyongfinally/xiaoyongfinally/MyApplication/applsat/build/intermediates/res/merged/debug/layout/select_dialog_singlechoice_material.xml",
@@ -620,16 +320,8 @@
         "source": "/Users/huc/.android/build-cache/36601ce09cf6a54002e1f6970317cc6513553c71/output/res/layout/design_navigation_item_separator.xml"
     },
     {
-        "merged": "/newProject/xiaoyongfinally/xiaoyongfinally/MyApplication/C:\\Users\\Administrator\\Documents\\Tencent Files\\974271908\\FileRecv\\xiaoyongfinally\\xiaoyongfinally\\MyApplication\\applsat\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_icon_group.xml",
-        "source": "/newProject/xiaoyongfinally/xiaoyongfinally/MyApplication/C:\\Users\\Administrator\\.android\\build-cache\\1dc6c3b7d40b8fe9d3e38e3fb0a2101fe97b1cef\\output\\res\\layout\\notification_template_icon_group.xml"
-    },
-    {
         "merged": "/newProject/xiaoyongfinally/xiaoyongfinally/MyApplication/applsat/build/intermediates/res/merged/debug/layout/abc_list_menu_item_layout.xml",
         "source": "/Users/huc/.android/build-cache/76a5113bb4036eac0b4307f578c9425c04a9399c/output/res/layout/abc_list_menu_item_layout.xml"
-    },
-    {
-        "merged": "/newProject/xiaoyongfinally/xiaoyongfinally/MyApplication/C:\\Users\\Administrator\\Documents\\Tencent Files\\974271908\\FileRecv\\xiaoyongfinally\\xiaoyongfinally\\MyApplication\\applsat\\build\\intermediates\\res\\merged\\debug\\layout\\item_home_dt.xml",
-        "source": "/newProject/xiaoyongfinally/xiaoyongfinally/MyApplication/C:\\Users\\Administrator\\Documents\\Tencent Files\\974271908\\FileRecv\\xiaoyongfinally\\xiaoyongfinally\\MyApplication\\applsat\\src\\main\\res\\layout\\item_home_dt.xml"
     },
     {
         "merged": "/newProject/xiaoyongfinally/xiaoyongfinally/MyApplication/applsat/build/intermediates/res/merged/debug/layout/design_navigation_item.xml",
@@ -640,28 +332,16 @@
         "source": "/Users/huc/.android/build-cache/36601ce09cf6a54002e1f6970317cc6513553c71/output/res/layout/design_bottom_sheet_dialog.xml"
     },
     {
-        "merged": "/newProject/xiaoyongfinally/xiaoyongfinally/MyApplication/C:\\Users\\Administrator\\Documents\\Tencent Files\\974271908\\FileRecv\\xiaoyongfinally\\xiaoyongfinally\\MyApplication\\applsat\\build\\intermediates\\res\\merged\\debug\\layout\\layout_toolbar.xml",
-        "source": "/newProject/xiaoyongfinally/xiaoyongfinally/MyApplication/C:\\Users\\Administrator\\Documents\\Tencent Files\\974271908\\FileRecv\\xiaoyongfinally\\xiaoyongfinally\\MyApplication\\applsat\\src\\main\\res\\layout\\layout_toolbar.xml"
+        "merged": "/newProject/xiaoyongfinally/xiaoyongfinally/MyApplication/applsat/build/intermediates/res/merged/debug/layout/fragment_dongman.xml",
+        "source": "/newProject/xiaoyongfinally/xiaoyongfinally/MyApplication/applsat/src/main/res/layout/fragment_dongman.xml"
     },
     {
         "merged": "/newProject/xiaoyongfinally/xiaoyongfinally/MyApplication/applsat/build/intermediates/res/merged/debug/layout/header_msg_zazhi.xml",
         "source": "/newProject/xiaoyongfinally/xiaoyongfinally/MyApplication/applsat/src/main/res/layout/header_msg_zazhi.xml"
     },
     {
-        "merged": "/newProject/xiaoyongfinally/xiaoyongfinally/MyApplication/applsat/build/intermediates/res/merged/debug/layout/fragment_dongman.xml",
-        "source": "/newProject/xiaoyongfinally/xiaoyongfinally/MyApplication/applsat/src/main/res/layout/fragment_dongman.xml"
-    },
-    {
         "merged": "/newProject/xiaoyongfinally/xiaoyongfinally/MyApplication/applsat/build/intermediates/res/merged/debug/layout/fragment_yaowen.xml",
         "source": "/newProject/xiaoyongfinally/xiaoyongfinally/MyApplication/applsat/src/main/res/layout/fragment_yaowen.xml"
-    },
-    {
-        "merged": "/newProject/xiaoyongfinally/xiaoyongfinally/MyApplication/C:\\Users\\Administrator\\Documents\\Tencent Files\\974271908\\FileRecv\\xiaoyongfinally\\xiaoyongfinally\\MyApplication\\applsat\\build\\intermediates\\res\\merged\\debug\\layout\\activity_pet_msg.xml",
-        "source": "/newProject/xiaoyongfinally/xiaoyongfinally/MyApplication/C:\\Users\\Administrator\\Documents\\Tencent Files\\974271908\\FileRecv\\xiaoyongfinally\\xiaoyongfinally\\MyApplication\\applsat\\src\\main\\res\\layout\\activity_pet_msg.xml"
-    },
-    {
-        "merged": "/newProject/xiaoyongfinally/xiaoyongfinally/MyApplication/C:\\Users\\Administrator\\Documents\\Tencent Files\\974271908\\FileRecv\\xiaoyongfinally\\xiaoyongfinally\\MyApplication\\applsat\\build\\intermediates\\res\\merged\\debug\\layout\\design_text_input_password_icon.xml",
-        "source": "/newProject/xiaoyongfinally/xiaoyongfinally/MyApplication/C:\\Users\\Administrator\\.android\\build-cache\\6332a33ac9620b7dcbb09ca4e43011b5bac4a7eb\\output\\res\\layout\\design_text_input_password_icon.xml"
     },
     {
         "merged": "/newProject/xiaoyongfinally/xiaoyongfinally/MyApplication/applsat/build/intermediates/res/merged/debug/layout/item_dt_images.xml",
@@ -672,28 +352,12 @@
         "source": "/Users/huc/.android/build-cache/36601ce09cf6a54002e1f6970317cc6513553c71/output/res/layout/design_navigation_menu.xml"
     },
     {
-        "merged": "/newProject/xiaoyongfinally/xiaoyongfinally/MyApplication/C:\\Users\\Administrator\\Documents\\Tencent Files\\974271908\\FileRecv\\xiaoyongfinally\\xiaoyongfinally\\MyApplication\\applsat\\build\\intermediates\\res\\merged\\debug\\layout\\design_layout_tab_icon.xml",
-        "source": "/newProject/xiaoyongfinally/xiaoyongfinally/MyApplication/C:\\Users\\Administrator\\.android\\build-cache\\6332a33ac9620b7dcbb09ca4e43011b5bac4a7eb\\output\\res\\layout\\design_layout_tab_icon.xml"
-    },
-    {
-        "merged": "/newProject/xiaoyongfinally/xiaoyongfinally/MyApplication/C:\\Users\\Administrator\\Documents\\Tencent Files\\974271908\\FileRecv\\xiaoyongfinally\\xiaoyongfinally\\MyApplication\\applsat\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_service.xml",
-        "source": "/newProject/xiaoyongfinally/xiaoyongfinally/MyApplication/C:\\Users\\Administrator\\Documents\\Tencent Files\\974271908\\FileRecv\\xiaoyongfinally\\xiaoyongfinally\\MyApplication\\applsat\\src\\main\\res\\layout\\fragment_service.xml"
-    },
-    {
         "merged": "/newProject/xiaoyongfinally/xiaoyongfinally/MyApplication/applsat/build/intermediates/res/merged/debug/layout/notification_template_part_time.xml",
         "source": "/Users/huc/.android/build-cache/76a5113bb4036eac0b4307f578c9425c04a9399c/output/res/layout/notification_template_part_time.xml"
     },
     {
-        "merged": "/newProject/xiaoyongfinally/xiaoyongfinally/MyApplication/C:\\Users\\Administrator\\Documents\\Tencent Files\\974271908\\FileRecv\\xiaoyongfinally\\xiaoyongfinally\\MyApplication\\applsat\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_dt.xml",
-        "source": "/newProject/xiaoyongfinally/xiaoyongfinally/MyApplication/C:\\Users\\Administrator\\Documents\\Tencent Files\\974271908\\FileRecv\\xiaoyongfinally\\xiaoyongfinally\\MyApplication\\applsat\\src\\main\\res\\layout\\fragment_dt.xml"
-    },
-    {
         "merged": "/newProject/xiaoyongfinally/xiaoyongfinally/MyApplication/applsat/build/intermediates/res/merged/debug/layout/design_bottom_navigation_item.xml",
         "source": "/Users/huc/.android/build-cache/36601ce09cf6a54002e1f6970317cc6513553c71/output/res/layout/design_bottom_navigation_item.xml"
-    },
-    {
-        "merged": "/newProject/xiaoyongfinally/xiaoyongfinally/MyApplication/C:\\Users\\Administrator\\Documents\\Tencent Files\\974271908\\FileRecv\\xiaoyongfinally\\xiaoyongfinally\\MyApplication\\applsat\\build\\intermediates\\res\\merged\\debug\\layout\\item_leader_viewpager.xml",
-        "source": "/newProject/xiaoyongfinally/xiaoyongfinally/MyApplication/C:\\Users\\Administrator\\Documents\\Tencent Files\\974271908\\FileRecv\\xiaoyongfinally\\xiaoyongfinally\\MyApplication\\applsat\\src\\main\\res\\layout\\item_leader_viewpager.xml"
     },
     {
         "merged": "/newProject/xiaoyongfinally/xiaoyongfinally/MyApplication/applsat/build/intermediates/res/merged/debug/layout/design_layout_snackbar_include.xml",
@@ -708,10 +372,6 @@
         "source": "/newProject/xiaoyongfinally/xiaoyongfinally/MyApplication/applsat/src/main/res/layout/fragment_home.xml"
     },
     {
-        "merged": "/newProject/xiaoyongfinally/xiaoyongfinally/MyApplication/C:\\Users\\Administrator\\Documents\\Tencent Files\\974271908\\FileRecv\\xiaoyongfinally\\xiaoyongfinally\\MyApplication\\applsat\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_yaowen.xml",
-        "source": "/newProject/xiaoyongfinally/xiaoyongfinally/MyApplication/C:\\Users\\Administrator\\Documents\\Tencent Files\\974271908\\FileRecv\\xiaoyongfinally\\xiaoyongfinally\\MyApplication\\applsat\\src\\main\\res\\layout\\fragment_yaowen.xml"
-    },
-    {
         "merged": "/newProject/xiaoyongfinally/xiaoyongfinally/MyApplication/applsat/build/intermediates/res/merged/debug/layout/abc_alert_dialog_material.xml",
         "source": "/Users/huc/.android/build-cache/76a5113bb4036eac0b4307f578c9425c04a9399c/output/res/layout/abc_alert_dialog_material.xml"
     },
@@ -720,31 +380,11 @@
         "source": "/Users/huc/.android/build-cache/76a5113bb4036eac0b4307f578c9425c04a9399c/output/res/layout/abc_action_bar_title_item.xml"
     },
     {
-        "merged": "/newProject/xiaoyongfinally/xiaoyongfinally/MyApplication/C:\\Users\\Administrator\\Documents\\Tencent Files\\974271908\\FileRecv\\xiaoyongfinally\\xiaoyongfinally\\MyApplication\\applsat\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_menu_layout.xml",
-        "source": "/newProject/xiaoyongfinally/xiaoyongfinally/MyApplication/C:\\Users\\Administrator\\.android\\build-cache\\1dc6c3b7d40b8fe9d3e38e3fb0a2101fe97b1cef\\output\\res\\layout\\abc_action_menu_layout.xml"
-    },
-    {
-        "merged": "/newProject/xiaoyongfinally/xiaoyongfinally/MyApplication/C:\\Users\\Administrator\\Documents\\Tencent Files\\974271908\\FileRecv\\xiaoyongfinally\\xiaoyongfinally\\MyApplication\\applsat\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_multichoice_material.xml",
-        "source": "/newProject/xiaoyongfinally/xiaoyongfinally/MyApplication/C:\\Users\\Administrator\\.android\\build-cache\\1dc6c3b7d40b8fe9d3e38e3fb0a2101fe97b1cef\\output\\res\\layout\\select_dialog_multichoice_material.xml"
-    },
-    {
-        "merged": "/newProject/xiaoyongfinally/xiaoyongfinally/MyApplication/C:\\Users\\Administrator\\Documents\\Tencent Files\\974271908\\FileRecv\\xiaoyongfinally\\xiaoyongfinally\\MyApplication\\applsat\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_msg.xml",
-        "source": "/newProject/xiaoyongfinally/xiaoyongfinally/MyApplication/C:\\Users\\Administrator\\Documents\\Tencent Files\\974271908\\FileRecv\\xiaoyongfinally\\xiaoyongfinally\\MyApplication\\applsat\\src\\main\\res\\layout\\fragment_msg.xml"
-    },
-    {
-        "merged": "/newProject/xiaoyongfinally/xiaoyongfinally/MyApplication/C:\\Users\\Administrator\\Documents\\Tencent Files\\974271908\\FileRecv\\xiaoyongfinally\\xiaoyongfinally\\MyApplication\\applsat\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_media_custom.xml",
-        "source": "/newProject/xiaoyongfinally/xiaoyongfinally/MyApplication/C:\\Users\\Administrator\\.android\\build-cache\\1dc6c3b7d40b8fe9d3e38e3fb0a2101fe97b1cef\\output\\res\\layout\\notification_template_media_custom.xml"
-    },
-    {
         "merged": "/newProject/xiaoyongfinally/xiaoyongfinally/MyApplication/applsat/build/intermediates/res/merged/debug/layout/item_msg_child.xml",
         "source": "/newProject/xiaoyongfinally/xiaoyongfinally/MyApplication/applsat/src/main/res/layout/item_msg_child.xml"
     },
     {
         "merged": "/newProject/xiaoyongfinally/xiaoyongfinally/MyApplication/applsat/build/intermediates/res/merged/debug/layout/item_shopping.xml",
         "source": "/newProject/xiaoyongfinally/xiaoyongfinally/MyApplication/applsat/src/main/res/layout/item_shopping.xml"
-    },
-    {
-        "merged": "/newProject/xiaoyongfinally/xiaoyongfinally/MyApplication/C:\\Users\\Administrator\\Documents\\Tencent Files\\974271908\\FileRecv\\xiaoyongfinally\\xiaoyongfinally\\MyApplication\\applsat\\build\\intermediates\\res\\merged\\debug\\layout\\activity_login.xml",
-        "source": "/newProject/xiaoyongfinally/xiaoyongfinally/MyApplication/C:\\Users\\Administrator\\Documents\\Tencent Files\\974271908\\FileRecv\\xiaoyongfinally\\xiaoyongfinally\\MyApplication\\applsat\\src\\main\\res\\layout\\activity_login.xml"
     }
 ]

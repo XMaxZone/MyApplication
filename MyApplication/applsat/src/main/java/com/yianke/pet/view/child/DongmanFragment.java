@@ -44,8 +44,8 @@ public class DongmanFragment extends BaseFragment
             switch (msg.what){
                 case 1:
                     mList = new ArrayList<>();
-                    mList.add(new MsgChildModel(dataBeanList.get(0).getDescription(),dataBeanList.get(0).getAuthor(),4256,R.drawable.dongman1));
-                    mList.add(new MsgChildModel(dataBeanList.get(1).getDescription(),dataBeanList.get(1).getAuthor(),9999,R.drawable.dongman2));
+                    mList.add(new MsgChildModel(dataBeanList.get(0).getDescription(),dataBeanList.get(0).getAuthor(),4256,dataBeanList.get(0).getArticleImage()));
+                    mList.add(new MsgChildModel(dataBeanList.get(1).getDescription(),dataBeanList.get(1).getAuthor(),9999,dataBeanList.get(1).getArticleImage()));
 //                    mList.add(new MsgChildModel(dataBeanList.get(2).getDescription(),dataBeanList.get(2).getAuthor(),13000,R.drawable.dongman3));
 //                    mList.add(new MsgChildModel("瑞兽--猫落平阳被犬欺（下）",true,false,"宋霸霸 小铁&果脯儿 军统小队长",17000,R.drawable.dongman4));
 //                    mList.add(new MsgChildModel("瑞兽--高清福利图",true,false,"果脯儿&军统小队长",29000,R.drawable.dongman5));

@@ -21,6 +21,10 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:layout_marginTop="54px"
+    android:lines="1"
+    android:maxEms="5"
+    android:singleLine="true"
+    android:ellipsize="end"
         android:text="【天然健康膳\n食狗粮，提升..."/>
 
     <com.zhy.autolayout.AutoRelativeLayout

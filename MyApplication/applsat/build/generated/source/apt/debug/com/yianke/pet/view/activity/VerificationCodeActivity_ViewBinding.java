@@ -16,13 +16,13 @@ import java.lang.Override;
 public class VerificationCodeActivity_ViewBinding<T extends VerificationCodeActivity> implements Unbinder {
   protected T target;
 
-  private View view2131558582;
+  private View view2131558598;
 
-  private View view2131558719;
+  private View view2131558760;
 
-  private View view2131558605;
+  private View view2131558621;
 
-  private View view2131558603;
+  private View view2131558619;
 
   @UiThread
   public VerificationCodeActivity_ViewBinding(final T target, View source) {
@@ -32,7 +32,7 @@ public class VerificationCodeActivity_ViewBinding<T extends VerificationCodeActi
     target.mTopText = Utils.findRequiredViewAsType(source, R.id.top_text, "field 'mTopText'", TextView.class);
     view = Utils.findRequiredView(source, R.id.code_nums, "field 'mCodeNums' and method 'onViewClicked'");
     target.mCodeNums = Utils.castView(view, R.id.code_nums, "field 'mCodeNums'", TextView.class);
-    view2131558582 = view;
+    view2131558598 = view;
     view.setOnClickListener(new DebouncingOnClickListener() {
       @Override
       public void doClick(View p0) {
@@ -41,7 +41,7 @@ public class VerificationCodeActivity_ViewBinding<T extends VerificationCodeActi
     });
     target.mCodeGetnums = Utils.findRequiredViewAsType(source, R.id.code_getnums, "field 'mCodeGetnums'", EditText.class);
     view = Utils.findRequiredView(source, R.id.top_back, "method 'onViewClicked'");
-    view2131558719 = view;
+    view2131558760 = view;
     view.setOnClickListener(new DebouncingOnClickListener() {
       @Override
       public void doClick(View p0) {
@@ -49,7 +49,7 @@ public class VerificationCodeActivity_ViewBinding<T extends VerificationCodeActi
       }
     });
     view = Utils.findRequiredView(source, R.id.code_btn, "method 'onViewClicked'");
-    view2131558605 = view;
+    view2131558621 = view;
     view.setOnClickListener(new DebouncingOnClickListener() {
       @Override
       public void doClick(View p0) {
@@ -57,7 +57,7 @@ public class VerificationCodeActivity_ViewBinding<T extends VerificationCodeActi
       }
     });
     view = Utils.findRequiredView(source, R.id.register_agree, "method 'onViewClicked'");
-    view2131558603 = view;
+    view2131558619 = view;
     view.setOnClickListener(new DebouncingOnClickListener() {
       @Override
       public void doClick(View p0) {
@@ -76,14 +76,14 @@ public class VerificationCodeActivity_ViewBinding<T extends VerificationCodeActi
     target.mCodeNums = null;
     target.mCodeGetnums = null;
 
-    view2131558582.setOnClickListener(null);
-    view2131558582 = null;
-    view2131558719.setOnClickListener(null);
-    view2131558719 = null;
-    view2131558605.setOnClickListener(null);
-    view2131558605 = null;
-    view2131558603.setOnClickListener(null);
-    view2131558603 = null;
+    view2131558598.setOnClickListener(null);
+    view2131558598 = null;
+    view2131558760.setOnClickListener(null);
+    view2131558760 = null;
+    view2131558621.setOnClickListener(null);
+    view2131558621 = null;
+    view2131558619.setOnClickListener(null);
+    view2131558619 = null;
 
     this.target = null;
   }

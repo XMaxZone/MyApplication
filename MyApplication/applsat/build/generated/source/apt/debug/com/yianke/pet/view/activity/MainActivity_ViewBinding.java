@@ -17,15 +17,15 @@ import java.lang.Override;
 public class MainActivity_ViewBinding<T extends MainActivity> implements Unbinder {
   protected T target;
 
-  private View view2131558566;
+  private View view2131558582;
 
-  private View view2131558569;
+  private View view2131558585;
 
-  private View view2131558572;
+  private View view2131558588;
 
-  private View view2131558575;
+  private View view2131558591;
 
-  private View view2131558578;
+  private View view2131558594;
 
   @UiThread
   public MainActivity_ViewBinding(final T target, View source) {
@@ -44,7 +44,7 @@ public class MainActivity_ViewBinding<T extends MainActivity> implements Unbinde
     target.mImgMine = Utils.findRequiredViewAsType(source, R.id.img_mine, "field 'mImgMine'", ImageView.class);
     target.mTvMine = Utils.findRequiredViewAsType(source, R.id.tv_mine, "field 'mTvMine'", TextView.class);
     view = Utils.findRequiredView(source, R.id.parent_home, "method 'onViewClicked'");
-    view2131558566 = view;
+    view2131558582 = view;
     view.setOnClickListener(new DebouncingOnClickListener() {
       @Override
       public void doClick(View p0) {
@@ -52,7 +52,7 @@ public class MainActivity_ViewBinding<T extends MainActivity> implements Unbinde
       }
     });
     view = Utils.findRequiredView(source, R.id.parent_house, "method 'onViewClicked'");
-    view2131558569 = view;
+    view2131558585 = view;
     view.setOnClickListener(new DebouncingOnClickListener() {
       @Override
       public void doClick(View p0) {
@@ -60,7 +60,7 @@ public class MainActivity_ViewBinding<T extends MainActivity> implements Unbinde
       }
     });
     view = Utils.findRequiredView(source, R.id.parent_buy, "method 'onViewClicked'");
-    view2131558572 = view;
+    view2131558588 = view;
     view.setOnClickListener(new DebouncingOnClickListener() {
       @Override
       public void doClick(View p0) {
@@ -68,7 +68,7 @@ public class MainActivity_ViewBinding<T extends MainActivity> implements Unbinde
       }
     });
     view = Utils.findRequiredView(source, R.id.parent_service, "method 'onViewClicked'");
-    view2131558575 = view;
+    view2131558591 = view;
     view.setOnClickListener(new DebouncingOnClickListener() {
       @Override
       public void doClick(View p0) {
@@ -76,7 +76,7 @@ public class MainActivity_ViewBinding<T extends MainActivity> implements Unbinde
       }
     });
     view = Utils.findRequiredView(source, R.id.parent_mine, "method 'onViewClicked'");
-    view2131558578 = view;
+    view2131558594 = view;
     view.setOnClickListener(new DebouncingOnClickListener() {
       @Override
       public void doClick(View p0) {
@@ -103,16 +103,16 @@ public class MainActivity_ViewBinding<T extends MainActivity> implements Unbinde
     target.mImgMine = null;
     target.mTvMine = null;
 
-    view2131558566.setOnClickListener(null);
-    view2131558566 = null;
-    view2131558569.setOnClickListener(null);
-    view2131558569 = null;
-    view2131558572.setOnClickListener(null);
-    view2131558572 = null;
-    view2131558575.setOnClickListener(null);
-    view2131558575 = null;
-    view2131558578.setOnClickListener(null);
-    view2131558578 = null;
+    view2131558582.setOnClickListener(null);
+    view2131558582 = null;
+    view2131558585.setOnClickListener(null);
+    view2131558585 = null;
+    view2131558588.setOnClickListener(null);
+    view2131558588 = null;
+    view2131558591.setOnClickListener(null);
+    view2131558591 = null;
+    view2131558594.setOnClickListener(null);
+    view2131558594 = null;
 
     this.target = null;
   }

@@ -16,9 +16,9 @@ public class MsgChildModel
 
     private long stars;
 
-    private int resourceId;
+    private String resourceId;
 
-    public MsgChildModel(String title, boolean isZhiding, boolean isJingxuan, String author, long stars, int resourceId)
+    public MsgChildModel(String title, boolean isZhiding, boolean isJingxuan, String author, long stars, String resourceId)
     {
         this.title = title;
         this.isZhiding = isZhiding;
@@ -28,7 +28,7 @@ public class MsgChildModel
         this.resourceId = resourceId;
     }
 
-    public MsgChildModel(String title, String author, int stars, int resourceId)
+    public MsgChildModel(String title, String author, int stars, String resourceId)
     {
         this.title = title;
         this.author = author;
@@ -88,12 +88,12 @@ public class MsgChildModel
         this.stars = stars;
     }
 
-    public int getResourceId()
+    public String getResourceId()
     {
         return resourceId;
     }
 
-    public void setResourceId(int resourceId)
+    public void setResourceId(String resourceId)
     {
         this.resourceId = resourceId;
     }

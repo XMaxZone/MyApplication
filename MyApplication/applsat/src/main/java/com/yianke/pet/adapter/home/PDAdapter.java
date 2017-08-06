@@ -6,6 +6,7 @@ import android.support.v4.view.ViewCompat;
 import android.support.v7.widget.GridLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.support.v7.widget.StaggeredGridLayoutManager;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -87,7 +88,7 @@ public class PDAdapter extends BaseAdapter
         ViewGroup.LayoutParams params = holder.mItemImg.getLayoutParams();
         params.height = getScreenWidth();
         holder.mItemImg.setLayoutParams(params);
-        holder.mItemImg.setAdapter(new ChildAdapter(mList.get(position).getUserImages()));
+        holder.mItemImg.setAdapter(new ChildAdapter(mList.get(position).getUserImage()));
         holder.mItemImg.setNestedScrollingEnabled(false);
         return convertView;
     }
@@ -117,12 +118,13 @@ public class PDAdapter extends BaseAdapter
     public class ChildAdapter extends RecyclerView.Adapter<ChildAdapter.ViewHolder>
     {
         int child = 0;
-        private int[] images;
+        private String[] images;
 
-        public ChildAdapter(int[] images)
+        public ChildAdapter(String[] images)
         {
             this.images = images;
         }
+
 
         @Override
         public ViewHolder onCreateViewHolder(ViewGroup parent, int viewType)
@@ -149,6 +151,7 @@ public class PDAdapter extends BaseAdapter
         @Override
         public int getItemCount()
         {
+            Log.e("TAG","----"+images);
             return images.length;
         }
 

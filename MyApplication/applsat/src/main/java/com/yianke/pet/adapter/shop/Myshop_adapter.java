@@ -1,6 +1,7 @@
 package com.yianke.pet.adapter.shop;
 
 import android.content.Context;
+import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.BaseAdapter;
@@ -47,7 +48,8 @@ public class Myshop_adapter extends BaseAdapter {
         ViewHolder viewHolder;
         if (view ==null){
             viewHolder = new ViewHolder();
-            view = View.inflate(mcontent, R.layout.item_goods_list, null);
+            view = LayoutInflater.from(mcontent).inflate(R.layout.item_goods_list,null);
+          //  ／／view = View.inflate(mcontent, R.layout.item_goods_list, null);
             viewHolder.iv_hot = (ImageView)view.findViewById(R.id.iv_hot);
             viewHolder.tv_name = (TextView)view.findViewById(R.id.tv_name);
             viewHolder.tv_price = (TextView)view.findViewById(R.id.tv_price);

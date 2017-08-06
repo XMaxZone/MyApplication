@@ -48,6 +48,7 @@ public class DTAdapter extends BaseAdapter
     @Override
     public int getCount()
     {
+        Log.e("TAG",String.valueOf(mList.size()));
         return mList == null ? 0 : mList.size();
     }
 
@@ -67,6 +68,9 @@ public class DTAdapter extends BaseAdapter
     public View getView(int position, View convertView, ViewGroup parent)
     {
 
+        /*if (position!=0){
+                position-=1;
+        }*/
         ViewHolder holder = null;
         if (convertView == null)
         {
@@ -88,7 +92,7 @@ public class DTAdapter extends BaseAdapter
         ViewGroup.LayoutParams params = holder.mItemImg.getLayoutParams();
         params.height = getScreenWidth();
         holder.mItemImg.setLayoutParams(params);
-        holder.mItemImg.setAdapter(new ChildAdapter(mList.get(position).getUserImages()));
+        holder.mItemImg.setAdapter(new ChildAdapter(mList.get(position).getUserImage()));
         holder.mItemImg.setNestedScrollingEnabled(false);//ListView嵌套RecyclerView去除卡顿
         return convertView;
     }
@@ -116,13 +120,19 @@ public class DTAdapter extends BaseAdapter
      */
     public class ChildAdapter extends RecyclerView.Adapter<ChildAdapter.ViewHolder>
     {
-        private int[] images;
+       private String[] images;
         private int child = 0;
+        private String [] image;
 
-        public ChildAdapter(int[] images)
+        public ChildAdapter(String[] images)
         {
             this.images = images;
-        }
+       }
+
+        /*public ChildAdapter(String[] image)
+        {
+            this.image = image;
+        }*/
 
         @Override
         public ViewHolder onCreateViewHolder(ViewGroup parent, int viewType)
@@ -148,6 +158,8 @@ public class DTAdapter extends BaseAdapter
         @Override
         public int getItemCount()
         {
+
+            //images.length;
             return images.length;
         }
 

@@ -72,6 +72,7 @@ public class JXAdapter extends BaseAdapter
             holder = new ViewHolder(convertView);
             convertView.setTag(holder);
             AutoUtils.autoSize(convertView);
+
         } else
         {
             holder = (ViewHolder) convertView.getTag();

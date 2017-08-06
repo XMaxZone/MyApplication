@@ -235,7 +235,6 @@ public class JXFragment extends BaseFragment
         mJxList.add(new JXModel());
         mJxList.add(new JXModel());
         mJxList.add(new JXModel());
-        mJxList.add(new JXModel());
         getdata();
 
         View header = LayoutInflater.from(getActivity()).inflate(R.layout.header_jx, null);

@@ -30,11 +30,11 @@ public class JXModel
     public JXModel()
     {
         this.headerImg = R.drawable.jx_header;
-        this.userName = "豌豆麻麻";
-        this.userAir = "四川 资阳";
+        this.userName = "永登人";
+        this.userAir = "甘肃 兰州";
         this.userImg = R.drawable.jx_user_pet;
-        this.petName = "豌豆";
-        this.petType = "小小柯基犬";
+        this.petName = "永登";
+        this.petType = "";
         this.mainImg = R.drawable.jx_main;
     }
 

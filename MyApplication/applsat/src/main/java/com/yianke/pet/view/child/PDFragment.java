@@ -43,6 +43,19 @@ public class PDFragment extends BaseFragment
                     R.drawable.pd_8,
                     R.drawable.pd_9,
             };
+
+    private String [] image =
+            {
+                    "http://f11.baidu.com/it/u=1171407455,2666980788&fm=72",
+                    "http://f11.baidu.com/it/u=341827502,2860753376&fm=72",
+                    "http://img3.imgtn.bdimg.com/it/u=1505113575,3428379400&fm=26&gp=0.jpg",
+                    "http://img2.imgtn.bdimg.com/it/u=1469499598,3691287836&fm=26&gp=0.jpg",
+                    "http://img2.imgtn.bdimg.com/it/u=3767223967,2402754401&fm=26&gp=0.jpg",
+                    "http://img5.imgtn.bdimg.com/it/u=633745011,892773620&fm=26&gp=0.jpg",
+                    "http://img0.imgtn.bdimg.com/it/u=3989998911,4234694023&fm=26&gp=0.jpg",
+                    "http://img4.imgtn.bdimg.com/it/u=674153610,3427523686&fm=26&gp=0.jpg",
+                    "http://img3.imgtn.bdimg.com/it/u=2218960746,3724830661&fm=26&gp=0.jpg",
+            };
     private List<DTModel> mList;
 
 
@@ -57,12 +70,12 @@ public class PDFragment extends BaseFragment
     {
         ButterKnife.bind(this, view);
         mList = new ArrayList<>();
-        mList.add(new DTModel(R.drawable.jx_header,"Summer麻麻","#双子座萌宠#幺幺3岁了！对，3岁了。\\nsummer接回家的时候也就三个多月，我并不知道\\nsummer具体是哪一天，只知道是6月份，那么就跟麻麻",images));
-        mList.add(new DTModel(R.drawable.jx_header,"Summer麻麻","#双子座萌宠#幺幺3岁了！对，3岁了。\\nsummer接回家的时候也就三个多月，我并不知道\\nsummer具体是哪一天，只知道是6月份，那么就跟麻麻",images));
-        mList.add(new DTModel(R.drawable.jx_header,"Summer麻麻","#双子座萌宠#幺幺3岁了！对，3岁了。\\nsummer接回家的时候也就三个多月，我并不知道\\nsummer具体是哪一天，只知道是6月份，那么就跟麻麻",images));
-        mList.add(new DTModel(R.drawable.jx_header,"Summer麻麻","#双子座萌宠#幺幺3岁了！对，3岁了。\\nsummer接回家的时候也就三个多月，我并不知道\\nsummer具体是哪一天，只知道是6月份，那么就跟麻麻",images));
-        mList.add(new DTModel(R.drawable.jx_header,"Summer麻麻","#双子座萌宠#幺幺3岁了！对，3岁了。\\nsummer接回家的时候也就三个多月，我并不知道\\nsummer具体是哪一天，只知道是6月份，那么就跟麻麻",images));
-        mList.add(new DTModel(R.drawable.jx_header,"Summer麻麻","#双子座萌宠#幺幺3岁了！对，3岁了。\\nsummer接回家的时候也就三个多月，我并不知道\\nsummer具体是哪一天，只知道是6月份，那么就跟麻麻",images));
+        mList.add(new DTModel(R.drawable.jx_header,"Summer麻麻","牛爆了!正宁路美食上央视了,这些兰州美食你吃过吗?",image));
+        mList.add(new DTModel(R.drawable.jx_header,"Focus兰州街拍","兰州美食,你不知道的那些事!!",image));
+        mList.add(new DTModel(R.drawable.jx_header,"中国兰州网","兰州人还是有才,竟然把兰州美食写成了诗!",image));
+        mList.add(new DTModel(R.drawable.jx_header,"最爱大兰州","兰州正在消失的罕见美食,以后有钱都吃不到了!",image));
+        mList.add(new DTModel(R.drawable.jx_header,"你好兰州","牛爆了!正宁路美食上央视了,这些兰州美食你吃过吗?",image));
+        mList.add(new DTModel(R.drawable.jx_header,"甘肃圈子","兰州美食哪家强?新年狂high全攻略\n",image));
         mPdMain.setAdapter(mAdapter = new PDAdapter(getActivity(),mList));
     }
 

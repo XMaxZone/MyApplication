@@ -17,6 +17,7 @@ public class DTModel
     private String userName;//用户名
     private String userDescript;//描述
     private int[] userImages;//用户图片
+    private String[] userImage;
 
     public DTModel(int userHeader, String userName, String userDescript, int[] userImages)
     {
@@ -24,6 +25,24 @@ public class DTModel
         this.userName = userName;
         this.userDescript = userDescript;
         this.userImages = userImages;
+    }
+
+
+    public DTModel(int userHeader, String userName, String userDescript, String[] userImage)
+    {
+        this.userHeader = userHeader;
+        this.userName = userName;
+        this.userDescript = userDescript;
+        this.userImage = userImage;
+    }
+
+
+    public String[] getUserImage() {
+        return userImage;
+    }
+
+    public void setUserImage(String[] userImage) {
+        this.userImage = userImage;
     }
 
     public int getUserHeader()

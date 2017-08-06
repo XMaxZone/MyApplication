@@ -1,23 +1,22 @@
 package com.yianke.pet.view.fragment;
-
-import android.os.Bundle;
+import android.location.LocationManager;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentPagerAdapter;
-import android.support.v4.app.FragmentTransaction;
-import android.support.v4.view.PagerAdapter;
 import android.support.v4.view.ViewPager;
-import android.view.LayoutInflater;
+import android.util.Log;
 import android.view.View;
-import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
 
+import com.amap.api.location.AMapLocation;
+import com.amap.api.location.AMapLocationClient;
+import com.amap.api.location.AMapLocationListener;
+import com.amap.api.location.LocationManagerBase;
 import com.yianke.pet.R;
 import com.yianke.pet.view.child.DTFragment;
 import com.yianke.pet.view.child.JXFragment;
 import com.yianke.pet.view.child.PDFragment;
-import com.zhy.autolayout.AutoFrameLayout;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -33,7 +32,7 @@ import butterknife.Unbinder;
  * 功能：
  */
 
-public class HomeFragment extends BaseFragment
+public class HomeFragment extends BaseFragment implements AMapLocationListener
 {
     @BindView(R.id.camera)
     ImageView mCamera;
@@ -47,11 +46,14 @@ public class HomeFragment extends BaseFragment
     ViewPager mHomeMain;
     Unbinder unbinder;
 
+
     private JXFragment mJXFragment = new JXFragment();
     private DTFragment mDTFragment = new DTFragment();
     private PDFragment mPDFragment = new PDFragment();
 
     private HomeAdapter mAdapter;
+
+
 
 
 
@@ -64,6 +66,7 @@ public class HomeFragment extends BaseFragment
     @Override
     public void init(View view)
     {
+
         ButterKnife.bind(this, view);
         mAdapter = new HomeAdapter(getChildFragmentManager());
         mHomeMain.setOffscreenPageLimit(1);
@@ -99,9 +102,25 @@ public class HomeFragment extends BaseFragment
                 }
             }
 
+
+
             @Override
             public void onPageScrollStateChanged(int state)
             {
+
+            }
+        });
+
+        /**
+         *点击发布按钮
+         */
+
+
+
+        mCamera.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Log.e("TAG","发布开始---------------");
 
             }
         });
@@ -157,6 +176,19 @@ public class HomeFragment extends BaseFragment
         mDicOne.setBackgroundResource(R.color.colorPet);
         mDicThree.setBackgroundResource(R.color.colorPet);
         mDicTwo.setBackgroundResource(R.color.colorPet);
+    }
+
+
+    public AMapLocationListener mapLocationListener = new AMapLocationListener() {
+        @Override
+        public void onLocationChanged(AMapLocation aMapLocation) {
+
+        }
+    };
+
+    @Override
+    public void onLocationChanged(AMapLocation aMapLocation) {
+
     }
 
 

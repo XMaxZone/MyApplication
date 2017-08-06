@@ -1,12 +1,15 @@
 package com.yianke.pet.model.shop;
 
 import android.content.Intent;
+import android.os.Build;
 import android.os.Bundle;
 import android.os.Handler;
 import android.os.Message;
 import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 import android.view.View;
+import android.view.Window;
+import android.view.WindowManager;
 import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.ListView;
@@ -17,6 +20,7 @@ import com.yianke.pet.bean.Add_cart_bean;
 import com.yianke.pet.bean.Get_cart_bean;
 import com.yianke.pet.bean.Pinpai_cahngping;
 import com.yianke.pet.bean.Shop_cart_adapter;
+import com.yianke.pet.utils.StatusBarUtils;
 import com.zhy.http.okhttp.OkHttpUtils;
 import com.zhy.http.okhttp.callback.StringCallback;
 
@@ -53,7 +57,10 @@ public class Shop_cart extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+
         super.onCreate(savedInstanceState);
+        StatusBarUtils.setWindowStatusBarColor(this, R.color.colorPet);
+        requestWindowFeature(Window.FEATURE_NO_TITLE);
         setContentView(R.layout.activity_goods_info);
         initview();
         initdata();
@@ -156,5 +163,8 @@ public class Shop_cart extends AppCompatActivity {
             }
         });
     }
+
+
+
 
 }

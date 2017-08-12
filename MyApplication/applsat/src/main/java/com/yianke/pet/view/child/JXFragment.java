@@ -91,18 +91,6 @@ public class JXFragment extends BaseFragment
                     isStart = true;
                     startBanner();
                     //******************************轮播窗口*************************************//
-//                  String[] images =
-//                            {
-//
-////                    myimages.get(0)
-//
-//                                    //
-//                   /* R.drawable.jx_header_1,
-//                    R.drawable.jx_header_2,
-//                    R.drawable.jx_header_3,
-//                    R.drawable.jx_header_4,
-//                    R.drawable.jx_header_5,*/
-//                            };
                     break;
             }
             return false;
@@ -110,18 +98,8 @@ public class JXFragment extends BaseFragment
     });
 
 
-
-
-
-
     Map map = new HashMap();
     JSONObject jsonObject = (JSONObject) new JSONObject().put("id","2");
-
-    //private String[] images = null;
-//   String resurl = new HttpClient().HttpPostRequest(Constants.FIND_TOP_BANNER_URL,jsonObject);
-
-
-
 
     /**
      * 网络请求成功的回调方法
@@ -249,25 +227,16 @@ public class JXFragment extends BaseFragment
 
         mList = new ArrayList<>();
         GetHttpdata(Constants.FIND_TOP_BANNER_URL + "?data={\"typeId\":\"2\"}");
-//        Log.e("TAG","----------------------------------"+images.length);
-//        ImageView mView;
-//        for (int i = 0; i < images.length; i++)
-//        {
-//            mView = new ImageView(getActivity());
-//            Picasso.with(getActivity()).load(images[i]).resize(621, 238).into(mView);
-//            mList.add(mView);
-//        }
-//
-//        mJxBanner.setAdapter(new BannerAdapter());
-//        isStart = true;
-//        startBanner();
-        //data={"navigationId":"8"}
         getPotsList(Constants.FIND_POST_LIST_URL+"?data={\"navigationId\":\"8\"}");
 
     }
 
 
-
+    /**
+     *
+     * @param url
+     * @return
+     */
     public String getPotsList(String url){
         final String result = "";
         OkHttpUtils.post()
@@ -293,16 +262,15 @@ public class JXFragment extends BaseFragment
 
                     }
                 });
-
-
-
         return "";
     }
 
 
-
-
-
+    /**
+     *
+     * @param url
+     * @return
+     */
     public String[] GetHttpdata(String url ){
         final String[] result = null;
 

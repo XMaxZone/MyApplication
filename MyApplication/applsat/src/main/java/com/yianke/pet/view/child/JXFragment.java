@@ -69,6 +69,8 @@ public class JXFragment extends BaseFragment
     private List<String> tittles;
 
 
+
+    
     private Handler handler = new Handler(new Handler.Callback() {
         @Override
         public boolean handleMessage(Message msg) {
